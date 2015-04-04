@@ -1,0 +1,1 @@
+Understanding - from the logs - the behaviour of a multi-threaded system is difficult. Being able to distinguish the session context makes this much easier. \\\\For example\, all logs about session ABC should be identified in the logs:\\\\[ABC] Loaded mailbox #mail.rob.apache.asf.members.prc

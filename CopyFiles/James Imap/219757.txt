@@ -1,0 +1,1 @@
+Currently the MessageMapper.copy(...) method returns a new MailboxMembership instance which represent the copied one. This is overkill as we only need the uid of the copied instance.

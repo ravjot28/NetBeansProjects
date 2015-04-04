@@ -1,0 +1,1 @@
+An in memory mailbox would be very useful for testing and debugging.

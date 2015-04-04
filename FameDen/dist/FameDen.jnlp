@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FameDen.jnlp">
+  <information>
+    <title>FameDen</title>
+    <vendor>Ravjot</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FameDen.jar" size="821630" download="eager" />
+    <jar href="lib/twitter4j-async-3.0.4-SNAPSHOT.jar" size="193911" download="eager" />
+    <jar href="lib/twitter4j-core-3.0.4-SNAPSHOT.jar" size="288008" download="eager" />
+    <jar href="lib/twitter4j-examples-3.0.4-SNAPSHOT.jar" size="127818" download="eager" />
+    <jar href="lib/twitter4j-media-support-3.0.4-SNAPSHOT.jar" size="27860" download="eager" />
+    <jar href="lib/twitter4j-stream-3.0.4-SNAPSHOT.jar" size="56538" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="FameDen" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="fameden.FameDen"  name="FameDen" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,1 @@
+http://www.facebook.com/login.php?api_key=bf1dc101af67d6055b1555d5e8f9d505&connect_display=popup&v=1.0&next=http://www.facebook.com/connect/login_success.html&cancel_url=http://www.facebook.com/connect/login_failure.html&fbconnect=true&return_session=true&session_key_only=true&req_perms=read_stream,publish_stream,offline_access

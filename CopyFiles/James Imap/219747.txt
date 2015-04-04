@@ -1,0 +1,1 @@
+StreMessageManager.search(...)  always use a MessageSearches instance for check if the SearchQuery match. This can be very inefficient for some storages. For example when using JPA or JCR the whole query could get done on the db/jcr tree. We should allow to optimize this easily.

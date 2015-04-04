@@ -1,0 +1,1 @@
+Internationalise exceptions by insisting that a ReadableTextKey is passed into all Exceptions. 

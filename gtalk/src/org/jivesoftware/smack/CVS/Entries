@@ -1,0 +1,37 @@
+D/debugger////
+D/filter////
+D/packet////
+D/provider////
+D/proxy////
+D/sasl////
+D/util////
+/AccountManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/Chat.java/1.1/Thu Nov 20 16:01:48 2008//
+/ChatManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/ChatManagerListener.java/1.1/Thu Nov 20 16:01:48 2008//
+/ConnectionConfiguration.java/1.1/Thu Nov 20 16:01:48 2008//
+/ConnectionCreationListener.java/1.1/Thu Nov 20 16:01:48 2008//
+/ConnectionListener.java/1.1/Thu Nov 20 16:01:48 2008//
+/MessageListener.java/1.1/Thu Nov 20 16:01:48 2008//
+/NonSASLAuthentication.java/1.1/Thu Nov 20 16:01:48 2008//
+/OpenTrustManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/package.html/1.1/Thu Nov 20 16:01:48 2008//
+/PacketCollector.java/1.1/Thu Nov 20 16:01:48 2008//
+/PacketInterceptor.java/1.1/Thu Nov 20 16:01:48 2008//
+/PacketListener.java/1.1/Thu Nov 20 16:01:48 2008//
+/PacketReader.java/1.1/Thu Nov 20 16:01:48 2008//
+/PacketWriter.java/1.1/Thu Nov 20 16:01:48 2008//
+/PrivacyList.java/1.1/Thu Nov 20 16:01:48 2008//
+/PrivacyListListener.java/1.1/Thu Nov 20 16:01:48 2008//
+/PrivacyListManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/ReconnectionManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/Roster.java/1.1/Thu Nov 20 16:01:48 2008//
+/RosterEntry.java/1.1/Thu Nov 20 16:01:48 2008//
+/RosterGroup.java/1.1/Thu Nov 20 16:01:48 2008//
+/RosterListener.java/1.1/Thu Nov 20 16:01:48 2008//
+/SASLAuthentication.java/1.1/Thu Nov 20 16:01:48 2008//
+/ServerTrustManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/SmackConfiguration.java/1.1/Thu Nov 20 16:01:48 2008//
+/UserAuthentication.java/1.1/Thu Nov 20 16:01:48 2008//
+/XMPPConnection.java/1.1/Thu Nov 20 16:01:48 2008//
+/XMPPException.java/1.1/Thu Nov 20 16:01:48 2008//

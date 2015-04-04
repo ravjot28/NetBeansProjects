@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" minHeight="488.0" prefHeight="488.0" prefWidth="325.33331298828125" xmlns:fx="http://javafx.com/fxml" fx:controller="com.messenger.ui.ClientRegistrationFXMLController">
+  <children>
+    <ImageView fitHeight="486.9999694824219" fitWidth="324.66664632161456" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../images/00044.jpg" preserveRatio="false" smooth="false" />
+      </image>
+    </ImageView>
+    <HBox alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="50.0" prefWidth="297.33331298828125">
+      <children>
+        <Label text="GTBIT Messenger Registration" textFill="WHITE">
+          <font>
+            <Font name="System Bold Italic" size="20.0" />
+          </font>
+        </Label>
+      </children>
+    </HBox>
+    <VBox layoutX="14.0" layoutY="75.0" prefHeight="400.0" prefWidth="298.0" style="-fx-background-color: rgba(245,245,245, 0.4);&#10;-fx-background-radius: 10;">
+      <children>
+        <HBox alignment="CENTER" prefHeight="67.0" prefWidth="298.0">
+          <children>
+            <TextField id="fullName" fx:id="fullNameTextField" prefHeight="35.0" prefWidth="247.0" promptText="Full Name" style="-fx-font: 17px Tahoma;&#10;-fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);&#10;-fx-stroke: black;&#10;-fx-stroke-width: 1; &#10;-fx-prompt-text-fill:grey;" />
+          </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="67.0" prefWidth="298.0">
+          <children>
+            <TextField id="fullName" fx:id="enrollNoTextField" prefHeight="35.0" prefWidth="247.0" promptText="Enrollment Number" style="-fx-font: 17px Tahoma;&#10;-fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);&#10;-fx-stroke: black;&#10;-fx-stroke-width: 1; &#10;-fx-prompt-text-fill:grey;" />
+          </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="67.0" prefWidth="298.0">
+          <children>
+            <TextField id="fullName" fx:id="emailAddressTextField" prefHeight="35.0" prefWidth="247.0" promptText="Email Address" style="-fx-font: 17px Tahoma;&#10;-fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);&#10;-fx-stroke: black;&#10;-fx-stroke-width: 1; &#10;-fx-prompt-text-fill:grey;" />
+          </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="67.0" prefWidth="298.0">
+          <children>
+            <ComboBox prefHeight="35.0" prefWidth="247.0" promptText="Branch" style="-fx-font: 17px Tahoma;&#10;-fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);&#10;-fx-stroke: black;&#10;-fx-stroke-width: 1; &#10;-fx-prompt-text-fill:grey;">
+              <items>
+                <FXCollections fx:factory="observableArrayList">
+                  <String fx:value="Item 1" />
+                  <String fx:value="Item 2" />
+                  <String fx:value="Item 3" />
+                </FXCollections>
+              </items>
+            </ComboBox>
+          </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="67.0" prefWidth="298.0">
+          <children>
+            <ComboBox fx:id="yearChoice" prefHeight="35.0" prefWidth="247.0" promptText="Year" style="-fx-font: 17px Tahoma;&#10;-fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);&#10;-fx-stroke: black;&#10;-fx-stroke-width: 1; &#10;-fx-prompt-text-fill:grey;">
+              <items>
+                <FXCollections fx:factory="observableArrayList">
+                  <String fx:value="Item 1" />
+                  <String fx:value="Item 2" />
+                  <String fx:value="Item 3" />
+                </FXCollections>
+              </items>
+            </ComboBox>
+          </children>
+        </HBox>
+        <Pane prefHeight="67.0" prefWidth="298.0">
+          <children>
+            <Button defaultButton="true" layoutX="14.0" layoutY="13.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="76.0" text="Register" />
+            <Button cancelButton="true" layoutX="208.0" layoutY="14.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="76.0" text="Quit" />
+          </children>
+        </Pane>
+      </children>
+    </VBox>
+  </children>
+</AnchorPane>

@@ -1,0 +1,2 @@
+Main-Class: Opening
+Class-Path: MP3Win\Bin\lib\ravmp3.jar MP3Win\Bin\lib\ravtheme.jar MP3Win\Bin\lib\ravtheme1.jar

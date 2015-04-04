@@ -1,0 +1,5 @@
+maths,test,chem,phy,bio,su,pw,eng,en ed
+chem,eng,maths,phy,comp,comp,eng,lib,PT
+phy,maths,chem,comp,eng	chem pracs,chem pracs,House,Meeting
+V ed,phy,chem,maths,comp,eng,PT	phy pracs,phy pracs
+GK,maths,comp,phy,maths,chem,eng,comp pracs,comp pracs

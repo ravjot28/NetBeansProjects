@@ -1,0 +1,1087 @@
+ 1000801 EXEC 10000 MANAGERIAL      EXEC-FIXED PAY                  
+ 1001101 EXEC 10010 MANAGERIAL      MANAGING DIR                    
+ 1002101 19A  10020 MANAGERIAL      EXEC DIR(OPERATIONS)            
+ 1002102 19A  10020 MANAGERIAL      EXEC DIR(FLT SAFETY)            
+ 1002103 19A  10020 MANAGERIAL      EXEC DIR(TRAINING)              
+ 1002104 19A  10020 MGR-ICPA        OFCR ON SPL DUTY                
+ 1002201 19A  10020 MANAGERIAL      EXEC DIR (FINANCE)              
+ 1002203 19A  10020 MANAGERIAL      EXEC DIR(AUDIT)                 
+ 1002204 19A  10020 MGR-IAOA        EXEC DIR(INF TECH)              
+ 1002302 19A  10020 MGR -AIAEA      EXEC DIR(ENGINEERING            
+ 1002303 19A  10020 MGR -AIAEA      EXEC DIR(PROD & SERV            
+ 1002401 19A  10020 MANG            EXEC DIR(STRS & PUR)            
+ 1002403 19A  10020 MGR-IAOA        EXEC DIR (CIVIL ENGG            
+ 1002501 19A  10020 MANAGERIAL      EXEC DIR(PUB RELTN)             
+ 1002502 19A  10020 MGR - RFOOA     EXEC DIR(INFLT SERV)            
+ 1002503 19A  10020 MANAGERIAL      EXEC DIR (HRD)                  
+ 1002602 19A  10020 MGR-IAOA        EXEC DIR(GROUND SUP)            
+ 1002701 19A  10020 MANAGERIAL      EXEC DIR (MARKETING)            
+ 1002702 19A  10020 MANAGERIAL      EXEC DIR (COMMERCIAL            
+ 1002703 19A  10020 MANAGERIAL      EXEC DIR(CARGO)                 
+ 1002801 19A  10020 MGR-IAOA        EXEC DIR(REGION)                
+ 1002802 19A  10020 MANAGERIAL      EXEC DIR (PERSONNEL)            
+ 1002803 19A  10020 MANAGERIAL      EXEC DIR(PROJ & PLAN            
+ 1002804 19A  10020 MANAGERIAL      EXEC DIR (IR & SYSTE            
+ 1002805 19   10020 MGR-IAOA        EXEC DIR (PROJECT)              
+ 1002806 19   10020 MANAGERIAL      EXEC DIR SYSTEMS                
+ 1002807 19   10020 MANAGERIAL      EXEC DIR(COP AFFARS)            
+ 1002808 19   10020 MGR-IAOA        EXEC DIR(JEOC-S/SVCS            
+ 1002809 19   10020 MGR-AIAEA       EXEC DIR(J E O C )              
+ 1002810 19   10020 MGR-IAOA        EXEC DIR (APU)                  
+ 1002811 19   10020 MGR-ESS         EXEC DIR SYSTEMS                
+ 1002812 19   10020 MGR-AIAEA       EXEC DIR (PROJECT)              
+ 1002813 19A  10020 MANAGERIAL      EXEC DIR SUP SVCS               
+ 1002901 19A  10020 MANAGERIAL      EXEC DIR (MEDICAL)              
+ 1002902 19A  10020 MGR-AIAEA       EXEC DIR (REGION)               
+ 1002903 19A  10020 MGR-ICPA        EXEC DIR (REGION)               
+ 1002904 19A  10020 MGR-TECH        EXEC DIR (REGION)               
+ 1002905 19A  10020 MGR-AIAEA       EXEC DIRECTOR                   
+ 1002906 19A  10020 MGR - IAOA      EXEC DIR(INFLT SERV)            
+ 1002991 19   10020 MANAGERIAL      EXEC DIR(SHOD)                  
+ 1003101 18   10030 MGR-ICPA        GM (OPERATIONS)                 
+ 1003102 18   10030 MGR-IAOA        GM (OPERATIONS)                 
+ 1003104 18   10030 MANAGERIAL      GM ( NAV TRAING)                
+ 1003105 18   10030 MGR-ICPA        GM (FLT-SAFETY)                 
+ 1003106 18   10030 MGR-RFOOA       GM (FLT OPRNS)                  
+ 1003107 18   10030 MANAGERIAL      GM (IFS)                        
+ 1003201 18   10030 MANAGERIAL      GM (FINANCE)                    
+ 1003202 18   10030 MANAGERIAL      GM (CORP TAXATION)              
+ 1003203 18   10030 MANAGERIAL      GM (AUDIT)                      
+ 1003204 18   10030 MANAGERIAL      GM (INF TECHNOLOGY)             
+ 1003205 18   10030 MANAGERIAL      GM  (FINANCE-CRA)               
+ 1003301 18   10030 MGR-IAOA        GM (ENGG-S/SVCS)                
+ 1003302 18   10030 MGR-AIAEA       GM (ENGINNERING)                
+ 1003402 18   10030 MANAGERIAL      GM (STRS & PUR)                 
+ 1003403 18   10030 MGR-IAOA        GM (CIVIL ENGG)                 
+ 1003501 18   10030 MANAGERIAL      GM (PUBLIC RALATIONS            
+ 1003601 18   10030 MANAGERIAL      GM (GROUND SUPP)                
+ 1003701 18   10030 MANAGERIAL      GM (COMMERCIAL)                 
+ 1003703 18   10030 MANAGERIAL      GM (CATERING)                   
+ 1003801 18   10030 MANAGERIAL      COMPANY SEC & GM(CA)            
+ 1003802 18   10030 MANAGERIAL      GM (PERSONNEL)                  
+ 1003804 18   10030 MANAGERIAL      GM (I-RALATION)                 
+ 1003805 18   10030 MANAGERIAL      GM (PLANNING)                   
+ 1003806 18   10030 MANAGERIAL      OFFCR ON SPL/DTY                
+ 1003807 18   10030 MANAGERIAL      GM (PROJECTS)                   
+ 1003809 18   10030 MANAGERIAL      GM (CORP AFFAIRS )              
+ 1003810 18   10030 MANAGERIAL      GM (OFFICIAL LANG)              
+ 1003811 18   10030 MANAGERIAL      GM (VIGILENCE)                  
+ 1003812 18   10030 MANAGERIAL      GM (SECURITY)                   
+ 1003901 18   10030 MANAGERIAL      GM (MEDICAL)                    
+ 1004101 17   10040 MGR-ICPA        DY GM (OPERATION)               
+ 1004102 17   10040 MGR-IAOA        DY GM (FLT SAFETY)              
+ 1004103 17   10040 MANAGERIAL      DY GM (NAVG TRNING)             
+ 1004104 17   10040 MANAGERIAL      DY GM (TRAINING)                
+ 1004105 17   10040 MANAGERIAL      DY GM (OP-TECH TRNG)            
+ 1004106 17   10040 MANAGERIAL      DY GM (FLT ENGRNG)              
+ 1004107 17   10040 MANAGERIAL      DY.G.M (FLT OPERATIO            
+ 1004108 17   10040 MANAGERIAL      DY.G.M (FLT SIMULATO            
+ 1004201 17   10040 MANAGERIAL      DY GM (FINANCE)                 
+ 1004203 17   10040 MANAGERIAL      DY GM (AUDIT)                   
+ 1004204 17   10040 MANAGERIAL      DY GM (INF TECH)                
+ 1004301 17   10040 MGR-IAOA        DY GM(ENGG-S/SVCS)              
+ 1004302 17   10040 MGR-AIAEA       DY GM (ENGINEERING)             
+ 1004402 17   10040 MANAGERIAL      DY GM (STOREP & PURS            
+ 1004403 17   10040 MANAGERIAL      DY GM (CIVIL ENGR)              
+ 1004501 17   10040 MANAGERIAL      DY GM (PUBLIC RELATI            
+ 1004502 17   10040 MANAGERIAL      DY GM (HRD)                     
+ 1004503 17   10040 MANAGERIAL      DY GM (INFLT SVC)               
+ 1004601 17   10040 MANAGERIAL      DY GM (GROUND SUPP)             
+ 1004702 17   10040 MANAGERIAL      DY GM (COMMERCIAL)              
+ 1004801 17   10040 MANAGERIAL      SECRETARY                       
+ 1004802 17   10040 MANAGERIAL      DY GM (PERSONNEL)               
+ 1004804 17   10040 MANAGERIAL      DY GM (I-RELATION)              
+ 1004805 17   10040 MANAGERIAL      DY GM (PLANNING)                
+ 1004806 17   10040 MANAGERIAL      EXC ASST TO   M  D              
+ 1004807 17   10040 MANAGERIAL      OFFCR ON SPL/DTY                
+ 1004808 17   10040 MANAGERIAL      DY GM (RAJBHASHA)               
+ 1004809 17   10040 MANAGERIAL      DY GM (COP AFFARS)              
+ 1004810 17   10040 MANAGERIAL      DY GM (OFFC ADMN.)              
+ 1004811 17   10040 MANAGERIAL      DY GM (SECURITY)                
+ 1004812 17   10040 MANAGERIAL      DY GM (VIGILANCE)               
+ 1004901 17   10040 MANAGERIAL      DY GM (MEDICAL)                 
+ 1005102 16A  10050 MANAGERIAL      CH MNGR (FLT SAFETY)            
+ 1005103 16A  10050 MANAGERIAL      CH MNGR (FLT ENGNRG)            
+ 1005104 16A  10050 MANAGERIAL      CH MNGR (FLT OPRTN )            
+ 1005105 16A  10050 MANAGERIAL      CH MNGR OTT                     
+ 1005106 16A  10050 MANAGERIAL      CH MNGR (NAV TRANG )            
+ 1005107 16A  10050 MANAGERIAL      CH MNGR (SIMLTR TRNG            
+ 1005108 16A  10050 MANAGERIAL      CH MNGR (SYN FLT TRN            
+ 1005109 16A  10050 MANAGERIAL      CH MNGR FSM                     
+ 1005110 16A  10050 MANAGERIAL      CH MNGR (NAV)                   
+ 1005111 16A  10050 MANAGERIAL      CH MNGR  OPT                    
+ 1005202 16A  10051 MANAGERIAL      CH MNGR (FINANCE)               
+ 1005204 16A  10051 MANAGERIAL      CH MNGR (AUDIT)                 
+ 1005205 16A  10051 MANAGERIAL      CH MNGR (COMP OPERTN            
+ 1005206 16A  10051 MANAGERIAL      CH MNGR (INF TECH )             
+ 1005208 16A  10051 MANAGERIAL      CH MNGR (I&T)                   
+ 1005211 16A  10051 MANAGERIAL      CH MNGR (DATA COMM)             
+ 1005301 16A  10050 MGR-IAOA        CH MNGR (ENGG-SS)               
+ 1005302 16A  10050 MGR-AIAEA       CH MNGR (ENGINERNG)             
+ 1005402 16A  10051 MANAGERIAL      CH MNGR (STRS PURCSE            
+ 1005403 16A  10051 MANAGERIAL      CH MNGR (CVL ENGNRG)            
+ 1005421 16A  10050 MANAGERIAL      CH MNGR (TECH-SS )              
+ 1005422 16A  10050 MANAGERIAL      CH MNGR (TRNG-SS )              
+ 1005423 16A  10050 MANAGERIAL      CH MNGR (IND-ENG/SS)            
+ 1005501 16A  10051 MANAGERIAL      CH MNGR (CATERING)              
+ 1005502 16A  10051 MANAGERIAL      CH MNGR (IN FLT SRVC            
+ 1005503 16A  10051 MANAGERIAL      CH MNGR (CAB CREW TR            
+ 1005602 16A  10050 MANAGERIAL      CH MNGR (GROUND SUPP            
+ 1005610 16A  10051 MANAGERIAL      CH MNGR (TRANSPORT)             
+ 1005702 16A  10051 MANAGERIAL      CH MNGR (COMMERCIAL)            
+ 1005703 16A  10051 MANAGERIAL      CH MNGR (PUB RELATIO            
+ 1005802 16A  10051 MANAGERIAL      CH MNGR (PERSONNEL)             
+ 1005804 16A  10051 MANAGERIAL      CH MNGR (I-RELATION)            
+ 1005805 16A  10051 MANAGERIAL      CH MNGR (PLANNING)              
+ 1005806 16A  10051 MANAGERIAL      CH MNGR (HRD)                   
+ 1005807 16A  10051 MANAGERIAL      CH MNGR (AUDIT)                 
+ 1005808 16A  10051 MANAGERIAL      CH MNGR (ADMN)                  
+ 1005809 16A  10051 MANAGERIAL      CH MNGR (RAJBHASHA)             
+ 1005810 16A  10051 MANAGERIAL      CH MNGR (VIGILANCE)             
+ 1005811 16A  10051 MANAGERIAL      CH MNGR (SECURITY)              
+ 1005812 16A  10051 MANAGERIAL      CH MNGR (COMMUN)                
+ 1005901 16A  10051 MANAGERIAL      CH MNGR (MEDICAL)               
+ 1006102 16   10060 MGR-IAOA        SR MNGR (FLT SAFETY)            
+ 1006103 16   10060 MANAGERIAL      SR MNGR (FLT ENGNRG)            
+ 1006104 16   10060 MANAGERIAL      SR MNGR (FLT OPRTN)             
+ 1006105 16   10060 MANAGERIAL      SR MNGR (OP. TECH TR            
+ 1006106 16   10060 MANAGERIAL      SR MNGR (NAV-TRANG)             
+ 1006107 16   10060 MANAGERIAL      SR MNGR (SIMLTR TRNG            
+ 1006108 16   10060 MANAGERIAL      SR MNGR (SYN FLT TRN            
+ 1006109 16   10060 MANAGERIAL      SR MNGR(FLT SIM MNTG            
+ 1006110 16   10060 MANAGERIAL      SR MNGR (NAV)                   
+ 1006202 16   10060 MANAGERIAL      SR MNGR (FINANCE)               
+ 1006204 16   10060 MANAGERIAL      SR MNGR (AUDIT)                 
+ 1006205 16   10060 MANAGERIAL      SR MNGR (COMP OPERTN            
+ 1006206 16   10060 MANAGERIAL      SR MNGR (SYS/MANTS)             
+ 1006208 16   10060 MANAGERIAL      SR MNGR(I&T)                    
+ 1006211 16   10060 MANAGERIAL      SR MNGR (DATA COMM)             
+ 1006301 16   10060 MGR-IAOA        SR MNGR (ENGG-SS)               
+ 1006302 16   10060 MGR-AIAEA       SR MNGR (ENGINERING)            
+ 1006402 16   10060 MANAGERIAL      SR MNGR (STRS PURCSE            
+ 1006403 16   10060 MANAGERIAL      SR MNGR (CVL ENGNRG)            
+ 1006421 16   10060 MANAGERAL       SR MNGR(TECH-SS)                
+ 1006422 16   10060 MANAGERAL       SR MNGR(TRNG-SS)                
+ 1006423 16   10060 MANAGERIAL      SR MNGR (IND-ENG/SS)            
+ 1006501 16   10060 MANAGERIAL      SR MNGR (CATERING)              
+ 1006502 16   10060 MANAGERIAL      SR MNGR(IN FLT SRVC)            
+ 1006503 16   10060 MANAGERIAL      SR MNGR(CAB CREW TRG            
+ 1006602 16   10060 MANAGERIAL      SR MNGR (GROUND SUPP            
+ 1006610 16   10060 MANAGERIAL      SR MNGR (TRANSPORT)             
+ 1006702 16   10060 MANAGERIAL      SR MNGR (COMMERCIAL)            
+ 1006703 16   10060 MANAGERIAL      SR MNGR(PUB RELTIN)             
+ 1006801 16   10060 MANAGERIAL      DY SECRETARY                    
+ 1006802 16   10060 MANAGERIAL      SR MNGR (PERSONNEL)             
+ 1006804 16   10060 MANAGERIAL      SR MNGR (I-RELATION)            
+ 1006805 16   10060 MANAGERIAL      SR MNGR (PLANNING)              
+ 1006806 16   10060 MANAGERIAL      SR MNGR(HRD)                    
+ 1006807 16   10060 MANAGERIAL      SR MNGR (AUDIT)                 
+ 1006808 16   10060 MANAGERIAL      SR MNGR (ADMN)                  
+ 1006809 16   10060 MANAGERIAL      SR MNGR (RAJBHASHA)             
+ 1006810 16   10060 MANAGERIAL      SR MNGR (VIGILANCE)             
+ 1006811 16   10060 MANAGERIAL      SR MNGR (SECURITY)              
+ 1006812 16   10060 MANAGERIAL      SR MNGR (COMMUN)                
+ 1006813 16   10060 MANAGERIAL      SR MNGR (PRINTING)              
+ 1006901 16   10060 MANAGERIAL      SR MNGR (MEDICAL)               
+ 1009201      10090 BRD OF DIR      DIR (FINANCE)                   
+ 1009301      10090 BRD OF DIR      DIR(ENGINEERING)                
+ 1009702      10090 BRD OF DIR      DIR (COMMERCIAL)                
+ 1009802      10090 BRD OF DIR      DIR (PERSONNEL & IR)            
+ 1012301 19A  10120 MGR-AIAEA       EXEC DIR(ENGINEERING            
+ 1013103 18   10130 MGR-AIAEA       GM (FLT-SAFETY)                 
+ 1050102 EXEC 10500 MGR-IAOA        DY MANG DIR                     
+ 1050103 EXEC 10500 MGR-AIAEA       DY MANG DIR                     
+ 1050104 EXEC 10500 MGR-ICPA        DY MANG DIR                     
+ 1050105 EXEC 10500 MGR-TECH        DY MANG DIR                     
+ 1107102 15   11070 IAOA            MNGR (FLIGHT SAFETY)            
+ 1107202 15   11070 IAOA            MANAGER(FINANCE)                
+ 1107204 15   11070 IAOA            MANAGER (AUDIT)                 
+ 1107206 15   11070 IAOA            MANAGER (S/M)                   
+ 1107208 15   11070 IAOA            MANAGER (COMP OPER)             
+ 1107211 15   11070 MANAGERIAL      MANAGER (DATA COMMN)            
+ 1107401 15   11070 IAOA            MANAGER (STORE & PUR            
+ 1107421 15   11070 IAOA            SR ENGINEER(TECH/SS)            
+ 1107422 15   11070 IAOA            SR ENGINEER(TRG/SS)             
+ 1107423 15   11070 IAOA            SR ENGNR(IND-ENG/SS)            
+ 1107424 15   11070 IAOA            MNGR (PLANT-ENGRG)              
+ 1107425 15   11070 IAOA            MNGR (CIVIL ENGR)               
+ 1107426 15   11070 IAOA            PRIN DEV ENGNR                  
+ 1107427 15   11070 IAOA            MNGR (FSM)                      
+ 1107434 15   11070 IAOA            MNGR (ENGG SUPP)                
+ 1107501 15   11070 IAOA            MNGR (CATERING)                 
+ 1107502 15   11070 IAOA            MNGR (INFLT SERV)               
+ 1107503 15   11070 IAOA            MNGR (CAB CRW TRG)              
+ 1107610 15   11070 IAOA            MNGR (TRANSPORT)                
+ 1107702 15   11070 IAOA            MNGR (COMMERCIAL)               
+ 1107703 15   11070 IAOA            MNGR (PUB RELATIONS)            
+ 1107704 15   11070 IAOA            MNGR (PRINTING)                 
+ 1107801 15   11070 IAOA            MNGR(OFFICE ADMN)               
+ 1107802 15   11070 IAOA            MNGR (PERSONNEL)                
+ 1107804 15   11070 IAOA            MNGR (INDRL RELATION            
+ 1107805 15   11070 IAOA            MNGR (ADMN)                     
+ 1107806 15   11070 IAOA            MNGR (HRD)                      
+ 1107807 15   11070 IAOA            MNGR (PLANNING)                 
+ 1107808 15   11070 IAOA            EXEC SEC (CHAIRMAN)             
+ 1107809 15   11070 IAOA            MANAGER (RAJBHASHA)             
+ 1107810 15   11070 IAOA            MNGR (VIGILANCE)                
+ 1107811 15   11070 IAOA            MNGR (SECURITY)                 
+ 1107812 15   11070 IAOA            EXEC SEC (MD)                   
+ 1107813 15   11070 IAOA            MANAGER(SPORTS)                 
+ 1107815 15   11070 IAOA            MANAGER (FRONT DESK)            
+ 1107821 15   11070 IAOA            MNGR (COMN)                     
+ 1107901 15   11070 IAOA            MNGR (MEDICAL)                  
+ 1107902 15   11070 IAOA            MANAGER(PHARMACY)               
+ 1109421 1314 11090 IAOA            ENGINEER(TECH-SS)               
+ 1109422 1314 11090 IAOA            ENGINEER(TRG/SS)                
+ 1109423 1314 11090 IAOA            ENGINEER(IND-ENG/SS)            
+ 1109424 1314 11090 IAOA            DY MNGR (PLANT ENGRG            
+ 1109425 1314 11090 IAOA            DY MNGR(CIVL ENGR)              
+ 1109426 1314 11090 IAOA            SR DEV ENGNR                    
+ 1109427 1314 11090 IAOA            DY MNGR (FSM)                   
+ 1109428 1314 11090 IAOA            DY MNGR (C-S &MANT)             
+ 1112102 1314 11120 IAOA            DY MNGR (FLT SAFTY)             
+ 1112202 1314 11120 IAOA            DY MNGR (FINANCE)               
+ 1112203 1314 11120 IAOA            DY MNGR (AUDIT)                 
+ 1112204 1314 11120 IAOA            DY MNGR (COMP SYS)              
+ 1112205 1314 11120 IAOA            DY MNGR (COMP OPRN)             
+ 1112211 1314 11120 IAOA            DY MNGR (DATA COMMN)            
+ 1112401 1314 11120 IAOA            DY MNGR (STOR-PURCH)            
+ 1112429 1314 11120 IAOA            DY MNGR (I&T)                   
+ 1112434 1314 11120 IAOA            DY MNGR (ENGG SUPP)             
+ 1112501 1314 11120 IAOA            DY MNGR (CATERING)              
+ 1112502 1314 11120 IAOA            DY MNGR(CAB CRW TRG)            
+ 1112512 1314 11120 IAOA            DY MNGR(INFLT SRV)              
+ 1112610 1314 11120 IAOA            DY MNGR (TRANSPORT)             
+ 1112702 1314 11120 IAOA            DY MNGR (COMMERCIAL)            
+ 1112703 1314 11120 IAOA            DY MNGR (PUB RELATN)            
+ 1112801 1314 11120 IAOA            DY MGR(OFFICE ADMN)             
+ 1112802 1314 11120 IAOA            DY MNGR (PERSONNEL)             
+ 1112804 1314 11120 IAOA            DY MNGR (IND RELTN)             
+ 1112805 1314 11120 IAOA            DY MNGR (ADMN)                  
+ 1112806 1314 11120 IAOA            DY MNGR (HRD)                   
+ 1112807 1314 11120 IAOA            DY MNGR (PLNG)                  
+ 1112809 1314 11120 IAOA            DY MNGR (SECURITY)              
+ 1112810 1314 11120 IAOA            DY MNGR (VIGILANCE)             
+ 1112811 1314 11120 IAOA            DY MNGR (SPORTS)                
+ 1112812 1314 11120 IAOA            SR LAW OFFICER                  
+ 1112814 1314 11120 IAOA            DY MNGR(HINDI)                  
+ 1112815 1314 11120 IAOA            DY MNGR(FRONT DESK)             
+ 1112821 1314 11120 IAOA            DY MNGR(COMN )                  
+ 1112901 1314 11120 IAOA            DY MNGR (MEDICAL)               
+ 1112902 1314 11120 IAOA            DY MNGR(PHARMACY)               
+ 1113421 1012 11130 IAOA            DY ENGNR (TECH-SS)              
+ 1113422 1012 11130 IAOA            DY ENGNR (TRG-SS)               
+ 1113423 1012 11130 IAOA            DY ENGNR (IND-ENG/SS            
+ 1113424 1012 11130 IAOA            ASST MNGR (PLANT ENG            
+ 1113425 1012 11130 IAOA            ASST MNGR(CIVL ENG)             
+ 1113426 1012 11130 IAOA            ASST MNGR (C-S-MANT)            
+ 1113427 1012 11130 IAOA            ASST MNGR (FSM)                 
+ 1113429 1012 11130 IAOA            ASST MNGR (SS)                  
+ 1114105 1012 11140 IAOA            ASST MANR (FLT SAFET            
+ 1114107 1012 11140 IAOA            ASST MANR (FLT OPERA            
+ 1114202 1012 11140 IAOA            ASST MNGR (FINANCE)             
+ 1114203 1012 11140 IAOA            ASST MNGR (AUDIT)               
+ 1114204 1012 11140 IAOA            ASST. MNGR(IT)                  
+ 1114205 1012 11140 IAOA            ASST MNGR (COMP OPRN            
+ 1114206 1012 11140 IAOA            SYSTEMS OFFICER                 
+ 1114401 1012 11140 IAOA            ASST MNGR (STRS & PU            
+ 1114428 1012 11140 IAOA            ASST MNGR (C&S)                 
+ 1114434 1012 11140 IAOA            ASST MNGR(ENGR SUPP)            
+ 1114501 1012 11140 IAOA            ASST MNGR (CATERING)            
+ 1114511 1012 11140 IAOA            ASST MNGR(C CRW TRG)            
+ 1114512 1012 11140 IAOA            ASST MNGR(IN FLT SRV            
+ 1114610 1012 11140 IAOA            ASST MNGR (TRANSPORT            
+ 1114702 1012 11140 IAOA            ASST MNGR (COMMERCIA            
+ 1114703 1012 11140 IAOA            ASST MNGR (PUB RELTN            
+ 1114801 1012 11140 IAOA            ASST. MGR(OFFICE ADM            
+ 1114802 1012 11140 IAOA            ASST MNGR (PERSONEL)            
+ 1114803 1012 11140 IAOA            ASST MNGR (RAJBHASHA            
+ 1114804 1012 11140 IAOA            ASST MNGR (IND RELTN            
+ 1114805 1012 11140 IAOA            ASST MNGR (ADMN)                
+ 1114806 1012 11140 IAOA            ASST MNGR (HRD)                 
+ 1114807 1012 11140 IAOA            ASST MNGR (PLANNING)            
+ 1114809 1012 11140 IAOA            ASST MNGR (SECURITY)            
+ 1114810 1012 11140 IAOA            ASST MNGR (VIGILANCE            
+ 1114811 1012 11140 IAOA            ASST MNGR (SPORTS)              
+ 1114812 1012 11140 IAOA            ASST MNGR (LEGAL)               
+ 1114813 1012 11140 IAOA            ASST MNGR (PRINTING)            
+ 1114814 1012 11140 IAOA            ASST MNGR(FRNT DESK)            
+ 1114821 1012 11140 IAOA            ASST MNGR (COMN)                
+ 1114823 1012 11140 IAOA            ASST MNGR (DATA COMM            
+ 1114824 1012 11140 IAOA            COMM OFFR                       
+ 1114825 1012 11140 IAOA            ASST.MGR(ADMIN-ENGG)            
+ 1114826 1012 11140 IAOA            ASST.MGR(ADMIN-PERS)            
+ 1114827 1012 11140 IAOA            ASST.MGR(ADMIN-COMML            
+ 1114828 1012 11140 IAOA            ASST.MGR(ADMIN-S&P)             
+ 1114829 1012 11140 IAOA            ASST.MGR(ADMIN-CIVIL            
+ 1114830 1012 11140 IAOA            ASST.MGR(ADMIN-COMMN            
+ 1114831 1012 11140 IAOA            ASST.MGR(ADMIN-OPS)             
+ 1114832 1012 11140 IAOA            ASST.MGR(ADMIN-IFS)             
+ 1114833 1012 11140 IAOA            ASST.MGR(ADMIN-MEDIC            
+ 1114834 1012 11140 IAOA            ASST.MGR(ADMIN-FIN/A            
+ 1114835 1012 11140 IAOA            ASST.MGR(ADMIN-PR)              
+ 1114836 1012 11140 IAOA            ASST.MGR(ADMIN-FLT S            
+ 1114837 1012 11140 IAOA            ASST.MGR(ADMIN-GRND             
+ 1114838 1012 11140 IAOA            ASST.MGR(ADMIN-SEC/V            
+ 1114839 1012 11140 IAOA            ASST.MGR(ADMIN-RAJBH            
+ 1114840 1012 11140 IAOA            ASST.MGR(ADMIN-IT)              
+ 1114841 1012 11140 IAOA            ASST.MGR(DRAUGHTSMAN            
+ 1114842 1012 11140 IAOA            ASST.MGR(LIBRARY)               
+ 1114844 1012 11140 IAOA            ASST.MGR(HOUSEKEEPIN            
+ 1114901 1012 11140 IAOA            ASST MNGR (MEDICAL)             
+ 1114902 1012 11140 IAOA            ASST MNGR (PHARMACY)            
+ 1114910 1012 11140 IAOA            ASST MNGR (CORP. AFF            
+ 1115202 9A   11150 IAOA            ACCOUNTS OFFICER                
+ 1115203 9A   11150 IAOA            AUDIT OFFICER                   
+ 1115205 9A   11150 IAOA            COMP OPNS OFFICER               
+ 1115401 9A   11150 IAOA            S & P OFFICER                   
+ 1115421 9    11150 IAOA            ASST. ENGNR(SS)                 
+ 1115424 9    11150 IAOA            PLANT ENGINEER                  
+ 1115425 9    11150 IAOA            CIVIL ENGR                      
+ 1115433 9A   11150 IAOA            PRIVATE SECRETARY               
+ 1115434 9A   11150 IAOA            ENGG SUP OFFICER                
+ 1115501 9A   11150 IAOA            CATERING OFFICER                
+ 1115502 9A   11150 IAOA            INFLT SVCS OFFICER              
+ 1115610 9A   11150 IAOA            TRANSPORT OFFICER               
+ 1115701 9A   11150 IAOA            TRAFFIC  OFFICER                
+ 1115702 9A   11150 IAOA            RESERVATIONS OFFICER            
+ 1115703 9A   11150 IAOA            PUB REL  OFFICER                
+ 1115704 9A   11150 IAOA            CARGO OFFICER                   
+ 1115802 9A   11150 IAOA            PERSONNEL OFFICER               
+ 1115803 9A   11150 IAOA            RAJBHASHA OFFICER               
+ 1115805 9A   11150 IAOA            ADMIN OFFICER                   
+ 1115806 9A   11150 IAOA            HRD OFFICER                     
+ 1115807 9A   11150 IAOA            IR OFFICER                      
+ 1115809 9A   11150 IAOA            SECURITY OFFICER                
+ 1115810 9A   11150 IAOA            VIGILANCE OFFICER               
+ 1115823 9A   11150 IAOA            DATA COMM OFFICER               
+ 1115824 9A   11150 IAOA            COMMUNICATIONS OFFCR            
+ 1115825 9A   11150 IAOA            ADMIN OFFICER(ENGG)             
+ 1115826 9A   11150 IAOA            ADMIN OFFICER(PERS)             
+ 1115827 9A   11150 IAOA            ADMIN OFFICER(COMML)            
+ 1115828 9A   11150 IAOA            ADMIN OFFICER(S&P)              
+ 1115829 9A   11150 IAOA            ADMIN OFFICER(CIVIL             
+ 1115830 9A   11150 IAOA            ADMIN OFFICER(COMMNS            
+ 1115831 9A   11150 IAOA            ADMIN OFFICER(OPS)              
+ 1115832 9A   11150 IAOA            ADMIN OFFICER(IFS)              
+ 1115833 9A   11150 IAOA            ADMIN OFFICER(MEDICA            
+ 1115834 9A   11150 IAOA            ADMIN OFFICER(FIN/AU            
+ 1115835 9A   11150 IAOA            ADMIN OFFICER(PR)               
+ 1115836 9A   11150 IAOA            ADMIN OFFICER(FLT SA            
+ 1115837 9A   11150 IAOA            ADMIN OFFICER(GRND S            
+ 1115838 9A   11150 IAOA            ADMIN OFFICER(SEC/VI            
+ 1115839 9A   11150 IAOA            ADMIN OFFICER(RAJBHA            
+ 1115840 9A   11150 IAOA            ADMIN OFFICER(IT)               
+ 1115841 9A   11150 IAOA            OFFICER((DRAUGHTSMAN            
+ 1115842 9A   11150 IAOA            LIBRARY OFFICER                 
+ 1115843 9A   11150 IAOA            CANTEEN SERVICE OFFI            
+ 1115844 9A   11150 IAOA            HOUSEKEEPING OFFICER            
+ 1115902 9A   11150 IAOA            PHARMACY OFFICER                
+ 1205101 16A  12050 ICPA            COMMANDER                       
+ 1205107 16A  12050 ICPA            SR FLYING INSTR                 
+ 1208101 14A  12080 ICPA            CAPTAIN                         
+ 1208107 14A  12080 ICPA            FLYING INSTR                    
+ 1211101 13A  12110 ICPA            FIRST OFFICER                   
+ 1211102 13A  12110 ICPA            SECOND OFFICER                  
+ 1305301 15B  13050 AIAEA           CH A/C ENGR INSPECT             
+ 1305311 15B  13050 AIAEA           CH A/C ENGR (MNTNC)             
+ 1305312 15B  13050 AIAEA           CH A/C ENGR (A/C OH)            
+ 1305313 15B  13050 AIAEA           CH A/C ENGR (ENG OH)            
+ 1305314 15B  13050 AIAEA           CH A/C ENGR (ELECT)             
+ 1305315 15B  13050 AIAEA           CH A/C ENGR (INSMT)             
+ 1305316 15B  13050 AIAEA           CH A/C ENGR (PROPLR)            
+ 1305317 15B  13050 AIAEA           CH A/C ENGR (RADIO)             
+ 1305318 15B  13050 AIAEA           CH A/C ENGR (DLY&DFC            
+ 1306301 15A  13060 AIAEA           DY CH A/C ENGR -INSP            
+ 1306311 15A  13060 AIAEA           DY CH A/C ENGR (MNTN            
+ 1306312 15A  13060 AIAEA           DY CH A/C ENGR (A/C             
+ 1306313 15A  13060 AIAEA           DY CH A/C ENGR (ENG             
+ 1306314 15A  13060 AIAEA           DY CH A/C ENGR (ELEC            
+ 1306315 15A  13060 AIAEA           DY CH A/C ENGR (INSM            
+ 1306316 15A  13060 AIAEA           DY CH A/C ENGR (PROP            
+ 1306317 15A  13060 AIAEA           DY CH A/C ENGR (RADI            
+ 1306318 15A  13060 AIAEA           DY CH A/C ENGR (DLY&            
+ 1307301 15   13070 AIAEA           ASST CH-INSPECT                 
+ 1307311 15   13070 AIAEA           SR  A/C ENGR (MNTNC)            
+ 1307312 15   13070 AIAEA           SR  A/C ENGR(A/C OH)            
+ 1307313 15   13070 AIAEA           SR  A/C ENGR (ENG OH            
+ 1307314 15   13070 AIAEA           SR  A/C ENGR (ELECTL            
+ 1307315 15   13070 AIAEA           SR  A/C ENGR (INSTMN            
+ 1307316 15   13070 AIAEA           SR  A/C ENGR (PROPLR            
+ 1307317 15   13070 AIAEA           SR  A/C ENGR (RADIO)            
+ 1307318 15   13070 AIAEA           SR  A/C ENGR (DLY&DF            
+ 1309311 1314 13090 AIAEA           A/C ENGR (MNTNC)                
+ 1309312 1314 13090 AIAEA           A/C ENGR (A/C OH)               
+ 1309313 1314 13090 AIAEA           A/C ENGR (ENG OH)               
+ 1309314 1314 13090 AIAEA           A/C ENGR (ELECTL)               
+ 1309315 1314 13090 AIAEA           A/C ENGR (INSTMNT)              
+ 1309316 1314 13090 AIAEA           A/C ENGR (PROPLR)               
+ 1309317 1314 13090 AIAEA           A/C ENGR (RADIO)                
+ 1309318 1314 13090 AIAEA           A/C ENGR (DLY&DFC)              
+ 1313311 1012 13130 AIAEA           DY A/C ENGR (MNTNC)             
+ 1313312 1012 13130 AIAEA           DY A/C ENGR (A/C O/H            
+ 1313313 1012 13130 AIAEA           DY A/C ENGR (ENG O/H            
+ 1313314 1012 13130 AIAEA           DY A/C ENGR (ELECTL)            
+ 1313315 1012 13130 AIAEA           DY A/C MNGR (INSTMT)            
+ 1313316 1012 13130 AIAEA           DY A/C ENGR (PROPLLR            
+ 1313317 1012 13130 AIAEA           DY A/C ENGR (RADIO)             
+ 1313318 1012 13130 AIAEA           DY A/C ENGR (DLY & D            
+ 1314310 09   13140 AIAEA           ASST A/C ENGR                   
+ 1407101 15   14070 IFEA            SR FLIGHT ENGINEER              
+ 1409103 1314 14090 IFEA            FLIGHT ENGINEER                 
+ 1507101 15   15070 ARO & FOOA      MNGR (FLT OP)                   
+ 1507821 15   15070 ARO & FOOA      MNGR (COMMUNICTN)               
+ 1512101 1314 15120 ARO & FOOA      DY MNGR (FLT OP)                
+ 1512821 1314 15120 ARO & FOOA      DY MNGR (COMMUNICTN)            
+ 1514101 1012 15140 ARO & FOOA      ASST MNGR (FLT OP)              
+ 1514821 1012 15140 ARO & FOOA      ASST MNGR (COMMUNICT            
+ 1514822 1012 15140 ARO & FOOA      JR OFFR SIGNAL                  
+ 1514823 1012 15140 ARO & FOOA      TELE COMMN OFFR                 
+ 1515201 9A   15150 ARO & FOOA      GRD OPER OFFICER                
+ 1607105 15   16070 AGIA            MNGR (OP TECH TRNG)             
+ 1607106 15   16070 AGIA            MNGR (NAVIGATIN TRNG            
+ 1607107 15   16070 AGIA            MNGR (OP PERF TRNG)             
+ 1607108 15   16070 AGIA            MNGR (SYN FLT TRNG)             
+ 1610105 1314 16100 AGIA            DY MNGR (OP TECH TRN            
+ 1610106 1314 16100 AGIA            DY MNGR (NAVIG TRNG)            
+ 1610107 1314 16100 AGIA            DY MNGR (OP PERF TRN            
+ 1610108 1314 16100 AGIA            SR SYN FT INSTR                 
+ 1614105 1012 16140 AGIA            TECH INSTR                      
+ 1614106 1012 16140 AGIA            NAVG INSTR                      
+ 1614108 1012 16140 AGIA            SYN FT INSTR                    
+ 1716201      17160                 CANTEEN SUP. SR                 
+ 1721901      17210                 CANTEEN SUPERVISOR              
+ 1722901      17220                 SR.CANTEEN ASSISTANT            
+ 1722902      17220                 COOK (CH)                       
+ 1728901      17280                 CANTEEN ASSISTANT               
+ 1728902      17280                 TYPIST                          
+ 1729901      17290                 COOK                            
+ 1729902      17290                 CANTEEN HELPER(HEAD)            
+ 1729903      17290                 CANTEEN SAFAIWALA HD            
+ 1730517      17300                 CANTEEN HLPR SR                 
+ 1730804      17300                 SAFAI WALA SR                   
+ 1730911      17300                 ASST. COOK                      
+ 1732806      17320                 SAFAI WALA                      
+ 1732901      17320                 CANTEEN HELPER                  
+ 1750901      17500                 HEAD COOK                       
+ 1750902      17500                 CANTEEN HELPER(SR HD            
+ 1751901      17510                 SR HEAD COOK(CANT)              
+ 1751902      17510                 CANTEEN SAFAIWALA(CH            
+ 1751903      17510                 CANTEEN HELPER (CH)             
+ 1751904      17510                 COOK (CH)                       
+ 1812311 1314 18120 IATA            CH-INSP   MNTNC                 
+ 1812312 1314 18120 IATA            CH-INSP   A/C OH                
+ 1812313 1314 18120 IATA            CH-INSP   ENGINE                
+ 1812314 1314 18120 IATA            CH-INSP   ELECL                 
+ 1812315 1314 18120 IATA            CH-INSP   INSMNT                
+ 1812316 1314 18120 IATA            CH-INSP   PROPLR                
+ 1812317 1314 18120 IATA            CH-INSP   RADIO                 
+ 1812319 1314 18120 IATA            CH-INSP   ELCPLTG               
+ 1812320 1314 18120 IATA            CH-INSP   XRYNDT                
+ 1812321 1314 18120 IATA            CH-INSP   STR-INSP              
+ 1812322 1314 18120 IATA            CH FOREMAN(MNTNC)               
+ 1812323 1314 18120 IATA            CH FOREMAN(A/C OH)              
+ 1812324 1314 18120 IATA            CH FOREMAN(ENGINE)              
+ 1812325 1314 18120 IATA            CH FOREMAN(ELECTL)              
+ 1812326 1314 18120 IATA            CH FOREMAN(MECHNL)              
+ 1812327 1314 18120 IATA            CH FOREMAN(INSMNT)              
+ 1812328 1314 18120 IATA            CH FOREMAN(RADIO)               
+ 1812329 1314 18120 IATA            CH FOREMAN(ELCPLTG)             
+ 1812330 1314 18120 IATA            CH FOREMAN(STR-INSP)            
+ 1812331 1314 18120 IATA            CH FOREMAN(PROPLR)              
+ 1812332 1314 18120 IATA            CH FOREMAN(XRYNDT)              
+ 1812333 1314 18120 IATA            CH FOREMAN(FSM)                 
+ 1812334 1314 18120 IATA            CH FOREMAN(MMT)                 
+ 1812335 1314 18120 IATA            CH FOREMAN(PAINTER)             
+ 1812336 1314 18120 IATA            CH FOREMAN(WELDER)              
+ 1812337 1314 18120 IATA            CH FOREMAN(TAILOR)              
+ 1813311 1012 18130 IATA            INSP-A-MNTNC                    
+ 1813312 1012 18130 IATA            INSP-A-A/C OH                   
+ 1813313 1012 18130 IATA            INSP-A-ENGINE                   
+ 1813314 1012 18130 IATA            INSP-A-ELECTRL                  
+ 1813315 1012 18130 IATA            INSP-A-INSTMNT                  
+ 1813316 1012 18130 IATA            INSP-A-PROPLLR                  
+ 1813317 1012 18130 IATA            INSP-A-RADIO                    
+ 1813319 1012 18130 IATA            INSP-A-ELCPLTNG                 
+ 1813320 1012 18130 IATA            INSP-A-XRAY NDT                 
+ 1813321 1012 18130 IATA            INSP-A-STR INSP                 
+ 1813323 1012 18130 IATA            INSP-A-PAINTER                  
+ 1813324 1012 18130 IATA            INSP-A-CARPENTER                
+ 1813331 1012 18130 IATA            INSP-A/P-MANTC                  
+ 1813332 1012 18130 IATA            INSP-A/P-A/C OH                 
+ 1813333 1012 18130 IATA            INSP-A/P-ENGIN                  
+ 1813334 1012 18130 IATA            INSP-A/P-ELECTL                 
+ 1813335 1012 18130 IATA            INSP-A/P-INSMNT                 
+ 1813336 1012 18130 IATA            INSP-A/P-PROPLR                 
+ 1813337 1012 18130 IATA            INSP-A/P-RADIO                  
+ 1813339 1012 18130 IATA            INSP-A/P-ELCPTG                 
+ 1813340 1012 18130 IATA            INSP-A/P-XRAY                   
+ 1813341 1012 18130 IATA            INSP-A/P-STRINP                 
+ 1813342 1012 18130 IATA            FOREMAN-A-MANTC                 
+ 1813343 1012 18130 IATA            FOREMAN-A-A/C OH                
+ 1813344 1012 18130 IATA            FOREMAN-A-ENGINE                
+ 1813345 1012 18130 IATA            FOREMAN-A-ELECTL                
+ 1813346 1012 18130 IATA            FOREMAN-A-INSMNT                
+ 1813347 1012 18130 IATA            FOREMAN-A-PROPLR                
+ 1813348 1012 18130 IATA            FOREMAN-A-RADIO                 
+ 1813349 1012 18130 IATA            FOREMAN-A-ELCPTG                
+ 1813350 1012 18130 IATA            FOREMAN-A-XRAY                  
+ 1813351 1012 18130 IATA            FOREMAN-A-STRINP                
+ 1813352 1012 18130 IATA            FOREMAN-A-FITR/SM               
+ 1813353 1012 18130 IATA            FOREMAN-A-PAINTER               
+ 1813354 1012 18130 IATA            FOREMAN-A-CARPENTER             
+ 1813355 1012 18130 IATA            FOREMAN-A-TLR/UTR               
+ 1813356 1012 18130 IATA            FOREMAN-A-MECHNST               
+ 1813357 1012 18130 IATA            FOREMAN-A-WELDER                
+ 1813358 1012 18130 IATA            FOREMAN-A-PL MECH               
+ 1813359 1012 18130 IATA            FOREMAN-A-PL AC                 
+ 1813360 1012 18130 IATA            INSP-A/FSM                      
+ 1813361 1012 18130 IATA            FOREMAN-A-PLNT MECH             
+ 1813362 1012 18130 IATA   ALL      CH TECHNICIAN-MNTNC             
+ 1813363 1012 18130 IATA            CH TECHNICIAN-A/C OH            
+ 1813364 1012 18130 IATA            CH TECHNICIAN-ENGINE            
+ 1813365 1012 18130 IATA            CH TECHNICIAN-ELECTR            
+ 1813366 1012 18130 IATA            CH TECHNICIAN-INSTMN            
+ 1813367 1012 18130 IATA            CH TECHNICIAN-PROPLR            
+ 1813368 1012 18130 IATA            CH TECHNICIAN-RADIO             
+ 1813369 1012 18130 IATA            CH TECHNICIAN-ELCPLR            
+ 1813370 1012 18130 IATA            CH TECHNICIAN-X RAY             
+ 1813371 1012 18130 IATA            CH TECHNICIAN-FTR/SM            
+ 1813372 1012 18130 IATA            CH TECHNICIAN-PAINTR            
+ 1813373 1012 18130 IATA            CH TECHNICIAN-CARPTR            
+ 1813374 1012 18130 IATA            CH TECHNICIAN-TAILOR            
+ 1813375 1012 18130 IATA            CH TECHNICIAN-MECHNT            
+ 1813376 1012 18130 IATA            CH TECHNICIAN-WELDER            
+ 1813377 1012 18130 IATA            CH TECHNICIAN-PL MEC            
+ 1813378 1012 18130 IATA            CH TECHNICIAN-PL ELC            
+ 1813379 1012 18130 IATA            CH TECHNICIAN-PL A C            
+ 1813380 1012 18130 IATA            CH TECHNICIAN-FSM               
+ 1813381 1012 18130 IATA            CH TECHNICIAN-AUTO              
+ 1814310 09   18140 IATA            INSPECTOR-MNTNC                 
+ 1814311 09   18140 IATA            FOREMAN-MNTNC                   
+ 1814312 09   18140 IATA            FOREMAN-A/C OH                  
+ 1814313 09   18140 IATA            FOREMAN-ENGINE                  
+ 1814314 09   18140 IATA            FOREMAN-ELECTRL                 
+ 1814315 09   18140 IATA            FOREMAN-INSTMNT                 
+ 1814316 09   18140 IATA            FOREMAN-PROPLLR                 
+ 1814317 09   18140 IATA            FOREMAN-RADIO                   
+ 1814319 09   18140 IATA            FOREMAN-ELCPLTR                 
+ 1814322 09   18140 IATA            FOREMAN-FITR/SM                 
+ 1814323 09   18140 IATA            FOREMAN-PAINTER                 
+ 1814324 09   18140 IATA            FOREMAN-CRPNTR                  
+ 1814325 09   18140 IATA            FOREMAN-TLR/UTR                 
+ 1814326 09   18140 IATA            FOREMAN-MECHNST                 
+ 1814327 09   18140 IATA            FOREMAN-WELDER                  
+ 1814341 09   18140 IATA            FOREMAN-PL MECH                 
+ 1814342 09   18140 IATA            FOREMAN-PL ELEC                 
+ 1814343 09   18140 IATA            FOREMAN-PL A C                  
+ 1814344 09   18140 IATA            INSPECTOR-A/C OH                
+ 1814345 09   18140 IATA            INSPECTOR-ELECTR                
+ 1814346 09   18140 IATA            INSPECTOR-INSTMT                
+ 1814347 09   18140 IATA            INSPECTOR-RADIO                 
+ 1814348 09   18140 IATA            INSPECTOR-STRS I                
+ 1814349 09   18140 IATA            INSPECTOR-NDT-XR                
+ 1814350 09   18140 IATA            INSPECTOR-(F/SM)                
+ 1814351 09   18140 IATA            INSPECTOR-ENGINE                
+ 1814352 09   18140 IATA            INSPECTOR-ELCTR                 
+ 1814353 09   18140 IATA            INSPECTOR-MAINT                 
+ 1815311 1314 18150 IATA            SR-INSP-MNTNC                   
+ 1815312 1314 18150 IATA            SR-INSP-A/C OH                  
+ 1815313 1314 18150 IATA            SR-INSP-ENGINE                  
+ 1815314 1314 18150 IATA            SR-INSP-ELECL                   
+ 1815315 1314 18150 IATA            SR-INSP-INSMNT                  
+ 1815316 1314 18150 IATA            SR-INSP-PROPLR                  
+ 1815317 1314 18150 IATA            SR-INSP-RADIO                   
+ 1815319 1314 18150 IATA            SR-INSP-ELCPLTG                 
+ 1815320 1314 18150 IATA            SR-INSP-XRYNDT                  
+ 1815321 1314 18150 IATA            SR-INSP-A-STR-INSP              
+ 1815322 1314 18150 IATA            SR FOREMAN(MNTNC)               
+ 1815323 1314 18150 IATA            SR FOREMAN(A/C OH)              
+ 1815324 1314 18150 IATA            SR FOREMAN(ENGINE)              
+ 1815325 1314 18150 IATA            SR FOREMAN(ELECTL)              
+ 1815326 1314 18150 IATA            SR FOREMAN(MESRNL)              
+ 1815327 1314 18150 IATA            SR FOREMAN(INSMNT)              
+ 1815328 1314 18150 IATA            SR FOREMAN(RADIO)               
+ 1815329 1314 18150 IATA            SR FOREMAN(ELCPLTG)             
+ 1815330 1314 18150 IATA            SR FOREMAN(STR-INSP)            
+ 1815331 1314 18150 IATA            SR FOREMAN(PROPLR)              
+ 1815332 1314 18150 IATA            SR FOREMAN(XRYNDT)              
+ 1815333 1314 18150 IATA            SR FOREMAN(FSM)                 
+ 1815334 1314 18150 IATA            SR FOREMAN(PAINTER)             
+ 1815335 1314 18150 IATA            SR FOREMAN(PLANT MAI            
+ 1815336 1314 18150 IATA            SR FOREMAN(TAILOR UP            
+ 1815337 1314 18150 IATA            SR FOREMAN(WELDER)              
+ 1815338 1314 18150 IATA            SR FOREMAN(PL ELECT             
+ 1815339 1314 18150 IATA            SR FOREMAN(PL ACOND)            
+ 1815340 1314 18150 IATA            SR FOREMAN(CARPENTER            
+ 1815341 1314 18150 IATA            SR FOREMAN(AUTO)                
+ 1817351 09   18170 IATA            SR.MASTR.TECH-MNTNC             
+ 1817352 09   18170 IATA            SR.MASTR.TECH-A/C OH            
+ 1817353 09   18170 IATA            SR.MASTR.TECH-ENGINE            
+ 1817354 09   18170 IATA            SR.MASTR.TECH-ELECTR            
+ 1817355 09   18170 IATA            SR.MASTR.TECH-INSTMN            
+ 1817356 09   18170 IATA            SR.MASTR.TECH-PROPLR            
+ 1817357 09   18170 IATA            SR.MASTR.TECH-RADIO             
+ 1817359 09   18170 IATA            SR.MASTR.TECH-ELCPLR            
+ 1817360 09   18170 IATA            SR.MASTR.TECH-X RAY             
+ 1817362 09   18170 IATA            SR.MASTR.TECH-FTR/SM            
+ 1817363 09   18170 IATA            SR.MASTR.TECH-PAINTR            
+ 1817364 09   18170 IATA            SR.MASTR.TECH-CARPTR            
+ 1817365 09   18170 IATA            SR.MASTR.TECH-TAILOR            
+ 1817366 09   18170 IATA            SR.MASTR.TECH-MECHNT            
+ 1817367 09   18170 IATA            SR.MASTR.TECH-WELDER            
+ 1817381 09   18170 IATA            SR.MASTR.TECH-PL MEC            
+ 1817382 09   18170 IATA            SR.MASTR.TECH-PL ELC            
+ 1817383 09   18170 IATA            SR.MASTR.TECH-PL A C            
+ 1817390 09   18170 IATA            SR.MASTR.TECH-FSM               
+ 1817391 09   18170 IATA            SR.MASTR.TECH-AUTO              
+ 1818311 0708 18180 IATA            CH HAND-MNTNC                   
+ 1818312 0708 18180 IATA            CH HAND-A/C O/H                 
+ 1818313 0708 18180 IATA            CH HAND-ENGINE                  
+ 1818314 0708 18180 IATA            CH HAND-ELECTRL                 
+ 1818315 0708 18180 IATA            CH HAND-INSTMNT                 
+ 1818316 0708 18180 IATA            CH HAND-PROPLLR                 
+ 1818317 0708 18180 IATA            CH HAND-RADIO                   
+ 1818319 0708 18180 IATA            CH HAND-ELCPLTR                 
+ 1818320 0708 18180 IATA            CH HAND-X RAY                   
+ 1818322 0708 18180 IATA            CH HAND-FTR/SM                  
+ 1818323 0708 18180 IATA            CH HAND-PAINTER                 
+ 1818324 0708 18180 IATA            CH HAND-CARPNTR                 
+ 1818325 0708 18180 IATA            CH HAND-TLR/UTR                 
+ 1818326 0708 18180 IATA            CH HAND-MEC/MLR                 
+ 1818327 0708 18180 IATA            CH HAND-WELDER                  
+ 1818341 0708 18180 IATA            CH HAND-PL MECH                 
+ 1818342 0708 18180 IATA            CH HAND-PL ELEC                 
+ 1818343 0708 18180 IATA            CH HAND-PL A C                  
+ 1818350 0708 18180 IATA            CH HAND-FSM                     
+ 1818351 0708 18180 IATA            M TECH-MNTNC                    
+ 1818352 0708 18180 IATA            M TECH-A/C O/H                  
+ 1818353 0708 18180 IATA            M TECH-ENGINE                   
+ 1818354 0708 18180 IATA            M TECH-ELECTRL                  
+ 1818355 0708 18180 IATA            M TECH-INSTMNT                  
+ 1818356 0708 18180 IATA            M TECH-PROPLLR                  
+ 1818357 0708 18180 IATA            M TECH-RADIO                    
+ 1818359 0708 18180 IATA            M TECH-ELCPLTR                  
+ 1818360 0708 18180 IATA            M TECH-X RAY                    
+ 1818362 0708 18180 IATA            M TECH-FTR/SM                   
+ 1818363 0708 18180 IATA            M TECH-PAINTER                  
+ 1818364 0708 18180 IATA            M TECH-CARPNTR                  
+ 1818365 0708 18180 IATA            M TECH-TAILOR                   
+ 1818366 0708 18180 IATA            M TECH-MECHNST                  
+ 1818367 0708 18180 IATA            M TECH-WELDER                   
+ 1818381 0708 18180 IATA            M TECH-PL MECH                  
+ 1818382 0708 18180 IATA            M TECH-PL ELEC                  
+ 1818383 0708 18180 IATA            M TECH-PL A C                   
+ 1818390 0306 18180 IATA            M TECH-FSM                      
+ 1820311 0306 18200 IATA            SR A T-MNTNC                    
+ 1820312 0306 18200 IATA            SR A T-A/C O/H                  
+ 1820313 0306 18200 IATA            SR A T-ENGINE                   
+ 1820314 0306 18200 IATA            SR A T-ELECTRL                  
+ 1820315 0306 18200 IATA            SR A T-INSTMNT                  
+ 1820316 0306 18200 IATA            SR A T-PROPLLR                  
+ 1820317 0306 18200 IATA            SR A T-RADIO                    
+ 1820319 0306 18200 IATA            SR A T-ELCPLTR                  
+ 1820320 0306 18200 IATA            SR A T-X RAY                    
+ 1820322 0306 18200 IATA            SR A T-FTR/SM                   
+ 1820323 0306 18200 IATA            SR A T-PAINTER                  
+ 1820324 0306 18200 IATA            SR A T-CARPNTR                  
+ 1820325 0306 18200 IATA            SR A T-TLR/UTR                  
+ 1820326 0306 18200 IATA            SR A T-MEC/MLR                  
+ 1820327 0306 18200 IATA            SR A T-WELDER                   
+ 1820331 0306 18200 IATA            SENOIR A-T-MASON                
+ 1820332 0306 18200 IATA            SENIOR A-T-PLUMBER              
+ 1820341 0306 18200 IATA            SR TECH-PL MECH                 
+ 1820342 0306 18200 IATA            SR TECH-PL ELEC                 
+ 1820343 0306 18200 IATA            SR TECH-PL A C                  
+ 1820350 0306 18200 IATA            SR FLT SIM MNT TECH             
+ 1823311 0306 18230 IATA            A/TECH-MNTNC                    
+ 1823312 0306 18230 IATA            A/TECH-A/C O/H                  
+ 1823313 0306 18230 IATA            A/TECH-ENGINE                   
+ 1823314 0306 18230 IATA            A/TECH-ELECTRL                  
+ 1823315 0306 18230 IATA            A/TECH-INSTMNT                  
+ 1823316 0306 18230 IATA            A/TECH-PROPELLE                 
+ 1823317 0306 18230 IATA            A/TECH-RADIO                    
+ 1823319 0306 18230 IATA            A/TECH-ELCPLTR                  
+ 1823320 0306 18230 IATA            A/TECH-X RAY                    
+ 1823322 0306 18230 IATA            A/TECH-FTR/SM                   
+ 1823323 0306 18230 IATA            A/TECH-PAINTER                  
+ 1823324 0306 18230 IATA            A/TECH-CARPNTR                  
+ 1823325 0306 18230 IATA            A/TECH-TLR/UTR                  
+ 1823326 0306 18230 IATA            A/TECH-MEC/MLR                  
+ 1823327 0306 18230 IATA            A/TECH-WELDER                   
+ 1823329 0306 18230 IATA            A/TECH-MILLER                   
+ 1823330 0306 18230 IATA            A/TECH-TURNER                   
+ 1823331 0306 18230 IATA            A/TECH-MASON                    
+ 1823332 0306 18230 IATA            A/TECH-PLUMBER                  
+ 1823341 0306 18230 IATA            TECH-PL MECH                    
+ 1823342 0306 18230 IATA            TECH-PL ELEC                    
+ 1823343 0306 18230 IATA            TECH-PL A C                     
+ 1823344 0306 18230 IATA            TECH-PL PAINTER                 
+ 1823345 0306 18230 IATA            TECH-PL CARPENTER               
+ 1823350 0306 18230 IATA            FLT SIM MNT TECH                
+ 1911651 1012 19110 ACEU-T          CH FOREMAN (AUTO)               
+ 1912651 1012 19120 ACEU-T          SR FOREMAN (AUTO)               
+ 1913651 1012 19130 ACEU-T          FOREMAN-A(AUTO)                 
+ 1913652 1012 19130 ACEU            CH TECHNICIAN(AUTO)             
+ 1914641 09   19140 ACEU            FOREMAN(AUTO)                   
+ 1914651 09   19140 ACEU            SR MAST TECH-AUTO               
+ 1914662 09   19140 ACEU            APRON SUPERVISOR                
+ 1916101 09   19160 ACEU            OPRNS SUPDT-SG                  
+ 1916202 09   19160 ACEU            ACCTS SUPDT-SG                  
+ 1916203 09   19160 ACEU            AUDIT SUPDT-SG                  
+ 1916204 09   19160 ACEU            CH CASHR/S A-SG                 
+ 1916205 09   19160 ACEU            CONSOLE OPRTR-SG                
+ 1916401 09   19160 ACEU            CH STK VERFR-SG                 
+ 1916402 09   19160 ACEU            STR&SUP SUPDT-SG                
+ 1916501 09   19160 ACEU            CATRNG SUPDT-SG                 
+ 1916610 09   19160 ACEU            TRNSPT SUPDT-SG                 
+ 1916662 09   19160 ACEU            CH OPERATOR                     
+ 1916702 09   19160 ACEU            TRAFFIC SUPDT-SG                
+ 1916703 09   19160 ACEU            PAX FAC ASSTT-SG                
+ 1916801 09   19160 ACEU            CON STENO-SG                    
+ 1916802 09   19160 ACEU            OFFICE SUPDT-SG                 
+ 1916803 09   19160 ACEU            CH COMPTIST-SG                  
+ 1916804 09   19160 ACEU            CARETAKER-SG                    
+ 1916805 09   19160 ACEU            CH DRAUGHTSMN-SG                
+ 1916806 09   19160 ACEU            LIBRARIAN-SG                    
+ 1916807 09   19160 ACEU            LADY GR RECPT-SG                
+ 1916809 09   19160 ACEU            SECURTY SUPDT-SG                
+ 1916811 09   19160 ACEU            SPORTS  SUPDT-SG                
+ 1916812 09   19160 ACEU            VIGILANCE SUPDT-SG              
+ 1916813   09 19160 ACEU            SR HINDI TRANSLATOR             
+ 1916815 09   19160 ACEU            TECH SUPDT-SG                   
+ 1916818 09   19160 ACEU            CH MACHINE OPRT-SG              
+ 1916821 09   19160 ACEU            CH T P OPRTR-SG                 
+ 1916822 09   19160 ACEU            CH TEL OPRTR-SG                 
+ 1916823 09   19160 ACEU            D COMMN SUPDT-SG                
+ 1916901 09   19160 ACEU            CH PHARMACIST-SG                
+ 1918641 0708 19180 ACEU            LH/MT-AUTO                      
+ 1918642 0708 19180 ACEU            LH/MT-ELEC                      
+ 1918643 0708 19180 ACEU            LH/MT-ANCIL                     
+ 1918651 0708 19180 ACEU            MAST TECH-AUTO                  
+ 1918652 0708 19180 ACEU            MAST TECH-ELEC                  
+ 1918653 0708 19180 ACEU            MAST TECH-ANCIL                 
+ 1918659 0708 19180 ACEU/NMT        MAST TECH-ELEC                  
+ 1918814 0708 19180 ACEU            JR. ENGINEER(CIVIL)             
+ 1920323 0306 19200 ACEU            SR PAINTER STRS                 
+ 1920324      19200 ACEU            SR CARPNTER STRS                
+ 1920325 0306 19200 ACEU            PAINTER STRS                    
+ 1920332      19200 ACEU            SR PLUMBER                      
+ 1920641 0306 19200 ACEU            SR TECH AUTO ELEC               
+ 1920651 0306 19200 ACEU            SR MT MECH                      
+ 1920652 0306 19200 ACEU/NMT        SR ELEC MECH                    
+ 1920653 0306 19200 ACEU            SR TECH ANCIL                   
+ 1920663 0306 19200 ACEU            SR TAILOR                       
+ 1920815 0306 19200 ACEU            MECHANIC-S                      
+ 1920816 0306 19200 ACEU            SR-PROJNIST-EXDSG               
+ 1921101 0708 19210 ACEU            OPRNS SUPDT                     
+ 1921102 0708 19210 ACEU            AD OPRNS SUPDT                  
+ 1921201 0708 19210 ACEU            AD ACCTS SUPDT                  
+ 1921202 0708 19210 ACEU            ACCTS SUPDT                     
+ 1921203 0708 19210 ACEU            AUDIT SUPDT                     
+ 1921204 0708 19210 ACEU            H CASHIER/S ACTNT               
+ 1921205 0708 19210 ACEU            CONSOLE OPERATOR                
+ 1921206 0708 19210 ACEU            COMP APPLN SUPERVISO            
+ 1921401 0708 19210 ACEU            CH STK VERIFIER                 
+ 1921402 0708 19210 ACEU            STR&SUP SUPDT                   
+ 1921403 0708 19210 ACEU            SUPDT (I&T)                     
+ 1921404 0708 19210 ACEU            AD STR&SUP SUPDT                
+ 1921501 0708 19210 ACEU            CATRNG SUPDT                    
+ 1921502 0708 19210 ACEU            AD CTRNG SUPDT                  
+ 1921610 0708 19210 ACEU            TRNSPT SUPDT                    
+ 1921654 0708 19210 ACEU            APRON SUPVSR                    
+ 1921661 0708 19210 ACEU            HEAD DRIVER                     
+ 1921662 0708 19210 ACEU            SR. OPERATOR                    
+ 1921701 0708 19210 ACEU            AD TRFC SUPDT                   
+ 1921702 0708 19210 ACEU            TRAFFIC SUPDT                   
+ 1921703 0708 19210 ACEU            PAX FAC ASSTT                   
+ 1921801 0708 19210 ACEU            CON STENO                       
+ 1921802 0708 19210 ACEU            OFFICE SUPDT                    
+ 1921803 0708 19210 ACEU            CH COMPTIST                     
+ 1921804 0708 19210 ACEU            CARETAKER                       
+ 1921805 0708 19210 ACEU            CH DRAUGHTSMAN                  
+ 1921806 0708 19210 ACEU            LIBRARIAN                       
+ 1921807 0708 19210 ACEU            LADY GR RECPNST                 
+ 1921809 0708 19210 ACEU            SEC SUPDT                       
+ 1921810 0708 19210 ACEU            VIG. SUPDT                      
+ 1921811 0708 19210 ACEU            SPORTS SUPDT                    
+ 1921812 0708 19210 ACEU            TYPIST-SUPDT.                   
+ 1921813 0708 19210 ACEU            HINDI TRANSLTOR                 
+ 1921815 0708 19210 ACEU            TECH SUPDT                      
+ 1921816 0708 19210 ACEU            AD OFFICE SUPDT                 
+ 1921817 0708 19210 ACEU            AD SEC SUPDT                    
+ 1921818 0708 19210 ACEU            CH MACHINE OPRT                 
+ 1921821 0708 19210 ACEU            CH T P OPERATOR                 
+ 1921822 0708 19210 ACEU            CH TEL OPERATOR                 
+ 1921823 0708 19210 ACEU            D COMMN SUPDT                   
+ 1921824 0708 19210 ACEU            CH PROOF READER                 
+ 1921825 0708 19210 ACEU            CH TEL MECHANIC                 
+ 1921901 0708 19210 ACEU            CH PHARMST                      
+ 1922101 0306 19220 ACEU            OPRNS ASSTT-S                   
+ 1922202 0306 19220 ACEU            ACCTS ASSTT-S                   
+ 1922203 0306 19220 ACEU            AUDIT ASSTT-S                   
+ 1922204 0306 19220 ACEU            S CASHIER/SA                    
+ 1922205 0306 19220 ACEU            SR EDP-ASSTT                    
+ 1922206 0306 19220 ACEU            K P OPERATOR-S                  
+ 1922207 0306 19220 ACEU            SR ASST(I&T)                    
+ 1922313 0306 19220 ACEU            HELPER ENG SR CH                
+ 1922401 0306 19220 ACEU            STK VERIFIER-SR                 
+ 1922402 0306 19220 ACEU            STR&SUP ASST-SR                 
+ 1922403 0306 19220 ACEU            AD STR ASST-SR                  
+ 1922419 0306 19220 ACEU            HELPER STORES S CH              
+ 1922501 0306 19220 ACEU            CATRNG ASSTT-SR                 
+ 1922502 0306 19220 ACEU/CC         SR CABIN CREW-M                 
+ 1922503 0306 19220 ACEU/CC         SR CABIN CREW-F                 
+ 1922517 0306 19220 ACEU            HELPER CATG SR CH               
+ 1922610 0306 19220 ACEU            TRNSPT ASSTT-SR                 
+ 1922614 0306 19220 ACEU            HELPER MT SR CH                 
+ 1922663 0306 19220 ACEU            OPERATOR                        
+ 1922702 0306 19220 ACEU            TRAFFIC ASSTT-SR                
+ 1922703 0306 19220 ACEU            SR PAX F.ASSTT                  
+ 1922715 0306 19220 ACEU            HELPER COMML SR CH              
+ 1922801 0306 19220 ACEU            STENOGRAPHER-S                  
+ 1922802 0306 19220 ACEU            OFFICE ASSTT-S                  
+ 1922803 0306 19220 ACEU            COMPTIST-S                      
+ 1922804 0306 19220 ACEU            ASSTT CARETKR-S                 
+ 1922805 0306 19220 ACEU            DRAUGHTSMAN-S                   
+ 1922806 0306 19220 ACEU            LIB  ASSTT-S                    
+ 1922807 0306 19220 ACEU            RECEPTIONIST-S                  
+ 1922809 0306 19220 ACEU            SECTY ASST-SR                   
+ 1922810 0306 19220 ACEU            TYPIST-SR                       
+ 1922811 0306 19220 ACEU            AD OFFC ASST-SR                 
+ 1922812 0306 19220 ACEU            VIG. ASST(S)                    
+ 1922813 0306 19220 ACEU            HINDI TRANSLTOR-S               
+ 1922815 0306 19220 ACEU            TECH ASST-S                     
+ 1922816 0306 19220 ACEU            PROJECTIONIST-S                 
+ 1922817 0306 19220 ACEU            PROOF READER-S                  
+ 1922818 0306 19220 ACEU            MACHINE OPRTR-S                 
+ 1922821 0306 19220 ACEU            TP OPERATOR-S                   
+ 1922822 0306 19220 ACEU            TEL OPERATOR-S                  
+ 1922823 0306 19220 ACEU             D COMMN ASST-S                 
+ 1922824 0306 19220 ACEU            TEL MECHANIC-S                  
+ 1922831 0306 19220 ACEU            PEON/HELPER SCH(COMM            
+ 1922833 0306 19220 ACEU/38         SECURITY GUARD SR CH            
+ 1922834 0306 19220 ACEU            GARDENER SR CH                  
+ 1922835 0306 19220 ACEU/44         SECURITY GUARD SR CH            
+ 1922836 0306 19220 ACEU            SAFAIWALA SR CH                 
+ 1922839 0306 19220 ACEU            PEON SR CH                      
+ 1922840 0306 19220 ACEU            LIFT OPTR SR CH                 
+ 1922841 0306 19220 ACEU            DUP OPERATOR SR CH              
+ 1922842 0306 19220 ACEU            SECURITY GUARD SR CH            
+ 1922843 0306 19220 ACEU            DAFTRY SR CH                    
+ 1922851 0306 19220 ACEU            WATCHER CNSTBLE SR C            
+ 1922901 0306 19220 ACEU            PHARMACIST-S                    
+ 1923323 0306 19230 ACEU            PAINTER STRS                    
+ 1923324 0306 19230 ACEU            SR CARPENTER-STRS               
+ 1923651 0306 19230 ACEU            TECH-AUTO                       
+ 1923652 0306 19230 ACEU            TECH-ELEC                       
+ 1923653 0306 19230 ACEU            TECH-ANCIL                      
+ 1923659 0306 19230 ACEU/NMT        TECH-ELEC                       
+ 1923660 0306 19230 ACEU/MT         TECH (GSD)                      
+ 1923661 0306 19230 ACEU/MT         TECH (MT)                       
+ 1923815 0306 19230 ACEU            MECHANIC                        
+ 1923817 0306 19230 ACEU            MECHANIC(ELECT)                 
+ 1923818 0306 19230 ACEU            MECHANIC(MT)                    
+ 1924661 0306 19240 ACEU            SR DRIVER                       
+ 1924662 0306 19240 ACEU            JR OPERATORXXXNOTINU             
+ 1925501 0306 19250 ACEU/CC         CABIN CREW-F                    
+ 1925502 0306 19250 ACEU/CC         CABIN CREW-M                    
+ 1925815 0306 19250 ACEU            TECH ASSTT JR.                  
+ 1925822 0306 19250 ACEU            TEL MACHANIC                    
+ 1926323 0306 19260 ACEU            PAINTER STRS                    
+ 1926324 0306 19260 ACEU            CARPENTER STRS                  
+ 1926663 0306 19260 ACEU            TAILOR                          
+ 1928101 0306 19280 ACEU            OPRNS ASSTT                     
+ 1928202 0306 19280 ACEU            ACCTS ASSTT                     
+ 1928203 0306 19280 ACEU            AUDIT ASSTT                     
+ 1928204 0306 19280 ACEU            CASHIER/S A                     
+ 1928205 0306 19280 ACEU            EDP ASSTT                       
+ 1928206 0306 19280 ACEU            KEY PUNCH OPRTR                 
+ 1928207 0306 19280 ACEU            ASST(I&T)                       
+ 1928208 0306 19280 ACEU            TLX OPERATOR                    
+ 1928209 0306 19280 ACEU            LEAD ASSISTANT                  
+ 1928401 0306 19280 ACEU            STK VERIFIER                    
+ 1928402 0306 19280 ACEU            STR&SUP ASSTT                   
+ 1928501 0306 19280 ACEU            CATRNG ASSTT                    
+ 1928610 0306 19280 ACEU            TRNSPT ASSTT                    
+ 1928702 0306 19280 ACEU            TRAFFIC ASSTT                   
+ 1928703 0306 19280 ACEU            PAX FAC ASSTT                   
+ 1928801 0306 19280 ACEU            STENOGRAPHER                    
+ 1928802 0306 19280 ACEU            OFFICE ASSTT                    
+ 1928803 0306 19280 ACEU            COMPTIST                        
+ 1928804 0306 19280 ACEU            ASSTT CARETAKER                 
+ 1928805 0306 19280 ACEU            DRAUGHTSMAN                     
+ 1928806 0306 19280 ACEU            LIB ASSTT                       
+ 1928807 0306 19280 ACEU            RECEPTIONIST                    
+ 1928809 0306 19280 ACEU            SEC ASSTT                       
+ 1928810 0306 19280 ACEU            JR TYPIST                       
+ 1928811 0306 19280 ACEU            HINDI TYPIST                    
+ 1928813 0306 19280 ACEU            JR HINDI TRANSLATOR             
+ 1928815 0306 19280 ACEU            TECH ASST                       
+ 1928816 0306 19280 ACEU            PROJECTIONIST                   
+ 1928817 0306 19280 ACEU            PROOF READER                    
+ 1928818 0306 19280 ACEU            MACHINE OPRTR                   
+ 1928821 0306 19280 ACEU            TP OPERATOR                     
+ 1928822 0306 19280 ACEU            TEL OPERATOR                    
+ 1928823 0306 19280 ACEU            DC OPERATOR                     
+ 1928901 0306 19280 ACEU            PHARMACIST                      
+ 1928931 0306 19280 ACEU            LADY ATTENDANT (CCTS            
+ 1929313 0102 19290 ACEU            HELPER-ENG H                    
+ 1929419 0102 19290 ACEU            HELPER-STR H                    
+ 1929420 0102 19290 ACEU            LOADER-STR H                    
+ 1929422 0102 19290 ACEU            CLEANER-PRG H                   
+ 1929516 0102 19290 ACEU            COOK-CTG H                      
+ 1929517 0102 19290 ACEU            HELPER-CTG H                    
+ 1929518 0102 19290 ACEU            BEARER-CTG H                    
+ 1929614 0102 19290 ACEU            HELPER-MT H                     
+ 1929661 0102 19290 ACEU            DRIVER                          
+ 1929715 0102 19290 ACEU            HD HELPER(COMM)                 
+ 1929716 0102 19290 ACEU            HELPER-CM H                     
+ 1929801 0102 19290 ACEU            PEON H                          
+ 1929802 0102 19290 ACEU            FARASH H                        
+ 1929803 0103 19290 ACEU            SEC GUARD H                     
+ 1929804 0102 19290 ACEU            GARDNER H                       
+ 1929805 0102 19290 ACEU            WASHERMAN H                     
+ 1929806 0102 19290 ACEU            SAFAIWALA H                     
+ 1929807 0102 19290 ACEU            AYAH H                          
+ 1929808 0102 19290 ACEU            DESPTCH RIDER H                 
+ 1929809 0102 19290 ACEU            DAFTRY H                        
+ 1929810 0102 19290 ACEU            LIFT OPERATOR H                 
+ 1929811 0102 19290 ACEU            DUP OPERATOR H                  
+ 1929812 0102 19290 ACEU            B PRNT OPRTR H                  
+ 1929813 0102 19290 ACEU            CHAIR RECAINER H                
+ 1929818 0102 19290 ACEU            WATERMAN H                      
+ 1929821 0102 19290 ACEU            CONSTABLE H                     
+ 1929923 0102 19290 ACEU            DRESSER H                       
+ 1930313 0102 19300 ACEU            HELPER ENG S                    
+ 1930419 0102 19300 ACEU            HELPER-STR S                    
+ 1930420 0102 19300 ACEU            LOADER-STR S                    
+ 1930422 0102 19300 ACEU            CLEANER-PRG S                   
+ 1930517 0102 19300 ACEU            HELPER-CTG S                    
+ 1930518 0102 19300 ACEU            BEARER-CTG S                    
+ 1930614 0102 19300 ACEU            HELPER-MT S                     
+ 1930715 0102 19300 ACEU            SR HELPER(COMM)                 
+ 1930716 0102 19300 ACEU            HELPER CM S                     
+ 1930801 0102 19300 ACEU            PEON S                          
+ 1930802 0102 19300 ACEU            FARASH S                        
+ 1930803 0102 19300 ACEU            SEC GUARD S                     
+ 1930804 0102 19300 ACEU            GARDNER S                       
+ 1930805 0102 19300 ACEU            WASHERMAN S                     
+ 1930806 0102 19300 ACEU            SAFAIWALA S                     
+ 1930807 0102 19300 ACEU            AYAH S                          
+ 1930808 0102 19300 ACEU            DESPTCH RIDER S                 
+ 1930809 0102 19300 ACEU            DAFTRY S                        
+ 1930810 0102 19300 ACEU            LIFT OPERATOR S                 
+ 1930811 0102 19300 ACEU            DUP OPERATOR S                  
+ 1930812 0102 19300 ACEU            B PRNT OPRTR S                  
+ 1930813 0102 19300 ACEU            CHAIR RECAINER-S                
+ 1930818 0102 19300 ACEU            WATERMAN S                      
+ 1930821 0102 19300 ACEU            CONSTABLE S                     
+ 1930916 0102 19300 ACEU            COOK HELPER S                   
+ 1930923 0102 19300 ACEU            DRESSER S                       
+ 1930931 0102 19300 ACEU            LADY ATTENDANT SR               
+ 1932313 0102 19320 ACEU            HELPER-ENG                      
+ 1932419 0102 19320 ACEU            HELPER-STR                      
+ 1932420 0102 19320 ACEU            LOADER-STR                      
+ 1932422 0102 19320 ACEU            CLEANER-PRG                     
+ 1932517 0102 19320 ACEU            HELPER-CTG                      
+ 1932518 0102 19320 ACEU            BEARER-CTG                      
+ 1932614 0102 19320 ACEU            HELPER-MT                       
+ 1932715 0102 19320 ACEU            HELPER(COMM)                    
+ 1932716 0102 19320 ACEU            HELPER CM                       
+ 1932801 0102 19320 ACEU            PEON                            
+ 1932802 0102 19320 ACEU            FARASH                          
+ 1932803 0102 19320 ACEU            SEC GUARD                       
+ 1932804 0102 19320 ACEU            GARDENER                        
+ 1932805 0102 19320 ACEU            WASHERMAN                       
+ 1932806 0102 19320 ACEU            SAFAIWALA                       
+ 1932807 0102 19320 ACEU            AYAH                            
+ 1932808 0102 19320 ACEU            DESPATCH RIDER                  
+ 1932809 0102 19320 ACEU            DAFTRY                          
+ 1932810 0102 19320 ACEU            LIFT OPERATOR                   
+ 1932811 0102 19320 ACEU            DUP OPERATOR                    
+ 1932812 0102 19320 ACEU            B PRNT OPRTR                    
+ 1932813 0306 19320 ACEU            CHAIR RECAINER                  
+ 1932818 0102 19320 ACEU            WATERMAN                        
+ 1932821 0102 19320 ACEU            CONSTABLE                       
+ 1932822 0102 19320 ACEU            WATCH-CONSTABLE                 
+ 1932916 0102 19320 ACEU            COOK HELPER                     
+ 1932923 0102 19320 ACEU            DRESSER                         
+ 1932931 0102 19320 ACEU            LADY ATTENDANT                  
+ 1940501      19400 ACEU/CC         CH CAB CRW-F                    
+ 1940502      19400 ACEU/CC         CH CAB CRW-M                    
+ 1940503      19400 ACEU/CC         FLT KITCHN SUPRVSR              
+ 1950313 0102 19500 ACEU            HELPER ENG  SH                  
+ 1950419 0102 19500 ACEU            HELPER STORES SH                
+ 1950517 0102 19500 ACEU            HELPER CATG  SH                 
+ 1950614 0102 19500 ACEU            HELPER MT SH                    
+ 1950715 0102 19500 ACEU            HELPER COMML SH                 
+ 1950801 0102 19500 ACEU            PEON/HELPER SH (COMM            
+ 1950803 0102 19500 ACEU/38         SECURITY GUARD SH               
+ 1950804 0102 19500 ACEU            GARDENER SH                     
+ 1950805 0102 19500 ACEU/44         SECURITY GUARD SH               
+ 1950806 0102 19500 ACEU            SAFAIWALA SH                    
+ 1950809 0102 19500 ACEU            PEON SH                         
+ 1950810 0102 19500 ACEU            LIFT OPTR SH                    
+ 1950811 0102 19500 ACEU            DUP OPERATOR SH                 
+ 1950812 0102 19500 ACEU            FARASH SH                       
+ 1950813 0102 19500 ACEU            DAFTRY SH                       
+ 1950814 0102 19500 ACEU            CHAIR RECAINER-SH               
+ 1950821 0102 19500 ACEU            WATCHER CONSTABLE SH            
+ 1951313 0102 19510 ACEU            HELPER ENG  CH                  
+ 1951419 0102 19510 ACEU            HELPER STORES CH                
+ 1951517 0102 19510 ACEU            HELPER CATG  CH                 
+ 1951614 0102 19510 ACEU            HELPER MT CH                    
+ 1951715 0102 19510 ACEU            HELPER COMML CH                 
+ 1951801 0102 19510 ACEU            PEON/HELPER CH (COMM            
+ 1951802 0102 19510 ACEU            FARASH CH                       
+ 1951803 0102 19510 ACEU/38         SECURITY GUARD CH               
+ 1951804 0102 19510 ACEU            GARDENER CH                     
+ 1951805 0102 19510 ACEU/44         SECURITY GUARD CH               
+ 1951806 0102 19510 ACEU            SAFAIWALA CH                    
+ 1951809 0102 19510 ACEU            PEON CH                         
+ 1951810 0102 19510 ACEU            LIFT OPTR CH                    
+ 1951811 0102 19510 ACEU            DUP OPERATOR CH                 
+ 1951812 0102 19510 ACEU            SECURITY GUARD CH               
+ 1951813 0102 19510 ACEU            DAFTRY CH                       
+ 1951821 0102 19510 ACEU            WATCHER CONSTABLE CH            
+ 1960662 0306 19600 ACEU            OPERATOR XXXNOTINUSE            
+ 1960663 0306 19600 ACEU            JR OPERATOR   
+ 1980501 0306 19800 ACEU/CC         DY CH CAB CRW-F                 
+ 1980502 0306 19800 ACEU/CC         DY CH CAB CRW-M                 
+ 5003695 VBL  00461                 VBL   DO1OTH
+ 9900101      99000 TRAINEE FIX-PAY ANNUITY PILOT                   
+ 9900102      99000 TRAINEE FIX-PAY TRAINEE PILOT                   
+ 9900103      99000 CONTROL FIX-PAY CONTRACTUAL PILOT               
+ 9900105      99000                 MET INSTRUCTOR
+ 9900107      99000 CONTROL FIX-PAY CONTRACTUAL SIM INST
+ 9900111      99000                 CONTR-MGR10-12
+ 9900136      99000                 CONTR-ENG16A
+ 9900171      99000                 CONTRACTUAL-COOK
+ 9900184      99000                 CONTRACTL-TECH-HAND
+ 9900200      99000                 RTD ENGRR
+ 9900301      99000 TRAINEE FIX-PAY GE-TRAINEE
+ 9900302      99000 TRAINEE FIX-PAY AME-TRAINEE
+ 9900303      99000 TRAINEE FIX-PAY SR AME-TRAINEE
+ 9900311      99000 TRAINEE FIX-PAY FIX-PAY-TTECH
+ 9900321      99000 TRAINEE         TRN F-S-M ENGR
+ 9900322      99000 TRAINEE         FLT ENGR
+ 9900350      99000 CONTROL FIX-PAY CONTRAL FLT SIM MNT
+ 9900351      99000 CONTROL FIX-PAY CONTRACTUAL ENGNR
+ 9900501      99000 FIX-PAY-CREW    ANNUITY C CREW
+ 9900502      99000                 TRAINEE A/H
+ 9900662      99000 CONTROL FIX-PAY CONTRACTUAL OPERATOR
+ 9900702      99000 TRAINEE FIX-PAY FIX-PAY-TA
+ 9900801      99000 TRAINEE FIX-PAY FIX-PAY-PEON
+ 9900803      99000 CONT            OSD(CONTRACTUAL)
+ 9900811      99000 FIX-PAY-CLRK    CLERK OF WORK
+ 9900821      99000 TRAINEE FIX-PAY FIX-PAY-TPO
+ 9900900      99000 TRAINEE FIX-PAY FIX-PAY-CANTMGR
+ 9900901      99000 TRAINEE FIX-PAY FIX-PAY-MO
+ 9900902      99000                 FLT ENGR GRD
+ 9900903      99000                 ANNUITY FLT ENGNR
+ 9900911      99000 FIX-PAY-MNGR    CANTEEN MANAGER
+ 9900912      99000 FIX-PAY-MNGMNT  MANAGEMENT TRAINEE
+ 9900913      99000                 TRAINEE-COMP-OFR(T)
+ 9900914      99000                 TRAINEE-FOO
+ 9900914      99000                 TRAINEE-FOO

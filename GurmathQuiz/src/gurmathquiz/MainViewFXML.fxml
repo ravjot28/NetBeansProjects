@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="pane" alignment="TOP_LEFT" maxHeight="790.0" maxWidth="1300.0" minHeight="790.0" minWidth="1300.0" prefHeight="790.0" prefWidth="1300.0" styleClass="null" xmlns:fx="http://javafx.com/fxml" fx:controller="gurmathquiz.MainViewFXMLController">
+  <children>
+    <Pane prefHeight="200.0" prefWidth="200.0">
+      <children>
+        <TextArea fx:id="question" editable="false" layoutX="128.0" layoutY="542.0" prefHeight="96.0" prefWidth="1046.0" style="-fx-background-color: black;&#10;-fx-text-fill: white;&#10;-fx-font-size:30;" text="What is the captial of India?" wrapText="true" />
+        <TextArea fx:id="answer1" editable="false" layoutX="128.0" layoutY="654.0" prefHeight="52.0" prefWidth="463.0" style="-fx-background-color: black;&#10;-fx-text-fill: white;&#10;-fx-font-size:30;" text="Delhi" wrapText="true" />
+        <TextArea fx:id="answer3" editable="false" layoutX="128.0" layoutY="731.0" prefHeight="51.999900000002526" prefWidth="463.0" style="-fx-background-color: black;&#10;-fx-text-fill: white;&#10;-fx-font-size:30;" text="Hyderabad" wrapText="true" />
+        <TextArea fx:id="answer2" editable="false" layoutX="711.0" layoutY="654.0" prefHeight="52.0" prefWidth="463.0" style="-fx-background-color: black;&#10;-fx-text-fill: white;&#10;-fx-font-size:30;" text="Mumbai" wrapText="true" />
+        <TextArea fx:id="answer4" editable="false" layoutX="711.0" layoutY="731.0" prefHeight="52.0" prefWidth="463.0" style="-fx-background-color: black;&#10;-fx-text-fill: white;&#10;-fx-font-size:30;" text="Pune" wrapText="true" />
+      </children>
+    </Pane>
+  </children>
+  <stylesheets>
+    <URL value="@css/style.css" />
+  </stylesheets>
+</StackPane>

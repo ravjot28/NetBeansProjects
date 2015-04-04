@@ -1,0 +1,1 @@
+JPAMailboxManager should not depend on OpenJPA to make it more reusable

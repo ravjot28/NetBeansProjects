@@ -1,0 +1,1 @@
+RFC 3348 describes an extension to IMAP which allows clients to determine whether a mailbox has a child without an expensive general LIST operation

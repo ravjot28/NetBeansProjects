@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="file:/Users/Rav/NetBeansProjects/StopWatch/dist/" href="StopWatch.jnlp">
+    <information>
+        <title>StopWatch</title>
+        <vendor>${application.vendor}</vendor>
+        <homepage href=""/>
+        <description>StopWatch</description>
+        <icon kind="splash" href="http://dl.javafx.com/1.3/splash.png"/>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.3/javafx-rt.jnlp"/>
+        <jar href="StopWatch.jar" main="true" size="167424"/>
+    </resources>
+    <application-desc main-class="com.sun.javafx.runtime.main.Main" progress-class="com.javafx.progressbar.ProgressManager">
+        <argument>MainJavaFXScript=stopwatch.Main</argument>
+    </application-desc>
+    <update check="always"/>
+</jnlp>

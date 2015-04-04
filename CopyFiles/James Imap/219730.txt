@@ -1,0 +1,1 @@
+MessageRange.range(....) currently construct a MessageRange with type RANGE even if the start and end uids are the same. It would be better to return a MessageRange with type ONE for this so the backend implemention can do the search much more effectiv

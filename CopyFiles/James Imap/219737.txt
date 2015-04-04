@@ -1,0 +1,1 @@
+There is - as far as I can see - no need to ever change the hierarchy delimiter. Storage implementations can still choose whatever delimiter they want to choose or how to represent the hierarchy. Hence\

@@ -1,0 +1,1 @@
+A namespace is merely a string in IMAP - a name. However\

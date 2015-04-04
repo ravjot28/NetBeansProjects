@@ -1,0 +1,3 @@
+Main-Class: Main
+Class-Path: Bin/lib/Rav_AutoRun.jar Bin/lib/ravswing.jar Bin/lib/ravswing1.jar Bin/lib/ravtweet.jar
+

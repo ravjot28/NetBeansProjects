@@ -1,0 +1,31 @@
+What will be the Base64 encode of "Man"?
+TWFu
+# TFWu
+TUWF
+TFWU
+MD5 stands for?
+# Message-Digest Algorithm 5
+Multi-Dimension Algorithm 5
+Maintain-Divisions Algorithm 5
+Multi-Digest Algorithm 5
+What is GINA?
+Gateway Interface Network Application
+GUI Installed Network Application Class
+Global Internet National Authority (G-USA)
+# Graphical Identification and Authentication DLL
+How would you prevent session hijacking attacks?
+Using biometrics access tokens
+# Using unpredictable sequence numbers
+Using non-Internet protocols like http
+Using hardware-based authentication
+Which of the following snort rules look for FTP root login attempts?
+alert tcp->any port 21 (msg:"user root";)
+alert tcp->any port 21(message:"user root";)
+# alert tcp any any -> any any 21 (content:"user root";)
+alert ftp-> ftp(content:"user password root";)
+Several of yout co-workers are having a discussion over the etc/passwd file.<>They are at odds over what types of encryption are used to secure Linux passwords(Select the correct one)?
+# MD5
+Base64
+Makcoder
+ROT-13
+

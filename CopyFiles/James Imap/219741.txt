@@ -1,0 +1,1 @@
+The methods of the MessageMappers require mailboxIds to decide which mailbox to operate on. This should be changed to org.apache.james.imap.store.mail.model.Mailbox so that the mappers can decide themselves how to identify the mailbox.

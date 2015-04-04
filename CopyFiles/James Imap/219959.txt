@@ -1,0 +1,1 @@
+the whole &quot;imap&quot; product should be in the org.apache.james.imap tree.

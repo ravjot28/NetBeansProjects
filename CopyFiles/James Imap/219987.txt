@@ -1,0 +1,1 @@
+MailboxManagerProvider just provides the same instance of MailboxManager. It was added to work around Avalon limitations. However\

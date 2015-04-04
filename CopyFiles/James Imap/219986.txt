@@ -1,0 +1,1 @@
+Locale preferences are often either:\\\\* stored on a per-user basis\\* set for a particular server instance\\\\Adding locale preferences to MailboxSession would allow the Mailbox implementation to expose these i18n defaults. 

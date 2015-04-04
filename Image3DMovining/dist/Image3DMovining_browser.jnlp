@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="file:/Users/Rav/NetBeansProjects/Image3DMovining/dist/" href="Image3DMovining_browser.jnlp">
+    <information>
+        <title>Image3DMovining</title>
+        <vendor>${application.vendor}</vendor>
+        <homepage href=""/>
+        <description>Image3DMovining</description>
+        <icon kind="splash" href="http://dl.javafx.com/1.3/splash.png"/>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.3/javafx-rt.jnlp"/>
+        <jar href="Image3DMovining.jar" main="true" size="250407"/>
+    </resources>
+    <applet-desc name="Image3DMovining" main-class="com.sun.javafx.runtime.adapter.Applet" progress-class="com.javafx.progressbar.ProgressManager" width="200" height="200">
+        <param name="MainJavaFXScript" value="displayshelf.DisplayShelf"/>
+    </applet-desc>
+    <update check="always"/>
+</jnlp>

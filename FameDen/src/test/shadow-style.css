@@ -1,0 +1,22 @@
+/** 
+ * file: shadow-styles.css 
+ *   Place in same directory as CSSBoxStyles.java
+ *   Have your build system copy this file to your build output directory.
+ */
+.root {
+  -fx-app-background: cornsilk;
+  -fx-background-color: -fx-app-background;
+  -fx-padding: 20;
+}
+ 
+.right-page-turn {
+  -fx-rotate: 3; 
+  -fx-translate-y: -2; 
+  -fx-background-insets: 20 10 15 80; 
+  -fx-background-color: -fx-app-background; 
+  -fx-effect: dropshadow(three-pass-box, grey, 10, 0, 0, 15);
+}
+ 
+.content-pane {
+  -fx-background-color: whitesmoke;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane" prefHeight="326.0" prefWidth="241.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <ImageView fitHeight="337.41920471191406" fitWidth="1116.9269186042145" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Montreal_Twilight_Panorama_2006.jpg" />
+      </image>
+    </ImageView>
+    <Button fx:id="b1" layoutX="89.0" layoutY="159.0" mnemonicParsing="false" text="Button" />
+    <Button id="b1" fx:id="b2" layoutX="360.0" layoutY="159.0" mnemonicParsing="false" text="Button" />
+    <Button id="b1" fx:id="b3" layoutX="622.0" layoutY="159.0" mnemonicParsing="false" text="Button" />
+    <Button id="b1" fx:id="b4" layoutX="941.0" layoutY="159.0" mnemonicParsing="false" text="Button" />
+  </children>
+</Pane>

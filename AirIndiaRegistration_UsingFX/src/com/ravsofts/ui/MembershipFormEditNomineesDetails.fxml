@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="nomineePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="411.0" xmlns:fx="http://javafx.com/fxml" fx:controller="com.ravsofts.controller.edit.MembershipFormEditNomineesDetailsController">
+  <children>
+    <HBox alignment="CENTER" layoutX="61.0" layoutY="16.0" prefHeight="31.0" prefWidth="285.99993896484375">
+      <children>
+        <Label text="BSAEIA MEMBERSHIP FORM">
+          <font>
+            <Font name="System Bold" size="20.0" />
+          </font>
+        </Label>
+      </children>
+    </HBox>
+    <ImageView fitHeight="35.09999976380855" fitWidth="31.621620178222656" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../img/logo.png" preserveRatio="false" smooth="false" />
+      </image>
+    </ImageView>
+    <Separator layoutX="14.0" layoutY="64.0" prefWidth="383.0" />
+    <Button layoutX="352.0" layoutY="444.0" mnemonicParsing="false" onAction="#saveButtonHandle" text="Save" />
+    <TabPane layoutX="15.0" layoutY="74.0" prefHeight="357.0" prefWidth="383.0" style="-fx-border-color: black;&#10;-fx-border-width: 2;" tabClosingPolicy="UNAVAILABLE">
+      <tabs>
+        <Tab text="Nominee 1">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="310.0" prefWidth="379.0">
+              <children>
+                <AnchorPane layoutX="15.0" layoutY="14.0" prefHeight="294.0" prefWidth="350.0" >
+                  <children>
+                    <Label layoutX="14.0" layoutY="17.0" text="Full Name" />
+                    <TextField fx:id="nominee1FullName" layoutX="127.0" layoutY="14.0" prefWidth="200.0" promptText="Full Name" />
+                    <ChoiceBox fx:id="nominee1RelativeInfo" layoutX="12.0" layoutY="77.0" prefWidth="100.0">
+                      <items>
+                        <FXCollections fx:factory="observableArrayList">
+                          <String fx:value="S/O" />
+                          <String fx:value="W/O" />
+                          <String fx:value="D/O" />
+                        </FXCollections>
+                      </items>
+                    </ChoiceBox>
+                    <TextField fx:id="nominee1Age" layoutX="127.0" layoutY="49.0" prefWidth="200.0" promptText="Age" />
+                    <Label layoutX="14.0" layoutY="49.0" text="Age" />
+                    <TextField fx:id="nominee1Relative" layoutX="127.0" layoutY="77.0" prefWidth="200.0" promptText="Nominee's Relative" />
+                    <ChoiceBox fx:id="nominee1Proofs" layoutX="12.0" layoutY="110.0" prefWidth="100.0">
+                      <items>
+                        <FXCollections fx:factory="observableArrayList">
+                          <String fx:value="Pan No." />
+                          <String fx:value="Passport No." />
+                          <String fx:value="UID" />
+                          <String fx:value="License No." />
+                        </FXCollections>
+                      </items>
+                    </ChoiceBox>
+                    <TextField fx:id="nominee1IdentificationProof" layoutX="127.0" layoutY="109.0" prefWidth="200.0" promptText="Identification Proof" />
+                    <Label layoutX="14.0" layoutY="144.0" text="Related to Me As" />
+                    <TextField fx:id="nominee1Related" layoutX="127.0" layoutY="141.0" prefWidth="200.0" promptText="Relationship with Employee" />
+                    <Label layoutX="14.0" layoutY="177.0" text="Recieve %" />
+                    <TextField fx:id="nominee1Percentage" layoutX="127.0" layoutY="174.0" prefWidth="200.0" promptText="Percentage" />
+                    <Label layoutX="14.0" layoutY="230.0" text="Address" />
+                    <TextArea fx:id="nominee1Address" layoutX="127.0" layoutY="206.0" prefHeight="64.0" prefWidth="200.0" promptText="Address" wrapText="true" />
+                    <Button layoutX="185.0" layoutY="278.0" mnemonicParsing="false" text="Same as Employee Address" onAction="#copyAddressNominee1" />
+                  </children>
+                </AnchorPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Nominee 2">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="310.0" prefWidth="379.0">
+              <children>
+                <AnchorPane layoutX="15.0" layoutY="14.0" prefHeight="294.0" prefWidth="350.0">
+                  <children>
+                    <Label layoutX="14.0" layoutY="17.0" text="Full Name" />
+                    <TextField fx:id="nominee2FullName" layoutX="127.0" layoutY="14.0" prefWidth="200.0" promptText="Full Name" />
+                    <ChoiceBox fx:id="nominee2RelativeInfo" layoutX="12.0" layoutY="77.0" prefWidth="100.0">
+                      <items>
+                        <FXCollections fx:factory="observableArrayList">
+                          <String fx:value="S/O" />
+                          <String fx:value="W/O" />
+                          <String fx:value="D/O" />
+                        </FXCollections>
+                      </items>
+                    </ChoiceBox>
+                    <TextField fx:id="nominee2Age" layoutX="127.0" layoutY="49.0" prefWidth="200.0" promptText="Age" />
+                    <Label layoutX="14.0" layoutY="49.0" text="Age" />
+                    <TextField fx:id="nominee2Relative" layoutX="127.0" layoutY="77.0" prefWidth="200.0" promptText="Nominee's Relative" />
+                    <ChoiceBox fx:id="nominee2Proofs" layoutX="12.0" layoutY="110.0" prefWidth="100.0">
+                      <items>
+                        <FXCollections fx:factory="observableArrayList">
+                          <String fx:value="Pan No." />
+                          <String fx:value="Passport No." />
+                          <String fx:value="UID" />
+                          <String fx:value="License No." />
+                        </FXCollections>
+                      </items>
+                    </ChoiceBox>
+                    <TextField fx:id="nominee2IdentificationProof" layoutX="127.0" layoutY="109.0" prefWidth="200.0" promptText="Identification Proof" />
+                    <Label layoutX="14.0" layoutY="144.0" text="Related to Me As" />
+                    <TextField fx:id="nominee2Related" layoutX="127.0" layoutY="141.0" prefWidth="200.0" promptText="Relationship with Employee" />
+                    <Label layoutX="14.0" layoutY="177.0" text="Recieve %" />
+                    <TextField fx:id="nominee2Percentage" layoutX="127.0" layoutY="174.0" prefWidth="200.0" promptText="Percentage" />
+                    <Label layoutX="14.0" layoutY="230.0" text="Address" />
+                    <TextArea fx:id="nominee2Address" layoutX="127.0" layoutY="206.0" prefHeight="64.0" prefWidth="200.0" promptText="Address" wrapText="true" />
+                    <Button layoutX="185.0" layoutY="278.0" mnemonicParsing="false" text="Same as Employee Address" onAction="#copyAddressNominee2" />
+                  </children>
+                </AnchorPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Nominee 3">
+           <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="310.0" prefWidth="379.0">
+              <children>
+                <AnchorPane layoutX="15.0" layoutY="14.0" prefHeight="294.0" prefWidth="350.0">
+                  <children>
+                    <Label layoutX="14.0" layoutY="17.0" text="Full Name" />
+                    <TextField fx:id="nominee3FullName" layoutX="127.0" layoutY="14.0" prefWidth="200.0" promptText="Full Name" />
+                    <ChoiceBox fx:id="nominee3RelativeInfo" layoutX="12.0" layoutY="77.0" prefWidth="100.0">
+                      <items>
+                        <FXCollections fx:factory="observableArrayList">
+                          <String fx:value="S/O" />
+                          <String fx:value="W/O" />
+                          <String fx:value="D/O" />
+                        </FXCollections>
+                      </items>
+                    </ChoiceBox>
+                    <TextField fx:id="nominee3Age" layoutX="127.0" layoutY="49.0" prefWidth="200.0" promptText="Age" />
+                    <Label layoutX="14.0" layoutY="49.0" text="Age" />
+                    <TextField fx:id="nominee3Relative" layoutX="127.0" layoutY="77.0" prefWidth="200.0" promptText="Nominee's Relative" />
+                    <ChoiceBox fx:id="nominee3Proofs" layoutX="12.0" layoutY="110.0" prefWidth="100.0">
+                      <items>
+                        <FXCollections fx:factory="observableArrayList">
+                          <String fx:value="Pan No." />
+                          <String fx:value="Passport No." />
+                          <String fx:value="UID" />
+                          <String fx:value="License No." />
+                        </FXCollections>
+                      </items>
+                    </ChoiceBox>
+                    <TextField fx:id="nominee3IdentificationProof" layoutX="127.0" layoutY="109.0" prefWidth="200.0" promptText="Identification Proof" />
+                    <Label layoutX="14.0" layoutY="144.0" text="Related to Me As" />
+                    <TextField fx:id="nominee3Related" layoutX="127.0" layoutY="141.0" prefWidth="200.0" promptText="Relationship with Employee" />
+                    <Label layoutX="14.0" layoutY="177.0" text="Recieve %" />
+                    <TextField fx:id="nominee3Percentage" layoutX="127.0" layoutY="174.0" prefWidth="200.0" promptText="Percentage" />
+                    <Label layoutX="14.0" layoutY="230.0" text="Address" />
+                    <TextArea fx:id="nominee3Address" layoutX="127.0" layoutY="206.0" prefHeight="64.0" prefWidth="200.0" promptText="Address" wrapText="true" />
+                    <Button layoutX="185.0" layoutY="278.0" mnemonicParsing="false" text="Same as Employee Address" onAction="#copyAddressNominee3" />
+                  </children>
+                </AnchorPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Nominee 4">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="310.0" prefWidth="379.0">
+              <children>
+                <AnchorPane layoutX="15.0" layoutY="14.0" prefHeight="294.0" prefWidth="350.0">
+                  <children>
+                    <Label layoutX="14.0" layoutY="17.0" text="Full Name" />
+                    <TextField fx:id="nominee4FullName" layoutX="127.0" layoutY="14.0" prefWidth="200.0" promptText="Full Name" />
+                    <ChoiceBox fx:id="nominee4RelativeInfo" layoutX="12.0" layoutY="77.0" prefWidth="100.0">
+                      <items>
+                        <FXCollections fx:factory="observableArrayList">
+                          <String fx:value="S/O" />
+                          <String fx:value="W/O" />
+                          <String fx:value="D/O" />
+                        </FXCollections>
+                      </items>
+                    </ChoiceBox>
+                    <TextField fx:id="nominee4Age" layoutX="127.0" layoutY="49.0" prefWidth="200.0" promptText="Age" />
+                    <Label layoutX="14.0" layoutY="49.0" text="Age" />
+                    <TextField fx:id="nominee4Relative" layoutX="127.0" layoutY="77.0" prefWidth="200.0" promptText="Nominee's Relative" />
+                    <ChoiceBox fx:id="nominee4Proofs" layoutX="12.0" layoutY="110.0" prefWidth="100.0">
+                      <items>
+                        <FXCollections fx:factory="observableArrayList">
+                          <String fx:value="Pan No." />
+                          <String fx:value="Passport No." />
+                          <String fx:value="UID" />
+                          <String fx:value="License No." />
+                        </FXCollections>
+                      </items>
+                    </ChoiceBox>
+                    <TextField fx:id="nominee4IdentificationProof" layoutX="127.0" layoutY="109.0" prefWidth="200.0" promptText="Identification Proof" />
+                    <Label layoutX="14.0" layoutY="144.0" text="Related to Me As" />
+                    <TextField fx:id="nominee4Related" layoutX="127.0" layoutY="141.0" prefWidth="200.0" promptText="Relationship with Employee" />
+                    <Label layoutX="14.0" layoutY="177.0" text="Recieve %" />
+                    <TextField fx:id="nominee4Percentage" layoutX="127.0" layoutY="174.0" prefWidth="200.0" promptText="Percentage" />
+                    <Label layoutX="14.0" layoutY="230.0" text="Address" />
+                    <TextArea fx:id="nominee4Address" layoutX="127.0" layoutY="206.0" prefHeight="64.0" prefWidth="200.0" promptText="Address" wrapText="true" />
+                    <Button layoutX="185.0" layoutY="278.0" mnemonicParsing="false" text="Same as Employee Address" onAction="#copyAddressNominee4" />
+                  </children>
+                </AnchorPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+      </tabs>
+    </TabPane>
+  </children>
+</AnchorPane>

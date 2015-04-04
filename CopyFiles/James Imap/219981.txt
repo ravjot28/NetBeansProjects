@@ -1,0 +1,1 @@
+MailboxManager contains a number of hard coded constants. There is no reason why these should not vary per implemenation. They should be removed from the interface.

@@ -1,0 +1,1 @@
+When selecting a Mailbox (a select INBOX) we need to get the first unseen message. For this we fetch ALL unseen messages and just return\\the first after that.\\I think we should just fetch 1 message\, because we only need one!\\

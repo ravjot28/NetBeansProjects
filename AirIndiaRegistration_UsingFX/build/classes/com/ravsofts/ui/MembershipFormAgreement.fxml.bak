@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="239.0" prefWidth="411.0" xmlns:fx="http://javafx.com/fxml" fx:controller="com.ravsofts.controller.MembershipFormAgreementController">
+  <children>
+    <HBox alignment="CENTER" layoutX="61.0" layoutY="16.0" prefHeight="31.0" prefWidth="285.99993896484375">
+      <children>
+        <Label text="BSAEIA MEMBERSHIP FORM">
+          <font>
+            <Font name="System Bold" size="20.0" />
+          </font>
+        </Label>
+      </children>
+    </HBox>
+    <ImageView fitHeight="35.09999976380855" fitWidth="31.621620178222656" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../img/logo.png" preserveRatio="false" smooth="false" />
+      </image>
+    </ImageView>
+    <Separator layoutX="14.0" layoutY="64.0" prefWidth="383.0" />
+    <Pane fx:id="pane" layoutX="14.0" layoutY="74.0" prefHeight="128.0" prefWidth="383.0" style="-fx-background-color: rgba(0, 100, 100, 0.5); &#10;-fx-background-radius: 10;">
+      <children>
+        <TextArea editable="false" layoutX="14.0" layoutY="14.0" prefHeight="99.9999915527369" prefWidth="355.0" style="-fx-background-color: rgba(0, 0, 0, 0.5); &#10;-fx-background-radius: 10;" text="I would like to become a memeber of Benevolent Society for Aircraft Engineers of Indian Airlines (Regd.)&#10;&#10;I shall abide by the rules and regulations and decision taken by the Managing Committee as per the constitution of the Benevolent Society for Aircraft Engineers of Indian Airlines (Regd.).&#10;&#10;I take complete responsibility to edit my profile data, if required." wrapText="true" />
+        <!--<TextField fx:id="dob" layoutX="124.0" layoutY="81.0" onAction="#moveToAddressDetailsPage" prefWidth="200.0" promptText="Date Of Birth" /> -->
+      </children>
+    </Pane>
+    <Button layoutX="14.0" layoutY="210.0" mnemonicParsing="false" text="I Disagree" />
+    <Button layoutX="338.0" layoutY="210.0" mnemonicParsing="false" text="I Agree" />
+  </children>
+</AnchorPane>

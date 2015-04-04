@@ -1,0 +1,1 @@
+existsMailboxStartingWith() is only used to find out whether a mailbox has children. For some implementations it&#39;s more efficient to use another mechanism (e.g. JCR nodes have a hasNodes() method). Thus existsMailboxStartingWith() should be removed\

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="309.0" prefWidth="461.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication2.LoginPageFXMLController">
+  <children>
+    <Button fx:id="button" layoutX="207.0" layoutY="254.0" mnemonicParsing="false" onAction="#pankaj" text="Button" />
+    <PasswordField fx:id="password" layoutX="107.0" layoutY="144.0" prefWidth="200.0" />
+  </children>
+  <stylesheets>
+    <URL value="@loginpagefxml.css" />
+  </stylesheets>
+</AnchorPane>

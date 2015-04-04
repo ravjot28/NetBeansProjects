@@ -1,0 +1,1 @@
+We should close the EntityManager after each request.

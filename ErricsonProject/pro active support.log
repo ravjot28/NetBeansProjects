@@ -1,0 +1,715 @@
+MGWG031> get 0
+
+120203-12:44:36 10.85.131.26 8.0z MGW_NODE_MODEL_B_15_217 stopfile=/tmp/23329
+=================================================================================================================
+0                                    ManagedElement=1
+=================================================================================================================
+ManagedElementId                     1
+applicationConfiguration             t[0] = 
+faultTolerantCoreStates              s[2] = ManagedElement=1,Equipment=1,Subrack=MAIN,Slot=4,PlugInUnit=1;ftcState=Active ManagedElement=1,Equipment=1,Subrack=MAIN,Slot=24,PlugInUnit=1;ftcState=PassiveReady 
+healthCheckResult                    Struct{3}
+ >>> 1.healthCheckResultCode = 0 (OK)
+ >>> 2.message = 
+ >>> 3.startTime = 2012-01-31 20:23
+healthCheckSchedule                  t[0] = 
+logicalName                          
+mimInfo                              Struct{3}
+ >>> 1.mimName = MGW_NODE_MODEL_B
+ >>> 2.mimVersion = 15
+ >>> 3.mimRelease = 217
+mimName                              MGW_NODE_MODEL_B
+productName                          AXM10101/10
+productNumber                        GMPV4_NDP_R6.2.0.0B
+productRevision                      R1A
+productType                          Node
+site                                 
+userLabel                            MGWG031
+=================================================================================================================
+Total: 1 MOs
+
+
+MGWG031> ! Check if software level is less than R6.2.0.0 you need to  report it.!
+
+sh: Check: not found
+
+MGWG031> lh licdb fro_lici_data_list
+
+120203-12:47:42 10.85.131.26 8.0z MGW_NODE_MODEL_B_15_217 stopfile=/tmp/23329
+=============================================================================================
+$ lhsh 012000 fro_lici_data_list
+0120: rcmd: unknown command 'fro_lici_data_list'
+=============================================================================================
+$ lhsh 012700 fro_lici_data_list
+0127: rcmd: unknown command 'fro_lici_data_list'
+$ 
+
+MGWG031> help license
+
+120203-12:47:58 10.85.131.26 8.0z MGW_NODE_MODEL_B_15_217 stopfile=/tmp/23329
+$ help license
+NAME
+    license - License server command (license <cmd>)
+
+SYNOPSIS
+    license <cmd>
+
+$ 
+
+MGWG031> license
+
+120203-12:48:07 10.85.131.26 8.0z MGW_NODE_MODEL_B_15_217 stopfile=/tmp/23329
+$ license
+Usage: license <cmd>
+Available command:
+license server   : Licence server status
+license client   : License server clients
+license sub      : License server client subscriptions
+license lkf      : License key file status
+license key      : Installed license keys
+license iu       : Integration unlock
+$ 
+
+MGWG031> license key
+
+120203-12:48:18 10.85.131.26 8.0z MGW_NODE_MODEL_B_15_217 stopfile=/tmp/23329
+$ license key
+Feature Id            : CXC4010071/3042
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3033
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3032
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3030
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3015
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3034
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3008
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3007
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3006
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3009
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3025
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3022
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3023
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3037
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3024
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3018
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3017
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3016
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3044
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Feature Id            : CXC4010071/3005
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+
+Capacity Id           : CXC4010071/3040
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+Capacity Level        : 64
+Hard Limit            : 64
+
+Capacity Id           : CXC4010071/3021
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+Capacity Level        : 96
+Hard Limit            : 96
+
+Capacity Id           : CXC4010071/3002
+Start Date            : 2011-09-11
+Stop Date             : 9999-12-31
+Capacity Level        : 72180
+Hard Limit            : 72180
+
+$ 
+
+MGWG031> lhsh 000200 readclock
+
+120203-12:54:43 10.85.131.26 8.0z MGW_NODE_MODEL_B_15_217 stopfile=/tmp/23329
+$ lhsh 000200 readclock
+Date: 2012-02-03 Time: 07:24:31. Friday
+$ 
+
+MGWG031> lh coremp readclock
+
+120203-12:55:11 10.85.131.26 8.0z MGW_NODE_MODEL_B_15_217 stopfile=/tmp/23329
+=============================================================================================
+$ lhsh 000400 readclock
+0004: Date: 2012-02-03 Time: 07:24:59. Friday
+=============================================================================================
+$ lhsh 002400 readclock
+0024: Date: 2012-02-03 Time: 07:25:00. Friday
+$ 
+
+MGWG031> altk
+
+120203-12:56:28 10.85.131.26 8.0z MGW_NODE_MODEL_B_15_217 stopfile=/tmp/23329
+Connecting to 10.85.131.26:56834 (CorbaSecurity=OFF, corba_class=2, java=1.5.0_24, jacoms=R61HH09, jacorb=R61HH01, jacsec=R61HH01)
+Trying file=/home/ericuser/moshell_logfiles/logs_moshell/tempfiles/20120203-084300_23283/ior23283
+Resolving the alarm service in OMS...
+Simple Alarm Client initialized...
+Starting to retrieve active alarms
+Nr of active alarms are: 26
+UNACKNOWLEDGED ALARMS: 26
+====================================================================================================================
+Date & Time (Local) S Specific Problem                    MO (Cause/AdditionalInfo)
+====================================================================================================================
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-2,Vc4Ttp=1,Vc12Ttp=3,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=24,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-23-4,Vc4Ttp=1,Vc12Ttp=63,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:55 w PDH Remote Defect Indication        Subrack=MSE2,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-23-1,Vc4Ttp=1,Vc12Ttp=60,E1Ttp=1 (far_end_receiver_failure) 
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE1,Slot=10,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-10-2,Vc4Ttp=1,Vc12Ttp=55,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:55 M VC12 Unequipped Defect              Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-2,Vc4Ttp=1,Vc12Ttp=50 (Vc12Ttp on MSE1-23-2 Adjacent node: VACANT) 
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-23-1,Vc4Ttp=1,Vc12Ttp=16,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:55 M VC12 Unequipped Defect              Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-4,Vc4Ttp=1,Vc12Ttp=47 (Vc12Ttp on MSE2-17-4 Adjacent node: VACANT) 
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=21,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-21-1,Vc4Ttp=1,Vc12Ttp=48,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:55 M VC12 Unequipped Defect              Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-4,Vc4Ttp=1,Vc12Ttp=42 (Vc12Ttp on MSE2-17-4 Adjacent node: VACANT) 
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=21,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-21-1,Vc4Ttp=1,Vc12Ttp=23,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:55 w TU12 Alarm Indication Signal        Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-2,Vc4Ttp=1,Vc12Ttp=22 (Vc12Ttp on MSE2-17-2 Adjacent node: VACANT) 
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-4,Vc4Ttp=1,Vc12Ttp=54,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-4,Vc4Ttp=1,Vc12Ttp=33,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-2,Vc4Ttp=1,Vc12Ttp=13,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:59 M TDM Termination Group, Configuration Mismatch TdmTermGrp=MZ1971_PcmNr_MSE1-23-1-35 (MZ1971_PcmNr_MSE1-23-1-35) 
+2012-02-01 00:59:59 M TDM Termination Group, Configuration Mismatch TdmTermGrp=INAPG3O_PcmNr_MSE1-23-2-50 (INAPG3O_PcmNr_MSE1-23-2-50) 
+2012-02-01 01:00:41 M ISDN Q.921 Signalling Down          AccessSignalling=1 (The problem found at the Reliable Program Uniter(s) acsg_lapd, acsg_lapd Failed Entity: AAL1 User Plane) 
+2012-02-01 12:30:01 M VC12 Unequipped Defect              Subrack=MSE1,Slot=10,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-10-2,Vc4Ttp=1,Vc12Ttp=2 (Vc12Ttp on MSE1-10-2 Adjacent node: VACANT) 
+2012-02-02 01:46:09 w PDH Remote Defect Indication        Subrack=MSE1,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-17-1,Vc4Ttp=1,Vc12Ttp=14,E1Ttp=1 (far_end_receiver_failure) 
+2012-02-03 00:53:01 w PDH Alarm Indication Signal         Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=55,E1Ttp=1 (alarm_indication_signal) 
+2012-02-03 00:53:46 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=21,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-21-4,Vc4Ttp=1,Vc12Ttp=36,E1Ttp=1 (alarm_indication_signal) 
+2012-02-03 01:16:16 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=21,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-21-4,Vc4Ttp=1,Vc12Ttp=35,E1Ttp=1 (alarm_indication_signal) 
+2012-02-03 01:16:16 w PDH Alarm Indication Signal         Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=54,E1Ttp=1 (alarm_indication_signal) 
+2012-02-03 01:16:16 w PDH Alarm Indication Signal         Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=53,E1Ttp=1 (alarm_indication_signal) 
+2012-02-03 01:16:16 w PDH Alarm Indication Signal         Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=52,E1Ttp=1 (alarm_indication_signal) 
+
+ACKNOWLEDGED ALARMS: 0
+====================================================================================================================
+Date & Time (Local) S Specific Problem                    MO (Cause/AdditionalInfo) Operator
+====================================================================================================================
+>>> Total: 26 Alarms (0 Critical, 7 Major)
+
+MGWG031> ala
+
+120203-12:56:59 10.85.131.26 8.0z MGW_NODE_MODEL_B_15_217 stopfile=/tmp/23329
+Connecting to 10.85.131.26:56834 (CorbaSecurity=OFF, corba_class=2, java=1.5.0_24, jacoms=R61HH09, jacorb=R61HH01, jacsec=R61HH01)
+Trying file=/home/ericuser/moshell_logfiles/logs_moshell/tempfiles/20120203-084300_23283/ior23283
+Resolving the alarm service in OMS...
+Simple Alarm Client initialized...
+Starting to retrieve active alarms
+Nr of active alarms are: 26
+====================================================================================================================
+Sever Specific Problem                    MO (Cause/AdditionalInfo)
+====================================================================================================================
+Maj   ISDN Q.921 Signalling Down          AccessSignalling=1 (The problem found at the Reliable Program Uniter(s) acsg_lapd, acsg_lapd Failed Entity: AAL1 User Plane)
+Maj   TDM Termination Group, Configuration Mismatch TdmTermGrp=INAPG3O_PcmNr_MSE1-23-2-50 (INAPG3O_PcmNr_MSE1-23-2-50)
+Maj   TDM Termination Group, Configuration Mismatch TdmTermGrp=MZ1971_PcmNr_MSE1-23-1-35 (MZ1971_PcmNr_MSE1-23-1-35)
+Maj   VC12 Unequipped Defect              Subrack=MSE1,Slot=10,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-10-2,Vc4Ttp=1,Vc12Ttp=2 (Vc12Ttp on MSE1-10-2 Adjacent node: VACANT)
+Maj   VC12 Unequipped Defect              Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-2,Vc4Ttp=1,Vc12Ttp=50 (Vc12Ttp on MSE1-23-2 Adjacent node: VACANT)
+Maj   VC12 Unequipped Defect              Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-4,Vc4Ttp=1,Vc12Ttp=42 (Vc12Ttp on MSE2-17-4 Adjacent node: VACANT)
+Maj   VC12 Unequipped Defect              Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-4,Vc4Ttp=1,Vc12Ttp=47 (Vc12Ttp on MSE2-17-4 Adjacent node: VACANT)
+Warn  PDH Alarm Indication Signal         Subrack=MSE1,Slot=10,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-10-2,Vc4Ttp=1,Vc12Ttp=55,E1Ttp=1 (alarm_indication_signal)
+Warn  PDH Alarm Indication Signal         Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=24,E1Ttp=1 (alarm_indication_signal)
+Warn  PDH Alarm Indication Signal         Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=52,E1Ttp=1 (alarm_indication_signal)
+Warn  PDH Alarm Indication Signal         Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=53,E1Ttp=1 (alarm_indication_signal)
+Warn  PDH Alarm Indication Signal         Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=54,E1Ttp=1 (alarm_indication_signal)
+Warn  PDH Alarm Indication Signal         Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=55,E1Ttp=1 (alarm_indication_signal)
+Warn  PDH Alarm Indication Signal         Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-2,Vc4Ttp=1,Vc12Ttp=13,E1Ttp=1 (alarm_indication_signal)
+Warn  PDH Alarm Indication Signal         Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-2,Vc4Ttp=1,Vc12Ttp=3,E1Ttp=1 (alarm_indication_signal)
+Warn  PDH Alarm Indication Signal         Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-4,Vc4Ttp=1,Vc12Ttp=33,E1Ttp=1 (alarm_indication_signal)
+Warn  PDH Alarm Indication Signal         Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-4,Vc4Ttp=1,Vc12Ttp=54,E1Ttp=1 (alarm_indication_signal)
+Warn  PDH Alarm Indication Signal         Subrack=MSE2,Slot=21,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-21-1,Vc4Ttp=1,Vc12Ttp=23,E1Ttp=1 (alarm_indication_signal)
+Warn  PDH Alarm Indication Signal         Subrack=MSE2,Slot=21,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-21-1,Vc4Ttp=1,Vc12Ttp=48,E1Ttp=1 (alarm_indication_signal)
+Warn  PDH Alarm Indication Signal         Subrack=MSE2,Slot=21,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-21-4,Vc4Ttp=1,Vc12Ttp=35,E1Ttp=1 (alarm_indication_signal)
+Warn  PDH Alarm Indication Signal         Subrack=MSE2,Slot=21,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-21-4,Vc4Ttp=1,Vc12Ttp=36,E1Ttp=1 (alarm_indication_signal)
+Warn  PDH Alarm Indication Signal         Subrack=MSE2,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-23-1,Vc4Ttp=1,Vc12Ttp=16,E1Ttp=1 (alarm_indication_signal)
+Warn  PDH Alarm Indication Signal         Subrack=MSE2,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-23-4,Vc4Ttp=1,Vc12Ttp=63,E1Ttp=1 (alarm_indication_signal)
+Warn  PDH Remote Defect Indication        Subrack=MSE1,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-17-1,Vc4Ttp=1,Vc12Ttp=14,E1Ttp=1 (far_end_receiver_failure)
+Warn  PDH Remote Defect Indication        Subrack=MSE2,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-23-1,Vc4Ttp=1,Vc12Ttp=60,E1Ttp=1 (far_end_receiver_failure)
+Warn  TU12 Alarm Indication Signal        Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-2,Vc4Ttp=1,Vc12Ttp=22 (Vc12Ttp on MSE2-17-2 Adjacent node: VACANT)
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_160
+Event Time : Feb 1, 2012 1:00:41 AM
+Perceived Severity : Major
+Managed Object Class : AccessSignalling
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,AccessSignalling=1
+Specific Problem : ISDN Q.921 Signalling Down
+Probable Cause : communication_subsystem_failure
+Additional Text : The problem found at the Reliable Program Uniter(s) acsg_lapd, acsg_lapd
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 2099
+Additional Info : Failed Entity = AAL1 User Plane
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_150
+Event Time : Feb 1, 2012 12:59:59 AM
+Perceived Severity : Major
+Managed Object Class : TdmTermGrp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,MgwApplication=1,TdmTermGrp=INAPG3O_PcmNr_MSE1-23-2-50
+Specific Problem : TDM Termination Group, Configuration Mismatch
+Probable Cause : configuration_or_customizing_error
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 2087
+Additional Info : userLabel = INAPG3O_PcmNr_MSE1-23-2-50
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_151
+Event Time : Feb 1, 2012 12:59:59 AM
+Perceived Severity : Major
+Managed Object Class : TdmTermGrp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,MgwApplication=1,TdmTermGrp=MZ1971_PcmNr_MSE1-23-1-35
+Specific Problem : TDM Termination Group, Configuration Mismatch
+Probable Cause : configuration_or_customizing_error
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 2088
+Additional Info : userLabel = MZ1971_PcmNr_MSE1-23-1-35
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_393
+Event Time : Feb 1, 2012 12:30:01 PM
+Perceived Severity : Major
+Managed Object Class : Vc12Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE1,Slot=10,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-10-2,Vc4Ttp=1,Vc12Ttp=2
+Specific Problem : VC12 Unequipped Defect
+Probable Cause : signal_label_mismatch
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 2435
+Additional Info : userLabel = Vc12Ttp on MSE1-10-2 Adjacent node: VACANT
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_65
+Event Time : Feb 1, 2012 12:59:55 AM
+Perceived Severity : Major
+Managed Object Class : Vc12Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-2,Vc4Ttp=1,Vc12Ttp=50
+Specific Problem : VC12 Unequipped Defect
+Probable Cause : signal_label_mismatch
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 65
+Additional Info : userLabel = Vc12Ttp on MSE1-23-2 Adjacent node: VACANT
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_63
+Event Time : Feb 1, 2012 12:59:55 AM
+Perceived Severity : Major
+Managed Object Class : Vc12Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-4,Vc4Ttp=1,Vc12Ttp=42
+Specific Problem : VC12 Unequipped Defect
+Probable Cause : signal_label_mismatch
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 63
+Additional Info : userLabel = Vc12Ttp on MSE2-17-4 Adjacent node: VACANT
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_64
+Event Time : Feb 1, 2012 12:59:55 AM
+Perceived Severity : Major
+Managed Object Class : Vc12Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-4,Vc4Ttp=1,Vc12Ttp=47
+Specific Problem : VC12 Unequipped Defect
+Probable Cause : signal_label_mismatch
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 64
+Additional Info : userLabel = Vc12Ttp on MSE2-17-4 Adjacent node: VACANT
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_66
+Event Time : Feb 1, 2012 12:59:55 AM
+Perceived Severity : Warning
+Managed Object Class : E1Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE1,Slot=10,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-10-2,Vc4Ttp=1,Vc12Ttp=55,E1Ttp=1
+Specific Problem : PDH Alarm Indication Signal
+Probable Cause : alarm_indication_signal
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 174
+Additional Info : 
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_140
+Event Time : Feb 1, 2012 12:59:55 AM
+Perceived Severity : Warning
+Managed Object Class : E1Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=24,E1Ttp=1
+Specific Problem : PDH Alarm Indication Signal
+Probable Cause : alarm_indication_signal
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 1898
+Additional Info : 
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_1005
+Event Time : Feb 3, 2012 1:16:16 AM
+Perceived Severity : Warning
+Managed Object Class : E1Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=52,E1Ttp=1
+Specific Problem : PDH Alarm Indication Signal
+Probable Cause : alarm_indication_signal
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 3107
+Additional Info : 
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_1006
+Event Time : Feb 3, 2012 1:16:16 AM
+Perceived Severity : Warning
+Managed Object Class : E1Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=53,E1Ttp=1
+Specific Problem : PDH Alarm Indication Signal
+Probable Cause : alarm_indication_signal
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 3108
+Additional Info : 
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_1007
+Event Time : Feb 3, 2012 1:16:16 AM
+Perceived Severity : Warning
+Managed Object Class : E1Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=54,E1Ttp=1
+Specific Problem : PDH Alarm Indication Signal
+Probable Cause : alarm_indication_signal
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 3109
+Additional Info : 
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_999
+Event Time : Feb 3, 2012 12:53:01 AM
+Perceived Severity : Warning
+Managed Object Class : E1Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=55,E1Ttp=1
+Specific Problem : PDH Alarm Indication Signal
+Probable Cause : alarm_indication_signal
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 3101
+Additional Info : 
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_130
+Event Time : Feb 1, 2012 12:59:55 AM
+Perceived Severity : Warning
+Managed Object Class : E1Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-2,Vc4Ttp=1,Vc12Ttp=13,E1Ttp=1
+Specific Problem : PDH Alarm Indication Signal
+Probable Cause : alarm_indication_signal
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 1331
+Additional Info : 
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_129
+Event Time : Feb 1, 2012 12:59:55 AM
+Perceived Severity : Warning
+Managed Object Class : E1Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-2,Vc4Ttp=1,Vc12Ttp=3,E1Ttp=1
+Specific Problem : PDH Alarm Indication Signal
+Probable Cause : alarm_indication_signal
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 1321
+Additional Info : 
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_131
+Event Time : Feb 1, 2012 12:59:55 AM
+Perceived Severity : Warning
+Managed Object Class : E1Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-4,Vc4Ttp=1,Vc12Ttp=33,E1Ttp=1
+Specific Problem : PDH Alarm Indication Signal
+Probable Cause : alarm_indication_signal
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 1431
+Additional Info : 
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_133
+Event Time : Feb 1, 2012 12:59:55 AM
+Perceived Severity : Warning
+Managed Object Class : E1Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-4,Vc4Ttp=1,Vc12Ttp=54,E1Ttp=1
+Specific Problem : PDH Alarm Indication Signal
+Probable Cause : alarm_indication_signal
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 1438
+Additional Info : 
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_135
+Event Time : Feb 1, 2012 12:59:55 AM
+Perceived Severity : Warning
+Managed Object Class : E1Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE2,Slot=21,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-21-1,Vc4Ttp=1,Vc12Ttp=23,E1Ttp=1
+Specific Problem : PDH Alarm Indication Signal
+Probable Cause : alarm_indication_signal
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 1463
+Additional Info : 
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_136
+Event Time : Feb 1, 2012 12:59:55 AM
+Perceived Severity : Warning
+Managed Object Class : E1Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE2,Slot=21,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-21-1,Vc4Ttp=1,Vc12Ttp=48,E1Ttp=1
+Specific Problem : PDH Alarm Indication Signal
+Probable Cause : alarm_indication_signal
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 1470
+Additional Info : 
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_1004
+Event Time : Feb 3, 2012 1:16:16 AM
+Perceived Severity : Warning
+Managed Object Class : E1Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE2,Slot=21,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-21-4,Vc4Ttp=1,Vc12Ttp=35,E1Ttp=1
+Specific Problem : PDH Alarm Indication Signal
+Probable Cause : alarm_indication_signal
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 3106
+Additional Info : 
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_1000
+Event Time : Feb 3, 2012 12:53:46 AM
+Perceived Severity : Warning
+Managed Object Class : E1Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE2,Slot=21,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-21-4,Vc4Ttp=1,Vc12Ttp=36,E1Ttp=1
+Specific Problem : PDH Alarm Indication Signal
+Probable Cause : alarm_indication_signal
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 3102
+Additional Info : 
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_137
+Event Time : Feb 1, 2012 12:59:55 AM
+Perceived Severity : Warning
+Managed Object Class : E1Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE2,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-23-1,Vc4Ttp=1,Vc12Ttp=16,E1Ttp=1
+Specific Problem : PDH Alarm Indication Signal
+Probable Cause : alarm_indication_signal
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 1672
+Additional Info : 
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_139
+Event Time : Feb 1, 2012 12:59:55 AM
+Perceived Severity : Warning
+Managed Object Class : E1Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE2,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-23-4,Vc4Ttp=1,Vc12Ttp=63,E1Ttp=1
+Specific Problem : PDH Alarm Indication Signal
+Probable Cause : alarm_indication_signal
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 1878
+Additional Info : 
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_608
+Event Time : Feb 2, 2012 1:46:09 AM
+Perceived Severity : Warning
+Managed Object Class : E1Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE1,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-17-1,Vc4Ttp=1,Vc12Ttp=14,E1Ttp=1
+Specific Problem : PDH Remote Defect Indication
+Probable Cause : far_end_receiver_failure
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 2674
+Additional Info : 
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_138
+Event Time : Feb 1, 2012 12:59:55 AM
+Perceived Severity : Warning
+Managed Object Class : E1Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE2,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-23-1,Vc4Ttp=1,Vc12Ttp=60,E1Ttp=1
+Specific Problem : PDH Remote Defect Indication
+Probable Cause : far_end_receiver_failure
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 1703
+Additional Info : 
+
+Alarm Id : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031_62
+Event Time : Feb 1, 2012 12:59:55 AM
+Perceived Severity : Warning
+Managed Object Class : Vc12Ttp
+Managed Object Instance : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031,ManagedElement=1,Equipment=1,Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-2,Vc4Ttp=1,Vc12Ttp=22
+Specific Problem : TU12 Alarm Indication Signal
+Probable Cause : alarm_indication_signal
+Additional Text : 
+Acknowledged by : 
+Acknowledgement Time : 0
+Acknowledgement State: 2
+System DN : SubNetwork=ONRM_ROOT_MO_R,MeContext=MGWG031
+Notification Id : 62
+Additional Info : userLabel = Vc12Ttp on MSE2-17-2 Adjacent node: VACANT
+>>> Total: 26 Alarms (0 Critical, 7 Major)
+
+MGWG031> altk
+
+120203-13:00:11 10.85.131.26 8.0z MGW_NODE_MODEL_B_15_217 stopfile=/tmp/23329
+Connecting to 10.85.131.26:56834 (CorbaSecurity=OFF, corba_class=2, java=1.5.0_24, jacoms=R61HH09, jacorb=R61HH01, jacsec=R61HH01)
+Trying file=/home/ericuser/moshell_logfiles/logs_moshell/tempfiles/20120203-084300_23283/ior23283
+Resolving the alarm service in OMS...
+Simple Alarm Client initialized...
+Starting to retrieve active alarms
+Nr of active alarms are: 26
+UNACKNOWLEDGED ALARMS: 26
+====================================================================================================================
+Date & Time (Local) S Specific Problem                    MO (Cause/AdditionalInfo)
+====================================================================================================================
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-2,Vc4Ttp=1,Vc12Ttp=3,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=24,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-23-4,Vc4Ttp=1,Vc12Ttp=63,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:55 w PDH Remote Defect Indication        Subrack=MSE2,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-23-1,Vc4Ttp=1,Vc12Ttp=60,E1Ttp=1 (far_end_receiver_failure) 
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE1,Slot=10,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-10-2,Vc4Ttp=1,Vc12Ttp=55,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:55 M VC12 Unequipped Defect              Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-2,Vc4Ttp=1,Vc12Ttp=50 (Vc12Ttp on MSE1-23-2 Adjacent node: VACANT) 
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-23-1,Vc4Ttp=1,Vc12Ttp=16,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:55 M VC12 Unequipped Defect              Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-4,Vc4Ttp=1,Vc12Ttp=47 (Vc12Ttp on MSE2-17-4 Adjacent node: VACANT) 
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=21,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-21-1,Vc4Ttp=1,Vc12Ttp=48,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:55 M VC12 Unequipped Defect              Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-4,Vc4Ttp=1,Vc12Ttp=42 (Vc12Ttp on MSE2-17-4 Adjacent node: VACANT) 
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=21,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-21-1,Vc4Ttp=1,Vc12Ttp=23,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:55 w TU12 Alarm Indication Signal        Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-2,Vc4Ttp=1,Vc12Ttp=22 (Vc12Ttp on MSE2-17-2 Adjacent node: VACANT) 
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-4,Vc4Ttp=1,Vc12Ttp=54,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-4,Vc4Ttp=1,Vc12Ttp=33,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:55 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-17-2,Vc4Ttp=1,Vc12Ttp=13,E1Ttp=1 (alarm_indication_signal) 
+2012-02-01 00:59:59 M TDM Termination Group, Configuration Mismatch TdmTermGrp=MZ1971_PcmNr_MSE1-23-1-35 (MZ1971_PcmNr_MSE1-23-1-35) 
+2012-02-01 00:59:59 M TDM Termination Group, Configuration Mismatch TdmTermGrp=INAPG3O_PcmNr_MSE1-23-2-50 (INAPG3O_PcmNr_MSE1-23-2-50) 
+2012-02-01 01:00:41 M ISDN Q.921 Signalling Down          AccessSignalling=1 (The problem found at the Reliable Program Uniter(s) acsg_lapd, acsg_lapd Failed Entity: AAL1 User Plane) 
+2012-02-01 12:30:01 M VC12 Unequipped Defect              Subrack=MSE1,Slot=10,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-10-2,Vc4Ttp=1,Vc12Ttp=2 (Vc12Ttp on MSE1-10-2 Adjacent node: VACANT) 
+2012-02-02 01:46:09 w PDH Remote Defect Indication        Subrack=MSE1,Slot=17,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-17-1,Vc4Ttp=1,Vc12Ttp=14,E1Ttp=1 (far_end_receiver_failure) 
+2012-02-03 00:53:01 w PDH Alarm Indication Signal         Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=55,E1Ttp=1 (alarm_indication_signal) 
+2012-02-03 00:53:46 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=21,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-21-4,Vc4Ttp=1,Vc12Ttp=36,E1Ttp=1 (alarm_indication_signal) 
+2012-02-03 01:16:16 w PDH Alarm Indication Signal         Subrack=MSE2,Slot=21,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE2-21-4,Vc4Ttp=1,Vc12Ttp=35,E1Ttp=1 (alarm_indication_signal) 
+2012-02-03 01:16:16 w PDH Alarm Indication Signal         Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=54,E1Ttp=1 (alarm_indication_signal) 
+2012-02-03 01:16:16 w PDH Alarm Indication Signal         Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=53,E1Ttp=1 (alarm_indication_signal) 
+2012-02-03 01:16:16 w PDH Alarm Indication Signal         Subrack=MSE1,Slot=23,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=MSE1-23-1,Vc4Ttp=1,Vc12Ttp=52,E1Ttp=1 (alarm_indication_signal) 
+
+ACKNOWLEDGED ALARMS: 0
+====================================================================================================================
+Date & Time (Local) S Specific Problem                    MO (Cause/AdditionalInfo) Operator
+====================================================================================================================
+>>> Total: 26 Alarms (0 Critical, 7 Major)
+

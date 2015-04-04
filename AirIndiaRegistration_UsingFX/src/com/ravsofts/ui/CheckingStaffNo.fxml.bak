@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="265.0" prefWidth="411.0" xmlns:fx="http://javafx.com/fxml" fx:controller="com.ravsofts.controller.MembershipFormAddressDetailsController">
+  <children>
+    <HBox alignment="CENTER" layoutX="61.0" layoutY="16.0" prefHeight="31.0" prefWidth="285.99993896484375">
+      <children>
+        <Label text="BSAEIA MEMBERSHIP FORM">
+          <font>
+            <Font name="System Bold" size="20.0" />
+          </font>
+        </Label>
+      </children>
+    </HBox>
+    <ImageView fitHeight="35.09999976380855" fitWidth="31.621620178222656" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../img/logo.png" preserveRatio="false" smooth="false" />
+      </image>
+    </ImageView>
+    <Separator layoutX="14.0" layoutY="64.0" prefWidth="383.0" />
+    <Pane layoutX="14.0" layoutY="74.0" prefHeight="177.0" prefWidth="383.0" style="-fx-border-color:black;">
+      <children>
+        <ImageView fitHeight="149.0" fitWidth="198.66666666666666" layoutX="92.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/Searching.gif" preserveRatio="false" smooth="false" />
+          </image>
+        </ImageView>
+        <Label layoutX="14.0" layoutY="22.0" text="Validating the Staff No. Please Wait......." />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>

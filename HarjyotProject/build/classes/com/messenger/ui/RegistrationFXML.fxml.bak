@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" minHeight="304.1403503417969" minWidth="326.0814208984375" prefHeight="488.1222229003906" prefWidth="326.0814208984375" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml" fx:controller="com.messenger.controller.RegistrationFXMLController">
+  <children>
+    <ImageView fitHeight="489.1221923828125" fitWidth="326.08147161753914" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../images/00044.jpg" preserveRatio="false" smooth="false" />
+      </image>
+    </ImageView>
+    <VBox layoutX="12.0" layoutY="10.0" prefHeight="468.0" prefWidth="303.0" style="-fx-background-color: rgba(245,245,245, 0.6);&#10;-fx-background-radius: 10;">
+      <children>
+        <HBox alignment="CENTER" prefHeight="58.0" prefWidth="303.0">
+          <children>
+            <Label text="GTBIT Messenger Registration">
+              <font>
+                <Font name="System Bold" size="20.0" />
+              </font>
+            </Label>
+          </children>
+        </HBox>
+        <HBox prefHeight="47.0" prefWidth="303.0" />
+        <HBox alignment="CENTER" prefHeight="58.0" prefWidth="303.0">
+          <children>
+            <TextField fx:id="fullName" prefHeight="47.0" prefWidth="252.0" promptText="Full Name" style="-fx-font: 17px Tahoma;&#10;-fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);&#10;-fx-stroke: black;&#10;-fx-stroke-width: 1; &#10;-fx-prompt-text-fill:grey;" />
+          </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="58.0" prefWidth="303.0">
+          <children>
+            <TextField fx:id="enrollNo" prefHeight="47.0" prefWidth="252.0" promptText="Enrollment Number" style="-fx-font: 17px Tahoma;&#10;-fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);&#10;-fx-stroke: black;&#10;-fx-stroke-width: 1; &#10;-fx-prompt-text-fill:grey;" />
+          </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="58.0" prefWidth="303.0">
+          <children>
+            <TextField fx:id="emailAddress" prefHeight="47.0" prefWidth="252.0" promptText="Email Address" style="-fx-font: 17px Tahoma;&#10;-fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);&#10;-fx-stroke: black;&#10;-fx-stroke-width: 1; &#10;-fx-prompt-text-fill:grey;" />
+          </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="58.0" prefWidth="303.0">
+          <children>
+            <ComboBox fx:id="branch" prefHeight="47.0" prefWidth="252.0" promptText="Please Select Your Branch" style="-fx-font: 17px Tahoma;&#10;-fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);&#10;-fx-stroke: black;&#10;-fx-stroke-width: 1; &#10;-fx-prompt-text-fill:grey;">
+              <items>
+                <FXCollections fx:factory="observableArrayList">
+                  <String fx:value="Select Your Branch" />
+                  <String fx:value="CSE-1" />
+                  <String fx:value="CSE-2" />
+                  <String fx:value="ECE-1" />
+                  <String fx:value="ECE-2" />
+                  <String fx:value="EEE-1" />
+                  <String fx:value="EEE-2" />
+                  <String fx:value="IT-1" />
+                  <String fx:value="IT-2" />
+                </FXCollections>
+              </items>
+            </ComboBox>
+          </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="58.0" prefWidth="303.0">
+          <children>
+            <ComboBox prefHeight="47.0" prefWidth="252.0" promptText="Please Select Your Year" style="-fx-font: 17px Tahoma;&#10;-fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);&#10;-fx-stroke: black;&#10;-fx-stroke-width: 1; &#10;-fx-prompt-text-fill:grey;" visibleRowCount="4">
+              <items>
+                <FXCollections fx:factory="observableArrayList">
+                  <String fx:value="Select Your Year" />
+                  <String fx:value="1st Year" />
+                  <String fx:value="2nd Year" />
+                  <String fx:value="3rd Year" />
+                  <String fx:value="4th Year" />
+                </FXCollections>
+              </items>
+            </ComboBox>
+          </children>
+        </HBox>
+        <Pane prefHeight="70.1221923828125" prefWidth="303.0">
+          <children>
+            <Button defaultButton="true" layoutX="14.0" layoutY="18.0" mnemonicParsing="false" prefHeight="35.0" text="Register" />
+            <Button cancelButton="true" layoutX="246.0" layoutY="18.0" mnemonicParsing="false" prefHeight="35.0" text="Quit" />
+          </children>
+        </Pane>
+      </children>
+    </VBox>
+  </children>
+  <stylesheets>
+    <URL value="@../css/registrationfxml.css" />
+  </stylesheets>
+</AnchorPane>

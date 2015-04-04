@@ -1,0 +1,2 @@
+Main-Class: Main
+Class-Path: RMailSenderWin\Bin\lib\ravmail.jar RMailSenderWin\Bin\lib\ravtheme.jar RMailSenderWin\Bin\lib\ravtheme1.jar

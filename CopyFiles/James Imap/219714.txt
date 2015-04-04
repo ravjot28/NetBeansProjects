@@ -1,0 +1,1 @@
+At the moment when we need to search for a given message we search from the //mailboxes// folder. This is not needed\

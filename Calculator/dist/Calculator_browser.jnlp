@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="file:/Users/Rav/NetBeansProjects/Calculator/dist/" href="Calculator_browser.jnlp">
+    <information>
+        <title>Calculator</title>
+        <vendor>${application.vendor}</vendor>
+        <homepage href=""/>
+        <description>Calculator</description>
+        <icon kind="splash" href="http://dl.javafx.com/1.3/splash.png"/>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.3/javafx-rt.jnlp"/>
+        <jar href="Calculator.jar" main="true" size="47134"/>
+    </resources>
+    <applet-desc name="Calculator" main-class="com.sun.javafx.runtime.adapter.Applet" progress-class="com.javafx.progressbar.ProgressManager" width="200" height="200">
+        <param name="MainJavaFXScript" value="calculator.Main"/>
+    </applet-desc>
+    <update check="always"/>
+</jnlp>

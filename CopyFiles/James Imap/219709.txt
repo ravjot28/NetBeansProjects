@@ -1,0 +1,1 @@
+If mixins are used\\\\The attached patch passes all of the tests\, although I was seeing failures some times in the AuthenticatedStateTest\, with subscriptions so there might still be a problem\\

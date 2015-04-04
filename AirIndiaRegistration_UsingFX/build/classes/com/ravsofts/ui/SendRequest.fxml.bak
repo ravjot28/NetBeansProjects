@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml" fx:controller="com.ravsofts.controller.SendRequestController">
+  <children>
+    <HBox alignment="CENTER" layoutX="61.0" layoutY="16.0" prefHeight="31.0" prefWidth="285.99993896484375">
+      <children>
+        <Label text="BSAEIA MEMBERSHIP FORM">
+          <font>
+            <Font name="System Bold" size="20.0" />
+          </font>
+        </Label>
+      </children>
+    </HBox>
+    <ImageView fitHeight="35.09999976380855" fitWidth="31.621620178222656" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../img/logo.png" preserveRatio="false" smooth="false" />
+      </image>
+    </ImageView>
+    <Separator layoutX="14.0" layoutY="64.0" prefWidth="383.0" />
+    <Pane layoutX="14.0" layoutY="74.0" prefHeight="177.0" prefWidth="383.0">
+      <children>
+        <ImageView fitHeight="132.15678801836796" fitWidth="268.99998474121094" layoutX="57.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/sending2.gif" preserveRatio="false" smooth="false" />
+          </image>
+        </ImageView>
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>

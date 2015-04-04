@@ -1,0 +1,1 @@
+At the moment the copy of a MailboxMembership is done by recreate it from scratch in StoreMessageMapper. Many storage offer a quite more performant operation for this. For example in JCR we could use Workspace.copy(...) to just copy the node over.. \\\\So we should move the copy(..) method to MessageMapper and let the implementation choose a quite more performant solution.

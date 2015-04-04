@@ -1,0 +1,12 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+
+.promptTextError{
+    -fx-prompt-text-fill:red;
+}

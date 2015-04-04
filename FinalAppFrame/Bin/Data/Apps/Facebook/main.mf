@@ -1,0 +1,3 @@
+Main-Class: Main
+Class-Path: Bin/lib/Rav_AutoRun.jar Bin/lib/ravfb.jar Bin/lib/ravfb1.jar Bin/lib/ravfb2.jar Bin/lib/ravfb3.jar Bin/lib/ravfb4.jar Bin/lib/ravfb5.jar Bin/lib/ravfb6.jar Bin/lib/ravfb7.jar Bin/lib/ravfb8.jar Bin/lib/ravfb9.jar Bin/lib/ravfb10.jar Bin/lib/ravfb11.jar Bin/lib/ravfb12.jar
+

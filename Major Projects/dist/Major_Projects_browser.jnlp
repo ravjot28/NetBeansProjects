@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="file:/Users/Rav/NetBeansProjects/Major%20Projects/dist/" href="Major_Projects_browser.jnlp">
+    <information>
+        <title>Major_Projects</title>
+        <vendor>Rav</vendor>
+        <homepage href=""/>
+        <description>Major_Projects</description>
+        <icon kind="splash" href="http://dl.javafx.com/1.3/splash.png"/>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.3/javafx-rt.jnlp"/>
+        <jar href="Major_Projects.jar" main="true" size="61406"/>
+    </resources>
+    <applet-desc name="Major_Projects" main-class="com.sun.javafx.runtime.adapter.Applet" progress-class="com.javafx.progressbar.ProgressManager" width="200" height="200">
+        <param name="MainJavaFXScript" value="NewJavaFXClass"/>
+    </applet-desc>
+    <update check="always"/>
+</jnlp>

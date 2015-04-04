@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bulkCmConfigDataFile
+   xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.615#configData"
+   xmlns:xn="http://www.3gpp.org/ftp/specs/archive/32_series/32.625#genericNrm" xmlns:in="http://www.3gpp.org/ftp/specs/archive/32_series/32.695#inventoryNrm">
+   <fileHeader fileFormatVersion="32.615 V6.3" vendorName="Ericsson"/>
+   <configData dnPrefix="">
+      <xn:SubNetwork id="ONRM_ROOT_MO">
+         <xn:SubNetwork id="KORNC01">
+            <xn:ManagedElement id="KORNC01">
+               <xn:attributes>
+                  <xn:managedElementType>RNC</xn:managedElementType>
+                  <xn:userLabel>KORNC01</xn:userLabel>
+                  <xn:vendorName>Ericsson</xn:vendorName>
+               </xn:attributes>
+               <in:InventoryUnit id="X912035925">
+                  <in:attributes>
+                     <in:inventoryUnitType>HW</in:inventoryUnitType>
+                     <in:vendorUnitFamilyType>SUBRACK</in:vendorUnitFamilyType>
+                     <in:vendorUnitTypeNumber>ROJ 605 117/2_R1A</in:vendorUnitTypeNumber>
+                     <in:vendorName>Ericsson</in:vendorName>
+                     <in:serialNumber>X912035925</in:serialNumber>
+                     <in:dateOfManufacture>2010-07-15</in:dateOfManufacture>
+                     <in:unitPosition>1B</in:unitPosition>
+                     <in:manufacturerData>ProductName=CPP HCS BP,SlotCount=28</in:manufacturerData>
+                  </in:attributes>
+                  <in:InventoryUnit id="0">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>BFB14012/1_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>BN73629022</in:serialNumber>
+                        <in:dateOfManufacture>2010-05-20</in:dateOfManufacture>
+                        <in:unitPosition>0</in:unitPosition>
+                        <in:manufacturerData>ProductName=FAN</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="0">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>BFB14012/1_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>BN73631843</in:serialNumber>
+                        <in:dateOfManufacture>2010-07-14</in:dateOfManufacture>
+                        <in:unitPosition>0</in:unitPosition>
+                        <in:manufacturerData>ProductName=FAN</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="1">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192334/2_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN25646</in:serialNumber>
+                        <in:dateOfManufacture>2010-08-20</in:dateOfManufacture>
+                        <in:unitPosition>1</in:unitPosition>
+                        <in:manufacturerData>ProductName=SCB-DF</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="2">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192104/4_R3F</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN62770</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-02</in:dateOfManufacture>
+                        <in:unitPosition>2</in:unitPosition>
+                        <in:manufacturerData>ProductName=TUB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="3">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ208504/1_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>A064214720</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-21</in:dateOfManufacture>
+                        <in:unitPosition>3</in:unitPosition>
+                        <in:manufacturerData>ProductName=CMXB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="4">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192345/1_R3A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN02241</in:serialNumber>
+                        <in:dateOfManufacture>2010-08-13</in:dateOfManufacture>
+                        <in:unitPosition>4</in:unitPosition>
+                        <in:manufacturerData>ProductName=ET-IPG</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="5">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN98119</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-11</in:dateOfManufacture>
+                        <in:unitPosition>5</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="6">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN98046</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-11</in:dateOfManufacture>
+                        <in:unitPosition>6</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="7">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN98063</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-11</in:dateOfManufacture>
+                        <in:unitPosition>7</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="8">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN97958</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-11</in:dateOfManufacture>
+                        <in:unitPosition>8</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="9">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/51_R1A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN79475</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-06</in:dateOfManufacture>
+                        <in:unitPosition>9</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="10">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/51_R1A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN79472</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-06</in:dateOfManufacture>
+                        <in:unitPosition>10</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="11">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192294/2_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GL23977</in:serialNumber>
+                        <in:dateOfManufacture>2010-05-27</in:dateOfManufacture>
+                        <in:unitPosition>11</in:unitPosition>
+                        <in:manufacturerData>ProductName=ET-MF41</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="12">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN98068</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-11</in:dateOfManufacture>
+                        <in:unitPosition>12</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="13">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN98029</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-11</in:dateOfManufacture>
+                        <in:unitPosition>13</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="14">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/51_R1A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN79496</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-06</in:dateOfManufacture>
+                        <in:unitPosition>14</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="15">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/51_R1A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN79460</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-06</in:dateOfManufacture>
+                        <in:unitPosition>15</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="16">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN98094</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-11</in:dateOfManufacture>
+                        <in:unitPosition>16</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="17">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/5_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GR17260</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-29</in:dateOfManufacture>
+                        <in:unitPosition>17</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="18">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/5_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GR11412</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-26</in:dateOfManufacture>
+                        <in:unitPosition>18</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="19">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GQ74489</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-15</in:dateOfManufacture>
+                        <in:unitPosition>19</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="20">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/5_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GR11517</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-27</in:dateOfManufacture>
+                        <in:unitPosition>20</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="21">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/5_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GR17245</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-29</in:dateOfManufacture>
+                        <in:unitPosition>21</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="22">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN98069</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-11</in:dateOfManufacture>
+                        <in:unitPosition>22</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="23">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/51_R1A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN79458</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-06</in:dateOfManufacture>
+                        <in:unitPosition>23</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="24">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN98105</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-11</in:dateOfManufacture>
+                        <in:unitPosition>24</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="25">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192345/1_R3A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN02269</in:serialNumber>
+                        <in:dateOfManufacture>2010-08-13</in:dateOfManufacture>
+                        <in:unitPosition>25</in:unitPosition>
+                        <in:manufacturerData>ProductName=ET-IPG</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="26">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ208504/1_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>A064211731</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-17</in:dateOfManufacture>
+                        <in:unitPosition>26</in:unitPosition>
+                        <in:manufacturerData>ProductName=CMXB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="27">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192104/4_R3F</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN62771</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-02</in:dateOfManufacture>
+                        <in:unitPosition>27</in:unitPosition>
+                        <in:manufacturerData>ProductName=TUB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="28">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192334/2_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN25645</in:serialNumber>
+                        <in:dateOfManufacture>2010-08-20</in:dateOfManufacture>
+                        <in:unitPosition>28</in:unitPosition>
+                        <in:manufacturerData>ProductName=SCB-DF</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+               </in:InventoryUnit>
+               <in:InventoryUnit id="X912046606">
+                  <in:attributes>
+                     <in:inventoryUnitType>HW</in:inventoryUnitType>
+                     <in:vendorUnitFamilyType>SUBRACK</in:vendorUnitFamilyType>
+                     <in:vendorUnitTypeNumber>ROJ 605 117/2_R1A</in:vendorUnitTypeNumber>
+                     <in:vendorName>Ericsson</in:vendorName>
+                     <in:serialNumber>X912046606</in:serialNumber>
+                     <in:dateOfManufacture>2010-08-07</in:dateOfManufacture>
+                     <in:unitPosition>1C</in:unitPosition>
+                     <in:manufacturerData>ProductName=CPP HCS BP,SlotCount=28</in:manufacturerData>
+                  </in:attributes>
+                  <in:InventoryUnit id="0">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>BFB14012/1_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>BN73631822</in:serialNumber>
+                        <in:dateOfManufacture>2010-07-14</in:dateOfManufacture>
+                        <in:unitPosition>0</in:unitPosition>
+                        <in:manufacturerData>ProductName=FAN</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="0">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>BFB14012/1_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>BN73629009</in:serialNumber>
+                        <in:dateOfManufacture>2010-05-20</in:dateOfManufacture>
+                        <in:unitPosition>0</in:unitPosition>
+                        <in:manufacturerData>ProductName=FAN</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="1">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192334/2_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN25667</in:serialNumber>
+                        <in:dateOfManufacture>2010-08-20</in:dateOfManufacture>
+                        <in:unitPosition>1</in:unitPosition>
+                        <in:manufacturerData>ProductName=SCB-DF</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="2">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GP00276</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-13</in:dateOfManufacture>
+                        <in:unitPosition>2</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="3">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ208504/1_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>A064211730</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-17</in:dateOfManufacture>
+                        <in:unitPosition>3</in:unitPosition>
+                        <in:manufacturerData>ProductName=CMXB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="4">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192345/1_R3A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN02212</in:serialNumber>
+                        <in:dateOfManufacture>2010-08-13</in:dateOfManufacture>
+                        <in:unitPosition>4</in:unitPosition>
+                        <in:manufacturerData>ProductName=ET-IPG</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="5">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/51_R1A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN79422</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-06</in:dateOfManufacture>
+                        <in:unitPosition>5</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="6">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/51_R1A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN79551</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-06</in:dateOfManufacture>
+                        <in:unitPosition>6</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="7">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192294/2_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GL23964</in:serialNumber>
+                        <in:dateOfManufacture>2010-05-26</in:dateOfManufacture>
+                        <in:unitPosition>7</in:unitPosition>
+                        <in:manufacturerData>ProductName=ET-MF41</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="8">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GP00299</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-13</in:dateOfManufacture>
+                        <in:unitPosition>8</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="9">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/51_R1A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN84206</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-07</in:dateOfManufacture>
+                        <in:unitPosition>9</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="10">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/51_R1A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN84323</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-07</in:dateOfManufacture>
+                        <in:unitPosition>10</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="11">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GR17032</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-29</in:dateOfManufacture>
+                        <in:unitPosition>11</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="12">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/5_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GR17477</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-29</in:dateOfManufacture>
+                        <in:unitPosition>12</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="13">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/5_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GR16536</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-29</in:dateOfManufacture>
+                        <in:unitPosition>13</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="14">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GR19084</in:serialNumber>
+                        <in:dateOfManufacture>2010-12-01</in:dateOfManufacture>
+                        <in:unitPosition>14</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="15">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/5_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GR11516</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-27</in:dateOfManufacture>
+                        <in:unitPosition>15</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="16">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/5_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GR17548</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-29</in:dateOfManufacture>
+                        <in:unitPosition>16</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="17">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GR07034</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-26</in:dateOfManufacture>
+                        <in:unitPosition>17</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="20">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GQ74589</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-15</in:dateOfManufacture>
+                        <in:unitPosition>20</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="21">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GQ74425</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-15</in:dateOfManufacture>
+                        <in:unitPosition>21</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="22">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GR17157</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-29</in:dateOfManufacture>
+                        <in:unitPosition>22</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="23">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GR17025</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-29</in:dateOfManufacture>
+                        <in:unitPosition>23</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="24">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GR17030</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-29</in:dateOfManufacture>
+                        <in:unitPosition>24</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="25">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192345/1_R3A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN02233</in:serialNumber>
+                        <in:dateOfManufacture>2010-08-13</in:dateOfManufacture>
+                        <in:unitPosition>25</in:unitPosition>
+                        <in:manufacturerData>ProductName=ET-IPG</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="26">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ208504/1_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>A064211738</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-17</in:dateOfManufacture>
+                        <in:unitPosition>26</in:unitPosition>
+                        <in:manufacturerData>ProductName=CMXB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="27">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/51_R1A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN84299</in:serialNumber>
+                        <in:dateOfManufacture>2010-09-07</in:dateOfManufacture>
+                        <in:unitPosition>27</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="28">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192334/2_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GN25554</in:serialNumber>
+                        <in:dateOfManufacture>2010-08-20</in:dateOfManufacture>
+                        <in:unitPosition>28</in:unitPosition>
+                        <in:manufacturerData>ProductName=SCB-DF</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+               </in:InventoryUnit>
+               <in:InventoryUnit id="X912073062">
+                  <in:attributes>
+                     <in:inventoryUnitType>HW</in:inventoryUnitType>
+                     <in:vendorUnitFamilyType>SUBRACK</in:vendorUnitFamilyType>
+                     <in:vendorUnitTypeNumber>ROJ 605 117/2_R1A</in:vendorUnitTypeNumber>
+                     <in:vendorName>Ericsson</in:vendorName>
+                     <in:serialNumber>X912073062</in:serialNumber>
+                     <in:dateOfManufacture>2010-09-20</in:dateOfManufacture>
+                     <in:unitPosition>1D</in:unitPosition>
+                     <in:manufacturerData>ProductName=CPP HCS BP,SlotCount=28</in:manufacturerData>
+                  </in:attributes>
+                  <in:InventoryUnit id="0">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>BFB14012/1_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>X051072609</in:serialNumber>
+                        <in:dateOfManufacture>2010-08-20</in:dateOfManufacture>
+                        <in:unitPosition>0</in:unitPosition>
+                        <in:manufacturerData>ProductName=FAN</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="0">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>BFB14012/1_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>T01E873391</in:serialNumber>
+                        <in:dateOfManufacture>2010-10-28</in:dateOfManufacture>
+                        <in:unitPosition>0</in:unitPosition>
+                        <in:manufacturerData>ProductName=FAN</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="1">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192334/2_R1D/A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GQ01071</in:serialNumber>
+                        <in:dateOfManufacture>2010-10-20</in:dateOfManufacture>
+                        <in:unitPosition>1</in:unitPosition>
+                        <in:manufacturerData>ProductName=SCB-DF</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="2">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GQ74302</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-15</in:dateOfManufacture>
+                        <in:unitPosition>2</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="3">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ208504/1_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>A064275787</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-25</in:dateOfManufacture>
+                        <in:unitPosition>3</in:unitPosition>
+                        <in:manufacturerData>ProductName=CMXB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="4">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192345/1_R3A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GQ90252</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-19</in:dateOfManufacture>
+                        <in:unitPosition>4</in:unitPosition>
+                        <in:manufacturerData>ProductName=ET-IPG</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="5">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/51_R1A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GQ75711</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-15</in:dateOfManufacture>
+                        <in:unitPosition>5</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="6">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/51_R1A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GQ75611</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-15</in:dateOfManufacture>
+                        <in:unitPosition>6</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="7">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GQ74594</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-15</in:dateOfManufacture>
+                        <in:unitPosition>7</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="8">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/5_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GR11582</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-27</in:dateOfManufacture>
+                        <in:unitPosition>8</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="9">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/5_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GR16616</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-29</in:dateOfManufacture>
+                        <in:unitPosition>9</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="10">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GQ74590</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-15</in:dateOfManufacture>
+                        <in:unitPosition>10</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="11">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/5_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GR17497</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-29</in:dateOfManufacture>
+                        <in:unitPosition>11</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="12">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/5_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GR17543</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-29</in:dateOfManufacture>
+                        <in:unitPosition>12</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="13">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GQ74488</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-15</in:dateOfManufacture>
+                        <in:unitPosition>13</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="14">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GQ74371</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-15</in:dateOfManufacture>
+                        <in:unitPosition>14</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="15">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GQ74405</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-15</in:dateOfManufacture>
+                        <in:unitPosition>15</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="16">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192294/2_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>A401269237</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-18</in:dateOfManufacture>
+                        <in:unitPosition>16</in:unitPosition>
+                        <in:manufacturerData>ProductName=ET-MF41</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="18">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GQ74412</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-15</in:dateOfManufacture>
+                        <in:unitPosition>18</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="19">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192291/1_R1A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GM21759</in:serialNumber>
+                        <in:dateOfManufacture>2010-07-05</in:dateOfManufacture>
+                        <in:unitPosition>19</in:unitPosition>
+                        <in:manufacturerData>ProductName=ET-MF4</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="21">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192294/2_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>A401269098</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-18</in:dateOfManufacture>
+                        <in:unitPosition>21</in:unitPosition>
+                        <in:manufacturerData>ProductName=ET-MF41</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="22">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2106/65_R1D</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GQ74477</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-15</in:dateOfManufacture>
+                        <in:unitPosition>22</in:unitPosition>
+                        <in:manufacturerData>ProductName=GPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="25">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192345/1_R3A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GQ99668</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-23</in:dateOfManufacture>
+                        <in:unitPosition>25</in:unitPosition>
+                        <in:manufacturerData>ProductName=ET-IPG</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="26">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ208504/1_R1C</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>A064271016</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-22</in:dateOfManufacture>
+                        <in:unitPosition>26</in:unitPosition>
+                        <in:manufacturerData>ProductName=CMXB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="27">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ 119 2103/51_R1A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GQ75609</in:serialNumber>
+                        <in:dateOfManufacture>2010-11-15</in:dateOfManufacture>
+                        <in:unitPosition>27</in:unitPosition>
+                        <in:manufacturerData>ProductName=SPB</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+                  <in:InventoryUnit id="28">
+                     <in:attributes>
+                        <in:inventoryUnitType>HW</in:inventoryUnitType>
+                        <in:vendorUnitFamilyType>PIU</in:vendorUnitFamilyType>
+                        <in:vendorUnitTypeNumber>ROJ1192334/2_R1D/A</in:vendorUnitTypeNumber>
+                        <in:vendorName>Ericsson</in:vendorName>
+                        <in:serialNumber>TU8GQ15193</in:serialNumber>
+                        <in:dateOfManufacture>2010-10-23</in:dateOfManufacture>
+                        <in:unitPosition>28</in:unitPosition>
+                        <in:manufacturerData>ProductName=SCB-DF</in:manufacturerData>
+                     </in:attributes>
+                  </in:InventoryUnit>
+               </in:InventoryUnit>
+            </xn:ManagedElement>
+         </xn:SubNetwork>
+      </xn:SubNetwork>
+   </configData>
+   <fileFooter dateTime="2013-02-28T09:52:56+05:30"/>
+</bulkCmConfigDataFile>

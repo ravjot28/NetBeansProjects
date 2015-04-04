@@ -1,0 +1,1 @@
+Lotus notes clients do not correctly handle BODYSTRUCTURE extension data. \\\\The best solution would be to be able to understand when a client was Lotus Notes and then apply a selective workaround. If anyone knows of any way to do this\, please jump in.\\\\Otherwise\, it looks like a configuration parameter will be needed.

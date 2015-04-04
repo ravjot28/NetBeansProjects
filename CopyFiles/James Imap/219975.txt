@@ -1,0 +1,1 @@
+RFC2342 is used by some clients (notable Thunderbird) to obtain the hierarchy delimitator. Unless this IMAP Namespaces are available\\\\James IMAP does not currently support shared folders or access to other users folders. This would just be initial support for Personal Space allowing the heirarchy deliminator to be passed to the client.

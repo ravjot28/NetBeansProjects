@@ -1,0 +1,37 @@
+D/bookmark////
+D/commands////
+D/debugger////
+D/filetransfer////
+D/muc////
+D/packet////
+D/provider////
+D/search////
+D/workgroup////
+/ChatState.java/1.1/Thu Nov 20 16:01:48 2008//
+/ChatStateListener.java/1.1/Thu Nov 20 16:01:48 2008//
+/ChatStateManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/DefaultMessageEventRequestListener.java/1.1/Thu Nov 20 16:01:48 2008//
+/Form.java/1.1/Thu Nov 20 16:01:48 2008//
+/FormField.java/1.1/Thu Nov 20 16:01:48 2008//
+/GroupChatInvitation.java/1.1/Thu Nov 20 16:01:48 2008//
+/LastActivityManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/MessageEventManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/MessageEventNotificationListener.java/1.1/Thu Nov 20 16:01:48 2008//
+/MessageEventRequestListener.java/1.1/Thu Nov 20 16:01:48 2008//
+/MultipleRecipientInfo.java/1.1/Thu Nov 20 16:01:48 2008//
+/MultipleRecipientManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/NodeInformationProvider.java/1.1/Thu Nov 20 16:01:48 2008//
+/OfflineMessageHeader.java/1.1/Thu Nov 20 16:01:48 2008//
+/OfflineMessageManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/package.html/1.1/Thu Nov 20 16:01:48 2008//
+/PEPListener.java/1.1/Thu Nov 20 16:01:48 2008//
+/PEPManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/PrivateDataManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/RemoteRosterEntry.java/1.1/Thu Nov 20 16:01:48 2008//
+/ReportedData.java/1.1/Thu Nov 20 16:01:48 2008//
+/RosterExchangeListener.java/1.1/Thu Nov 20 16:01:48 2008//
+/RosterExchangeManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/ServiceDiscoveryManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/SharedGroupManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/XHTMLManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/XHTMLText.java/1.1/Thu Nov 20 16:01:48 2008//

@@ -1,0 +1,21 @@
+My Computer\explorer shell:MyComputerFolder
+Recycle Bin\explorer shell:RecycleBinFolder
+Control Panel\explorer shell:ControlPanelFolder
+Administrative Tools\explorer shell:Administrative Tools
+Programs and Features\explorer shell:ChangeRemoveProgramsFolder
+Network\explorer shell:NetworkPlacesFolder
+Favorites\explorer shell:Favorites
+Games\explorer shell:Games
+Fonts\explorer shell:Fonts
+Users\explorer shell:UserProfiles
+Public\explorer shell:Public
+Documents\explorer shell:My Documents
+Public Documents\explorer shell:Common Documents
+Music\explorer shell:My Music
+Public Music\explorer shell:CommonMusic
+Pictures\explorer shell:My Pictures
+Public Pictures\explorer shell:CommonPictures
+Videos\explorer shell:My Video
+Public Videos\explorer shell:CommonVideo
+Downloads\explorer shell:Downloads
+Public Downloads\explorer shell:CommonDownloads

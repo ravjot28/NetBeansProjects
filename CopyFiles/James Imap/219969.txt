@@ -1,0 +1,1 @@
+ATM the hierarchy deliminator is hard coded in ImapConstants. Configuring this at run time is likely to be problematic but it should be possible to configure it when the component is assembled. 

@@ -1,0 +1,1 @@
+We should allow to set the type of the Identifier via Generics. At the moment we use long but sometimes its better to use something else

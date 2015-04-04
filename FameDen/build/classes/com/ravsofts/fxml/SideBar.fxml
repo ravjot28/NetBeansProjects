@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="117.0" xmlns:fx="http://javafx.com/fxml" fx:controller="com.ravsofts.controller.SideBarController">
+  <children>
+    <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Button 1" />
+    <Button layoutX="14.0" layoutY="429.0" mnemonicParsing="false" text="Button 2" />
+  </children>
+</AnchorPane>

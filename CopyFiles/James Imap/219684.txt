@@ -1,0 +1,1 @@
+At the moment the Content of a Document implementation (which is for example the Message) is exposed via a ByteBuffer. Unforunally to offer the ByteBuffer the whole Content is read to the Memory first. This is super inefficient when having big data. It would be preferable to be able to directly stream the content.

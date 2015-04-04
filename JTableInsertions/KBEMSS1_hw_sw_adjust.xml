@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<NetworkInventory>
+  <Node AdjustDate="2013-02-28" FunctionType=" " Name="KBEMSS1" Site=" " Type="AXE" UserLabel="">
+    <Equipment BuildingPractice="BYB501">
+      <Cabinet Position="CabRow=1,CabNumber=1">
+        <Subrack Name="GEM" Position="X=3,Y=12" Type="RP">
+          <Board Name="SCB-RP" SlotPosition="0" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="20091124" ProductName="SCB-RP" ProductNumber="ROJ 208 323/4" ProductRevision="R2A" SerialNumber="TD38357748" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GEA" SlotPosition="2" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="20090605" ProductName="GEA" ProductNumber="ROJ 208 890/1" ProductRevision="R2B" SerialNumber="CB49919077" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="CPUB-24" SlotPosition="3" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="20090806" ProductName="CPUB-24" ProductNumber="ROJ 208 861/2" ProductRevision="R2D" SerialNumber="A063962415" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="MAUB" SlotPosition="7" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="20090403" ProductName="MAUB" ProductNumber="ROJ 208 460/2" ProductRevision="R2A" SerialNumber="CB49176148" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="CPUB-24" SlotPosition="8" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="20090615" ProductName="CPUB-24" ProductNumber="ROJ 208 861/2" ProductRevision="R2D" SerialNumber="A063934611" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GED-SASF" SlotPosition="12" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="20090923" ProductName="GED-SASF" ProductNumber="ROJ 208 880/2" ProductRevision="R1B" SerialNumber="A063988867" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="APUB" SlotPosition="14" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="20091022" ProductName="APUB" ProductNumber="ROJ 208 840/11" ProductRevision="R7A" SerialNumber="CB4A943944" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GED-DVD" SlotPosition="16" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="20090604" ProductName="GED-DVD" ProductNumber="ROJ 208 882/1" ProductRevision="R1C" SerialNumber="CB49914632" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="APUB" SlotPosition="20" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="20091029" ProductName="APUB" ProductNumber="ROJ 208 840/11" ProductRevision="R7A" SerialNumber="CB4A996271" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GED-SASF" SlotPosition="22" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="20090616" ProductName="GED-SASF" ProductNumber="ROJ 208 880/2" ProductRevision="R1B" SerialNumber="A063935419" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="SCB-RP" SlotPosition="25" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="20091124" ProductName="SCB-RP" ProductNumber="ROJ 208 323/4" ProductRevision="R2A" SerialNumber="TD38357749" Supplier="Ericsson AB"/>
+          </Board>
+        </Subrack>
+        <Subrack Name="FANU" Position="X=3,Y=24" Type="RP"/>
+        <Subrack Name="FANU" Position="X=3,Y=30" Type="RP">
+          <Board Name="FAN" SlotPosition="0" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="20090917" ProductName="FAN" ProductNumber="BFD 509 08/6" ProductRevision="R2F" SerialNumber="X051030600" Supplier="Ericsson AB"/>
+          </Board>
+        </Subrack>
+        <Subrack Name="GEM" Position="X=3,Y=34" Type="RP">
+          <Board Name="SCB-RP" SlotPosition="0" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W39" ProductName="SCB-RP" ProductNumber="ROJ 208 323/4" ProductRevision="R2A" SerialNumber="TD38295585" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GESB" SlotPosition="1" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W36" ProductName="GESB" ProductNumber="ROJ 208 410/2" ProductRevision="R7A" SerialNumber="TD38272468" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GARP-1" SlotPosition="3" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W36" ProductName="GARP-1" ProductNumber="ROJ 208 16/3" ProductRevision="R2A" SerialNumber="TD38268815" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GARP-1" SlotPosition="4" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W37" ProductName="GARP-1" ProductNumber="ROJ 208 16/3" ProductRevision="R2A" SerialNumber="TD38277310" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GARP-1" SlotPosition="5" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W37" ProductName="GARP-1" ProductNumber="ROJ 208 16/3" ProductRevision="R2A" SerialNumber="TD38277290" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GARP-1" SlotPosition="6" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W37" ProductName="GARP-1" ProductNumber="ROJ 208 16/3" ProductRevision="R2A" SerialNumber="TD38277301" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GARP-1" SlotPosition="7" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W37" ProductName="GARP-1" ProductNumber="ROJ 208 16/3" ProductRevision="R2A" SerialNumber="TD38277262" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GARP-1" SlotPosition="8" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W37" ProductName="GARP-1" ProductNumber="ROJ 208 16/3" ProductRevision="R2A" SerialNumber="TD38277280" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GARP-1" SlotPosition="9" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W37" ProductName="GARP-1" ProductNumber="ROJ 208 16/3" ProductRevision="R2A" SerialNumber="TD38277313" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GARP-1" SlotPosition="10" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W36" ProductName="GARP-1" ProductNumber="ROJ 208 16/3" ProductRevision="R2A" SerialNumber="TD38268882" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GARP-1" SlotPosition="11" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="11W10" ProductName="GARP-1" ProductNumber="ROJ 208 16/3" ProductRevision="R2C" SerialNumber="TD3A137639" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GARP-1" SlotPosition="12" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="11W10" ProductName="GARP-1" ProductNumber="ROJ 208 16/3" ProductRevision="R2C" SerialNumber="TD3A137756" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GARP-1" SlotPosition="13" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="10W52" ProductName="GARP-1" ProductNumber="ROJ 208 16/3" ProductRevision="R2C" SerialNumber="TD3A005020" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GARP-1" SlotPosition="14" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="11W10" ProductName="GARP-1" ProductNumber="ROJ 208 16/3" ProductRevision="R2C" SerialNumber="TD3A137606" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GARP-1" SlotPosition="19" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W37" ProductName="GARP-1" ProductNumber="ROJ 208 16/3" ProductRevision="R2A" SerialNumber="TD38277282" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GARP-1" SlotPosition="20" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W37" ProductName="GARP-1" ProductNumber="ROJ 208 16/3" ProductRevision="R2A" SerialNumber="TD38277312" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GARP-1" SlotPosition="21" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W37" ProductName="GARP-1" ProductNumber="ROJ 208 16/3" ProductRevision="R2A" SerialNumber="TD38277336" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GARP-1" SlotPosition="22" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W37" ProductName="GARP-1" ProductNumber="ROJ 208 16/3" ProductRevision="R2A" SerialNumber="TD38277345" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GESB" SlotPosition="23" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W37" ProductName="GESB" ProductNumber="ROJ 208 410/2" ProductRevision="R7A" SerialNumber="TD38279074" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="SCB-RP" SlotPosition="25" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W47" ProductName="SCB-RP" ProductNumber="ROJ 208 323/4" ProductRevision="R2A" SerialNumber="TD38357714" Supplier="Ericsson AB"/>
+          </Board>
+        </Subrack>
+        <Subrack Name="GEM" Position="X=3,Y=50" Type="RP">
+          <Board Name="SCB-RP" SlotPosition="0" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W47" ProductName="SCB-RP" ProductNumber="ROJ 208 323/4" ProductRevision="R2A" SerialNumber="TD38357753" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="XDB-2" SlotPosition="1" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W35" ProductName="XDB-2" ProductNumber="ROJ 208 304/2" ProductRevision="R1B" SerialNumber="TD38263551" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="STEB" SlotPosition="2" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W30" ProductName="STEB" ProductNumber="ROJ 208 325/1" ProductRevision="R2B" SerialNumber="TD38210203" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="STEB" SlotPosition="3" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W31" ProductName="STEB" ProductNumber="ROJ 208 325/1" ProductRevision="R2B" SerialNumber="TD38225856" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="ET155-1-O-2" SlotPosition="8" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W47" ProductName="ET155-1-O-2" ProductNumber="ROJ 208 306/2" ProductRevision="R1A" SerialNumber="TD38358182" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="ET155-1-O-2" SlotPosition="9" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W47" ProductName="ET155-1-O-2" ProductNumber="ROJ 208 306/2" ProductRevision="R1A" SerialNumber="TD38358220" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="IRB" SlotPosition="10" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W43" ProductName="IRB" ProductNumber="ROJ 208 316/1" ProductRevision="R2F" SerialNumber="TD38314634" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="CGB-2 CLM890" SlotPosition="11" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W44" ProductName="CGB-2 CLM890" ProductNumber="ROJ 208 314/2" ProductRevision="R1B" SerialNumber="TD38329414" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="STEB" SlotPosition="13" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W31" ProductName="STEB" ProductNumber="ROJ 208 325/1" ProductRevision="R2B" SerialNumber="TD38215389" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="STEB" SlotPosition="14" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W36" ProductName="STEB" ProductNumber="ROJ 208 325/1" ProductRevision="R2B" SerialNumber="TD38264677" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="ET155-1-O-2" SlotPosition="19" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W47" ProductName="ET155-1-O-2" ProductNumber="ROJ 208 306/2" ProductRevision="R1A" SerialNumber="TD38358243" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="ET155-1-O-2" SlotPosition="20" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W47" ProductName="ET155-1-O-2" ProductNumber="ROJ 208 306/2" ProductRevision="R1A" SerialNumber="TD38358240" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="IRB" SlotPosition="21" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W43" ProductName="IRB" ProductNumber="ROJ 208 316/1" ProductRevision="R2F" SerialNumber="TD38314644" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="CGB-2 CLM890" SlotPosition="22" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W44" ProductName="CGB-2 CLM890" ProductNumber="ROJ 208 314/2" ProductRevision="R1B" SerialNumber="TD38329413" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="XDB-2" SlotPosition="24" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W35" ProductName="XDB-2" ProductNumber="ROJ 208 304/2" ProductRevision="R1B" SerialNumber="TD38263583" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="SCB-RP" SlotPosition="25" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="09W47" ProductName="SCB-RP" ProductNumber="ROJ 208 323/4" ProductRevision="R2A" SerialNumber="TD38357756" Supplier="Ericsson AB"/>
+          </Board>
+        </Subrack>
+      </Cabinet>
+      <Cabinet Position="CabRow=255">
+        <Subrack Comment="1.2.0.4" Name="1.2.0.4" Position="X=2,Y=4" Type="AP_--">
+          <Board Name="SCB-RP" SlotPosition="0">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="SCB-RP" ProductNumber="192.168.170.56" ProductRevision="-" SerialNumber="192.168.169.56" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GESB" SlotPosition="1">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="GESB" ProductNumber="192.168.170.61" ProductRevision="-" SerialNumber="192.168.169.61" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GEA" SlotPosition="2" Type="AP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="GEA" ProductNumber="-" ProductRevision="1" SerialNumber="-" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="CPUB" SlotPosition="3">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="CPUB" ProductNumber="192.168.170.57" ProductRevision="1" SerialNumber="192.168.169.57" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="MAUB" SlotPosition="7">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="MAUB" ProductNumber="192.168.170.58" ProductRevision="1" SerialNumber="192.168.169.58" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="CPUB" SlotPosition="8">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="CPUB" ProductNumber="192.168.170.59" ProductRevision="1" SerialNumber="192.168.169.59" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="Disk" SlotPosition="12" Type="AP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="Disk" ProductNumber="-" ProductRevision="1" SerialNumber="-" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="APUB" SlotPosition="14" Type="AP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="APUB" ProductNumber="192.168.170.1" ProductRevision="1" SerialNumber="192.168.169.1" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="DVD" SlotPosition="16" Type="AP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="DVD" ProductNumber="-" ProductRevision="1" SerialNumber="-" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="APUB" SlotPosition="20" Type="AP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="APUB" ProductNumber="192.168.170.2" ProductRevision="1" SerialNumber="192.168.169.2" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="Disk" SlotPosition="22" Type="AP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="Disk" ProductNumber="-" ProductRevision="1" SerialNumber="-" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GESB" SlotPosition="23">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="GESB" ProductNumber="192.168.170.62" ProductRevision="-" SerialNumber="192.168.169.62" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="SCB-RP" SlotPosition="25">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="SCB-RP" ProductNumber="192.168.170.60" ProductRevision="-" SerialNumber="192.168.169.60" Supplier="Ericsson AB"/>
+          </Board>
+        </Subrack>
+        <Subrack Comment="15.2.0.4" Name="15.2.0.4" Position="X=2,Y=4" Type="AP_--">
+          <Board Name="SCB-RP" SlotPosition="0">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="SCB-RP" ProductNumber="192.168.170.56" ProductRevision="-" SerialNumber="192.168.169.56" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GESB" SlotPosition="1">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="GESB" ProductNumber="192.168.170.61" ProductRevision="-" SerialNumber="192.168.169.61" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GEA" SlotPosition="2" Type="AP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="GEA" ProductNumber="-" ProductRevision="1" SerialNumber="-" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="CPUB" SlotPosition="3">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="CPUB" ProductNumber="192.168.170.57" ProductRevision="1" SerialNumber="192.168.169.57" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="MAUB" SlotPosition="7">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="MAUB" ProductNumber="192.168.170.58" ProductRevision="1" SerialNumber="192.168.169.58" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="CPUB" SlotPosition="8">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="CPUB" ProductNumber="192.168.170.59" ProductRevision="1" SerialNumber="192.168.169.59" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="Disk" SlotPosition="12" Type="AP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="Disk" ProductNumber="-" ProductRevision="1" SerialNumber="-" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="APUB" SlotPosition="14" Type="AP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="APUB" ProductNumber="192.168.170.1" ProductRevision="1" SerialNumber="192.168.169.1" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="DVD" SlotPosition="16" Type="AP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="DVD" ProductNumber="-" ProductRevision="1" SerialNumber="-" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="APUB" SlotPosition="20" Type="AP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="APUB" ProductNumber="192.168.170.2" ProductRevision="1" SerialNumber="192.168.169.2" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="Disk" SlotPosition="22" Type="AP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="Disk" ProductNumber="-" ProductRevision="1" SerialNumber="-" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="GESB" SlotPosition="23">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="GESB" ProductNumber="192.168.170.62" ProductRevision="-" SerialNumber="192.168.169.62" Supplier="Ericsson AB"/>
+          </Board>
+          <Board Name="SCB-RP" SlotPosition="25">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="255" ProductName="SCB-RP" ProductNumber="192.168.170.60" ProductRevision="-" SerialNumber="192.168.169.60" Supplier="Ericsson AB"/>
+          </Board>
+        </Subrack>
+      </Cabinet>
+      <Cabinet Position="n/a">
+        <Subrack Name=" " Position="n/a" Type="RP">
+          <Board Name="FAN" SlotPosition="0" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="20090917" ProductName="FAN" ProductNumber="BFD 509 08/6" ProductRevision="R2F" SerialNumber="X051030602" Supplier="Ericsson AB"/>
+          </Board>
+        </Subrack>
+        <Subrack Name=" " Position="n/a" Type="RP">
+          <Board Name="FAN" SlotPosition="0" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="20090917" ProductName="FAN" ProductNumber="BFD 509 08/6" ProductRevision="R2F" SerialNumber="X051030601" Supplier="Ericsson AB"/>
+          </Board>
+        </Subrack>
+        <Subrack Name=" " Position="n/a" Type="RP">
+          <Board Name="FAN" SlotPosition="0" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="20090917" ProductName="FAN" ProductNumber="BFD 509 08/6" ProductRevision="R2F" SerialNumber="X051030595" Supplier="Ericsson AB"/>
+          </Board>
+        </Subrack>
+        <Subrack Name=" " Position="n/a" Type="RP">
+          <Board Name="FAN" SlotPosition="0" Type="RP">
+            <ProductData FirstOperationDate="2013-02-28" LastChangedDate="2013-02-28" ManufacturedDate="20090917" ProductName="FAN" ProductNumber="BFD 509 08/6" ProductRevision="R2F" SerialNumber="X051030596" Supplier="Ericsson AB"/>
+          </Board>
+        </Subrack>
+      </Cabinet>
+    </Equipment>
+  </Node>
+</NetworkInventory>

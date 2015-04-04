@@ -1,0 +1,2 @@
+Main-Class: Main
+Class-Path: TwitterWin\Bin\lib\Rav_AutoRun.jar TwitterWin\Bin\lib\ravswing.jar TwitterWin\Bin\lib\ravswing1.jar TwitterWin\Bin\lib\ravtweet.jar TwitterWin\Bin\lib\ravtheme.jar TwitterWin\Bin\lib\ravtheme1.jar

@@ -1,0 +1,1 @@
+sub task: add RFC 3501 Select command description to source code

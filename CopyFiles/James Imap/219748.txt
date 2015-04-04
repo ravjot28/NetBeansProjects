@@ -1,0 +1,1 @@
+MessageMapper.findUnseenMessages(....)  is only used to get the uid of the first unseen message\

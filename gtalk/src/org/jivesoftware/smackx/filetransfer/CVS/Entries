@@ -1,0 +1,13 @@
+/FaultTolerantNegotiator.java/1.1/Thu Nov 20 16:01:48 2008//
+/FileTransfer.java/1.1/Thu Nov 20 16:01:48 2008//
+/FileTransferListener.java/1.1/Thu Nov 20 16:01:48 2008//
+/FileTransferManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/FileTransferNegotiator.java/1.1/Thu Nov 20 16:01:48 2008//
+/FileTransferNegotiatorManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/FileTransferRequest.java/1.1/Thu Nov 20 16:01:48 2008//
+/IBBTransferNegotiator.java/1.1/Thu Nov 20 16:01:48 2008//
+/IncomingFileTransfer.java/1.1/Thu Nov 20 16:01:48 2008//
+/OutgoingFileTransfer.java/1.1/Thu Nov 20 16:01:48 2008//
+/Socks5TransferNegotiator.java/1.1/Thu Nov 20 16:01:48 2008//
+/Socks5TransferNegotiatorManager.java/1.1/Thu Nov 20 16:01:48 2008//
+/StreamNegotiator.java/1.1/Thu Nov 20 16:01:48 2008//

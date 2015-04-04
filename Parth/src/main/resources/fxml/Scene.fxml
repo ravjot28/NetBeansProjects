@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="227.0" prefWidth="297.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.clouddrive.parth.FXMLController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+        <Button fx:id="button" layoutX="227.0" layoutY="178.0" onAction="#submit" text="Submit" />
+      <TextField fx:id="file" editable="false" layoutX="14.0" layoutY="78.0" prefHeight="26.0" prefWidth="203.0" />
+      <Button fx:id="button1" layoutX="226.0" layoutY="78.0" onAction="#browse" text="Browse" />
+      <Label layoutX="50.0" layoutY="28.0" text="Financial Analyzer">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="button11" layoutX="226.0" layoutY="115.0" onAction="#browse1" text="Browse" />
+      <TextField fx:id="jar" editable="false" layoutX="14.0" layoutY="115.0" prefHeight="26.0" prefWidth="203.0" />
+      <TextField fx:id="noOfinstance" layoutX="14.0" layoutY="152.0" prefHeight="26.0" prefWidth="118.0" promptText="No. Of instances" />
+      <TextField fx:id="instanceType" layoutX="14.0" layoutY="187.0" prefHeight="26.0" prefWidth="118.0" promptText="Instance Type" />
+    </children>
+</AnchorPane>

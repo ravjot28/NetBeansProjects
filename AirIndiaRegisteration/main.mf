@@ -1,0 +1,2 @@
+Main-Class: Main/Main
+Class-Path: Bin/lib/AbsoluteLayout.jar Bin/lib/CustomizedProgressBar.jar Bin/lib/CustomizedTextFields.jar Bin/lib/RavDataTransfer.jar Bin/lib/RavDataTransferSupport.jar Bin/lib/ravtheme.jar

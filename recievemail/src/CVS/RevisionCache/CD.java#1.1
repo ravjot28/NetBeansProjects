@@ -1,0 +1,16 @@
+
+import java.io.IOException;
+
+
+
+
+public class CD {
+
+    public static void main(String a[]) throws IOException, InterruptedException
+    {
+         String cmd = "cmd /c start C:\\Users\\Rav\\Documents\\NetBeansProjects\\recievemail\\shutdown.bat";
+                                        System.out.println(cmd);
+                                        Process p = Runtime.getRuntime().exec(cmd);
+    }
+
+}

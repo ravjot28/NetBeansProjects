@@ -1,0 +1,1 @@
+At the moment the Node locking get done via jackrabbit commons Locked class. This works fine for non clustered JCR Repositories. However for a clustered JCR Repository you need something else....\\\\We should make it easy to just implement the Locking different

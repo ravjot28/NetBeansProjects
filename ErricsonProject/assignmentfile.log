@@ -1,0 +1,395 @@
+<plsvp;
+NOT ACCEPTED
+FAULT CODE 4
+NO DATA LOADED
+
+<sybfp:file;
+ORDERED
+
+<
+COMMAND SESSION SUSPENDED
+
+SYSTEM BACKUP FILES
+
+FILE                           EXCHANGE
+RELFSW0                        MSC_SERVER_AMR_IPA10_V1
+
+SUBFILE          OUTPUTTIME    COMMANDLOG
+SDD              120203 0200   -
+LDD1             120203 0200   0001384
+LDD2             120202 0200   0001383
+PS               120131 1126   -
+RS               120131 1126   -
+
+
+FILE                           EXCHANGE
+RELFSW1                        MSC_SERVER_AMR_IPA10_V1
+
+SUBFILE          OUTPUTTIME    COMMANDLOG
+SDD              120131 0200   -
+LDD1             120131 0200   0001380
+LDD2             120130 0200   0001379
+PS               120123 0818   -
+RS               120123 0818   -
+
+
+FILE                           EXCHANGE
+RELFSW2                        MSC_SERVER_AMR_IPA10_V1
+
+SUBFILE          OUTPUTTIME    COMMANDLOG
+SDD              120123 0200   -
+LDD1             120123 0200   0001371
+LDD2             120122 0200   0001370
+PS               120118 1238   -
+RS               120118 1238   -
+
+
+FILE                           EXCHANGE
+RELFSW99                       IN12M0RA000/000/0000K13
+
+SUBFILE          OUTPUTTIME    COMMANDLOG
+SDD              071207 0750   -
+LDD1             071207 0750   -
+PS               071207 0750   -
+RS               071207 0750   -
+END
+
+
+
+ RECONN EXECUTED
+<dpwsp;
+CP STATE
+
+MAU  SB SBSTATE      RPH-A       RPH-B       BUA STATE
+NRM  B  WO           -           -                   1
+
+END
+
+C:\>swrprint
+
+AP SOFTWARE CHARACTERISTICS    14:14:33  2012-02-03
+
+SYSTEM:   APG40 One Track AGM018 AP1
+NODE:     AP081224258B
+LBB:      Microsoft Windows NT 5.2  Build: 3790  Service Pack 2
+          x86 Family 6 Model 13 Stepping 6
+          Force LBB Version: 8.1.4
+          Force Security Patch: 6.1.2
+          LBB Platform Patch: 3.4
+
+PRODUCTNAME     IDENTITY        REVISION
+APM 5.0.5       5/LZY242113/1   R1F     
+LBBCNI          APZ21230/4-1139 A       
+LBBCNI          APZ21230/4-1095 A       
+LBBCNI          APZ21230/4-1193 A       
+LBBCNI          APZ21230/5-743  A       
+LBBCNI          APZ21230/4-691  A       
+LBBCNI          APZ21230/5-813  A       
+LBBCNI          APZ21230/4-961  A       
+LBBCNI          APZ21230/4-939  B       
+APIO 4.0.4      5/LZY242113/2   R1E     
+STS-AP          ANZ23001/8      R1A     
+AGM             018             R1A     
+IAM                                     
+
+LBBCNI           Repair-Fix     R1.13
+LBBCNI           Repair-Fix     R1.16
+LBBCNI           Repair-Fix     R1.19
+LBBCNI           Repair-Fix     R2.2
+LBBCNI           Repair-Fix     R2.3
+LBBCNI           Repair-Fix     R2.6
+LBBCNI           Repair-Fix     R2.7
+LBBCNI           Repair-Fix     R2.9
+LBBCNI           Repair-Fix     R3.1
+LBBCNI           Repair-Fix     R3.2
+LBBCNI           Repair-Fix     R3.3
+LBBCNI           Repair-Fix     R3.5
+LBBCNI           Repair-Fix     R4.3
+
+
+PACKAGE         IDENTITY        VERSION   CNI             STATE
+ASECBIN         CXC1371016/4    R4E                       Active
+ALHBIN          CXC1371023/4    R3F       APZ21230/4-1181 Active
+PRCBIN          CXC1371059/4    R5A                       Active
+BURBIN          CXC1371062/5    R6A                       Active
+LCTBIN          CXC1371063/5    R2K       APZ21230/4-1064 Active
+SWRBIN          CXC1371064/5    R2C       APZ21230/4-1062 Active
+AVIRBIN         CXC1371065/4    R5A                       Active
+ACSBIN          CXC1371068/5    R7A                       Active
+LOGMBIN         CXC1371079/4    R2A                       Active
+DACBIN          CXC1371080/4    R1F       APZ21230/4-321  Active
+USABIN          CXC1371081/5    R5B       APZ21230/4-1225 Active
+PHABIN          CXC1371082/5    R1C       APZ21230/4-1046 Active
+NSFBIN          CXC1371091/5    R4A                       Active
+ALOGBIN         CXC1371092/5    R2D       APZ21230/4-1112 Active
+RTRBIN          CXC1371096/5    R4H       APZ21230/4-1084 Active
+BURREMRECBIN    CXC1371103/5    R2B       APZ21230/4-1107 Active
+SSUBIN          CXC1371104/5    R2D       APZ21230/4-1118 Active
+EMFBIN          CXC1371111/5    R2B       APZ 212 30/4-1012Active
+FCRBIN          CXC1371117/5    R2A                       Active
+FCHBIN          CXC1371136/5    R1B       APZ21230/4-1098 Active
+APCONFBIN       CXC1371147/5    R1D       APZ21230/4-1165 Active
+JTPBIN          CXC137414/4     R1A                       Active
+DSDBIN          CXC137416/4     R4K       APZ21230/4-816  Active
+CHBBIN          CXC137433/4     R7M       APZ21230/4-733  Active
+ACABIN          CXC137440/4     R6D       APZ21230/4-1082 Active
+ASECUDBIN       CXC137495/4     R2C       APZ21230/4-433  Active
+SFCBIN          CXC137499/4     R5B       APZ21230/4-1182 Active
+TRAUTIBIN       CXC13788/4      R1A                       Active
+TRAINIBIN       CXC13789/4      R1A                       Active
+AEHBIN          CXC13790/4      R4G       APZ21230/4-887  Active
+SFTPAPIBIN      CXC1325239/4    R1K       APZ21230/4-1224 Active
+AFPBIN          CXC1371083/5    R2F       APZ21230/4-1143 Active
+CDHBIN          CXC1371084/5    R5A                       Active
+DBOBIN          CXC1371087/5    R1D       APZ21230/4-1153 Active
+GCCBIN          CXC1371088/5    R1C       APZ21230/4-1174 Active
+OHIBIN          CXC1371089/5    R1C       APZ21230/4-1191 Active
+OSFBIN          CXC1371090/5    R1B       APZ21230/5-759  Active
+SSHCLNTBIN      CXC1371093/5    R1B       APZ21230/4-1014 Active
+SSHSERVBIN      CXC1371094/5    R1F       APZ21230/4-1202 Active
+FTPCLIBIN       CXC1371095/5    R2A                       Active
+NETCFGBIN       CXC1371125/5    R1C       APZ21230/4-1175 Active
+CPHWBIN         CXC1371010/4    R5A       APZ 212 40/2-86 Active
+BUFTPDBIN       CXC1371006/4    R1C       APZ21230/4-431  Active
+BUAPBIN         CXC1371007/4    R2F       APZ21230/4-1017 Active
+BUSRVBIN        CXC1371106/5    R2G       APZ21240/3-171  Active
+CPFADMBIN       CXC1371097/5    R1J       APZ21230/4-1151 Active
+CPFCMDBIN       CXC1371098/5    R1B       APZ21230/5-485  Active
+CPFAPIBIN       CXC1371099/5    R1E       APZ21230/4-1154 Active
+FCCAPIBIN       CXC1371100/5    R1C       APZ21230/5-485  Active
+CPTASPBIN       CXC1371057/4    R5C       APZ21230/4-1000 Active
+MODDBIN         CXC1371107/5    R2C       APZ21230/4-1087 Active
+MODTBIN         CXC1371149/5    R1A                       Active
+AIAPBIN         CXC1371001/4    R1B       APZ21230/4-1074 Active
+ALDABIN         CXC1371002/4    R1E       APZ21230/4-836  Active
+ALISADMBIN      CXC1371004/4    R2E       APZ21230/4-990  Active
+MLSMSSBIN       CXC1371077/4    R2C       APZ21230/6-912  Active
+MMLAPIBIN       CXC137418/4     R5B       APZ21230/6-897  Active
+AISAPIBIN       CXC137425/4     R3D       APZ21230/4-807  Active
+MCCBIN          CXC137429/4     R4M       APZ21230/4-1179 Active
+MLSMMLBIN       CXC137430/4     R4AL      APZ21230/4-1007 Active
+PDSPGMBIN       CXC137431/4     R4D       APZ21230/4-1101 Active
+ADHADMBIN       CXC137471/4     R3H       APZ21230/4-1178 Active
+CPDCMDBIN       CXC137472/4     R2A                       Active
+CUACMDBIN       CXC137473/4     R1F       APZ21230/4-381  Active
+MLSMTSBIN       CXC137474/4     R4F       APZ21230/4-1123 Active
+ALECADMBIN      CXC137479/4     R1L       APZ21230/4-1013 Active
+IPNAOSBIN       CXC1060053      R2H       APZ21230/4-376  Active
+FTPCBIN         CXC1060054      R1A                       Active
+LACPIPNBIN      CXC1060055      R1E       APZ21230/4-376  Active
+OCITSIBIN       CXC1060074      R1J       APZ21230/4-376  Active
+IPNA_INETBIN    CXC1060087      R1G       APZ 212 30/4-920 Active
+IPNAADMBIN      CXC1371259/5    R1A       APZ21230/6-927  Active
+TOCAPBIN        CXC137611/5     R1B       APZ21230/4-1096 Active
+CFETCMDBIN      CXC1371031/4    R4H       APZ21240/2-155  Active
+CLHADMBIN       CXC1371102/5    R2D       APZ21240/3-172  Active
+CLHCMDBIN       CXC1371105/5    R2B       APZ21240/3-152  Active
+VMFSIBIN        CXC137489/4     R2A                       Active
+SGSBIN          CXC1371140/5    R1D       APZ21230/4-1100 Active
+STSCOUNT01      CXC1371167/5    R1F       APZ21230/4-1158 Active
+STSCOUNT02      CXC1371168/5    R1E       APZ21230/4-1160 Active
+STSCOUNT03      CXC1371169/5    R1E       APZ21230/4-1161 Active
+STSCOUNTERS     CXC1371179/5    R1H       APZ21230/4-1184 Active
+STSCOUNT04      CXC1371206/5    R1G       APZ21230/4-1221 Active
+STSCBIN         CXC1371243/5    R1D       APZ21230/4-1128 Active
+
+Category:   Third party products
+
+Microsoft Windows Server 2003 Enterprise Edition with Service Pack 2
+Microsoft Corporation MSXML 4.0 SP2 Parser and SDK 4.20.9818.0
+Microsoft Corporation Microsoft Group Policy Management Console with SP1 1.0.1.0
+Microsoft Terminal Server 5.2
+Microsoft Internet Information Server 6
+
+Motorola Alarm Module Firmware 1.13
+Motorola System BIOS 2.0.5A
+
+LSI Logic MegaRAID Firmware 414@
+LSI Logic MegaRC 1.14
+LSI Logic MegaRAID SCSI 320-0X RAID Controller Driver 06.49.2.32
+LSI Logic Mylex Global Array Manager 6.02-22
+
+PKWARE Inc. PKZIP for Windows 6.00.0147
+PKWARE Inc. PKZIP Plug-In 1.03.0027
+PKWARE Inc. PKZIP Explorer 6.00.0108
+PKWARE Inc. PKZIP for Windows Command Line 6.00.01
+PKWARE Inc. PKZIP Shared Components 1.00.0007
+
+Pragma Systems, Inc Pragma TelnetServer 06.00.0014
+Pragma Systems Inc Pragma Toolkit 06.00.0003
+Pragma Systems Inc Pragma Remote Clients 01.00.0003
+
+Distinct Distinct ONC RPC/XDR Client Runtime for C/C++ 4.01 4.0.2
+Distinct Distinct IntraNet Servers 3.0.4
+
+Force Computers digitalinaip 1.0.0
+
+
+Intel Intel(R) PRO Network Connections 12.1.0.0
+Diskeeper Corporation Diskeeper 2008 12.0.768.0
+Hotfix SERVICEPACKUNINSTALL
+Hotfix Q147222
+Hotfix Q827429
+Hotfix KB883939 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB890046 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB893756 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB896358 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB896422 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB896424 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB896688 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB896727 fver=1 pver=6.1.22.4 type=Update
+Hotfix KB898458 fver=6.1.22.4 pver=6.1.22.4
+Hotfix KB899416 fver=1 pver=6.1.22.4 type=Hotfix
+Hotfix KB899587 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB899588 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB899591 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB900725 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB901214 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB902400 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB903235 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB908519 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB908531 fver=2 pver=6.2.29 type=Update
+Hotfix KB911562 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB911564 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB912354 fver=1 pver=6.2.29 type=Hotfix
+Hotfix KB912812 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB912919 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB913446 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB913953 fver=1 pver=6.2.29 type=Hotfix
+Hotfix KB914061 fver=1 pver=6.2.29 type=Hotfix
+Hotfix KB914388 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB914389 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB914961
+Hotfix KB916281 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB917159 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB917344 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB917422 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB917537 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB917953 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB918118 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB918439 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB918899 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB920213 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB920670 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB920683 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB920685 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB920739 fver=1 pver=6.2.29 type=Hotfix
+Hotfix KB921181 fver=3 pver=6.2.29 type=Hotfix
+Hotfix KB921398 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB921503 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB921883 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB922616 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB922760 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB922819 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB923191 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB923414 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB923689 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB924191 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB924496 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB924667 fver=1 pver=6.2.29 type=Hotfix
+Hotfix KB925398 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB925454 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB925672 fver=1 pver=6.2.29 type=hotfix
+Hotfix KB925902 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB926028 fver=2 pver=6.3.4.1 type=Hotfix
+Hotfix KB926122 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB926436 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB927978 fver=1 pver=6.2.29 type=hotfix
+Hotfix KB928090 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB928255 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB928388 fver=1 pver=6.2.29 type=Hotfix
+Hotfix KB928843 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB929969 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB930178 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB931768 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB931784 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB931836 fver=1 pver=6.3.4.1 type=Update
+Hotfix KB932168 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB933566 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB933729 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB933854 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB935839 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB935840 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB935966 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB936021 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB936782 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB937143 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB938127 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB938829 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB938977 fver=3 pver=6.3.4.1 type=Hotfix
+Hotfix KB939653 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB941644 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB941672 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB942615 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB942830 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB942831 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB943055 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB943460 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB943484 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB943485 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB944533 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB944653 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB946026 fver=1 pver=6.3.4.1 type=Security_Update
+
+C:\>megarc -ldinfo -a0 -lall
+
+
+        **********************************************************************
+              MEGARC MegaRAID Configuration Utility(NT)-1.14_Wrap1.0.3(2-17-2006)     
+              By LSI Logic Corp.,USA
+        **********************************************************************
+          [Note: For SATA-2, 4 and 6 channel controllers, please specify
+          Ch=0 Id=0..15 for specifying physical drive(Ch=channel, Id=Target)]
+
+        Type ? as command line arg for help
+
+
+        Finding Devices On Each MegaRAID Adapter...
+        Scanning Ha 0, Chnl 0 Target 00         Scanning Ha 0, Chnl 0 Target 01         Scanning Ha 0, Chnl 0 Target 02         Scanning Ha 0, Chnl 0 Target 03 
+        Scanning Ha 0, Chnl 0 Target 04         Scanning Ha 0, Chnl 0 Target 05         Scanning Ha 0, Chnl 0 Target 06         Scanning Ha 0, Chnl 0 Target 07         Sc
+anning Ha 0, Chnl 0 Target 08   Scanning Ha 0, Chnl 0 Target 09         Scanning Ha 0, Chnl 0 Target 10         Scanning Ha 0, Chnl 0 Target 11         Scanning Ha 0, Chn
+l 0 Target 12   Scanning Ha 0, Chnl 0 Target 13         Scanning Ha 0, Chnl 0 Target 14         Scanning Ha 0, Chnl 0 Target 15         Scanning Ha 0, Chnl 1 Target 00         
+Scanning Ha 0, Chnl 1 Target 01         Scanning Ha 0, Chnl 1 Target 02         Scanning Ha 0, Chnl 1 Target 03         Scanning Ha 0, Chnl 1 Target 04         Scanning H
+a 0, Chnl 1 Target 05   Scanning Ha 0, Chnl 1 Target 06         Scanning Ha 0, Chnl 1 Target 07         Scanning Ha 0, Chnl 1 Target 08         Scanning Ha 0, Chnl 1 Targ
+et 09   Scanning Ha 0, Chnl 1 Target 10         Scanning Ha 0, Chnl 1 Target 11         Scanning Ha 0, Chnl 1 Target 12         Scanning Ha 0, Chnl 1 Target 13         Sc
+anning Ha 0, Chnl 1 Target 14   Scanning Ha 0, Chnl 1 Target 15 
+
+                *******Information Of Logical Drive 0*******
+
+          Logical Drive : 0( Adapter: 0 ):  Status: OPTIMAL
+        ---------------------------------------------------
+        SpanDepth :01     RaidLevel: 1  RdAhead : Yes  Cache: DirectIo
+        StripSz   :064KB   Stripes  : 2  WrPolicy: WriteThru
+
+        Logical Drive 0 : SpanLevel_0 Disks
+        Chnl  Target  StartBlock   Blocks      Physical Target Status
+        ----  ------  ----------   ------      ----------------------
+        0      00    0x00000000   0x088fa000   ONLINE
+        1      00    0x00000000   0x088fa000   ONLINE
+
+                *******Information Of Logical Drive 1*******
+
+          Logical Drive : 1( Adapter: 0 ):  Status: OPTIMAL
+        ---------------------------------------------------
+        SpanDepth :01     RaidLevel: 1  RdAhead : Yes  Cache: DirectIo
+        StripSz   :064KB   Stripes  : 2  WrPolicy: WriteThru
+
+        Logical Drive 1 : SpanLevel_0 Disks
+        Chnl  Target  StartBlock   Blocks      Physical Target Status
+        ----  ------  ----------   ------      ----------------------
+        0      01    0x00000000   0x088fa000   ONLINE
+        1      01    0x00000000   0x088fa000   ONLINE
+
+                *******Information Of Logical Drive 2*******
+
+          Logical Drive : 2( Adapter: 0 ):  Status: OPTIMAL
+        ---------------------------------------------------
+        SpanDepth :01     RaidLevel: 1  RdAhead : Yes  Cache: DirectIo
+        StripSz   :064KB   Stripes  : 2  WrPolicy: WriteThru
+
+        Logical Drive 2 : SpanLevel_0 Disks
+        Chnl  Target  StartBlock   Blocks      Physical Target Status
+        ----  ------  ----------   ------      ----------------------
+        0      02    0x00000000   0x088fa000   ONLINE
+        1      02    0x00000000   0x088fa000   ONLINE
+Exiting with 0

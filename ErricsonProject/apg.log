@@ -1,0 +1,2301 @@
+C:\>hwver
+AP HARDWARE VERSION
+
+APG40C/4
+
+C:\>mml
+<ioexp;
+EXCHANGE IDENTITY DATA
+
+IDENTITY
+JALMSS3 IPA-10_V1
+
+END
+
+
+<aploc;
+Microsoft Windows [Version 5.2.3790]
+(C) Copyright 1985-2003 Microsoft Corp.
+
+C:\>prcstate
+active
+
+C:\>Prcstate -l
+active node is up and working
+passive node is up and working
+
+C:\>
+C:\>Cluster node
+Listing status for all available nodes:
+
+Node           Node ID Status
+-------------- ------- ---------------------
+AP0904271463B        2 Up
+AP0904271463A        1 Up
+
+C:\>swrprint
+AP SOFTWARE CHARACTERISTICS    15:58:45  2012-02-08
+
+SYSTEM:   APG40 One Track AGM018 AP1
+NODE:     AP0904271463B
+LBB:      Microsoft Windows NT 5.2  Build: 3790  Service Pack 2
+          x86 Family 6 Model 13 Stepping 8
+          Force LBB Version: 8.1.4
+          Force Security Patch: 6.1.2
+          LBB Platform Patch: 3.4
+
+PRODUCTNAME     IDENTITY        REVISION
+APM 5.0.5       5/LZY242113/1   R1F     
+LBBCNI          APZ21230/4-1139 A       
+LBBCNI          APZ21230/4-1095 A       
+LBBCNI          APZ21230/4-1193 A       
+LBBCNI          APZ21230/5-743  A       
+LBBCNI          APZ21230/4-691  A       
+LBBCNI          APZ21230/5-813  A       
+LBBCNI          APZ21230/4-961  A       
+LBBCNI          APZ21230/4-939  B       
+APIO 4.0.4      5/LZY242113/2   R1E     
+STS-AP          ANZ23001/8      R1A     
+AGM             018             R1A     
+IAM                                     
+
+LBBCNI           Repair-Fix     R1.13
+LBBCNI           Repair-Fix     R1.16
+LBBCNI           Repair-Fix     R1.19
+LBBCNI           Repair-Fix     R2.2
+LBBCNI           Repair-Fix     R2.3
+LBBCNI           Repair-Fix     R2.6
+LBBCNI           Repair-Fix     R2.7
+LBBCNI           Repair-Fix     R2.9
+LBBCNI           Repair-Fix     R3.1
+LBBCNI           Repair-Fix     R3.2
+LBBCNI           Repair-Fix     R3.3
+LBBCNI           Repair-Fix     R3.5
+
+
+PACKAGE         IDENTITY        VERSION   CNI             STATE
+ASECBIN         CXC1371016/4    R4E                       Active
+ALHBIN          CXC1371023/4    R3F       APZ21230/4-1181 Active
+PRCBIN          CXC1371059/4    R5A                       Active
+BURBIN          CXC1371062/5    R6A                       Active
+LCTBIN          CXC1371063/5    R2K       APZ21230/4-1064 Active
+SWRBIN          CXC1371064/5    R2C       APZ21230/4-1062 Active
+AVIRBIN         CXC1371065/4    R5A                       Active
+ACSBIN          CXC1371068/5    R7A                       Active
+LOGMBIN         CXC1371079/4    R2A                       Active
+DACBIN          CXC1371080/4    R1F       APZ21230/4-321  Active
+USABIN          CXC1371081/5    R5B       APZ21230/4-1225 Active
+PHABIN          CXC1371082/5    R1C       APZ21230/4-1046 Active
+NSFBIN          CXC1371091/5    R4A                       Active
+ALOGBIN         CXC1371092/5    R2D       APZ21230/4-1112 Active
+RTRBIN          CXC1371096/5    R4H       APZ21230/4-1084 Active
+BURREMRECBIN    CXC1371103/5    R2B       APZ21230/4-1107 Active
+SSUBIN          CXC1371104/5    R2D       APZ21230/4-1118 Active
+EMFBIN          CXC1371111/5    R2B       APZ 212 30/4-1012Active
+FCRBIN          CXC1371117/5    R2A                       Active
+FCHBIN          CXC1371136/5    R1B       APZ21230/4-1098 Active
+APCONFBIN       CXC1371147/5    R1D       APZ21230/4-1165 Active
+JTPBIN          CXC137414/4     R1A                       Active
+DSDBIN          CXC137416/4     R4K       APZ21230/4-816  Active
+CHBBIN          CXC137433/4     R7M       APZ21230/4-733  Active
+ACABIN          CXC137440/4     R6D       APZ21230/4-1082 Active
+ASECUDBIN       CXC137495/4     R2C       APZ21230/4-433  Active
+SFCBIN          CXC137499/4     R5B       APZ21230/4-1182 Active
+TRAUTIBIN       CXC13788/4      R1A                       Active
+TRAINIBIN       CXC13789/4      R1A                       Active
+AEHBIN          CXC13790/4      R4G       APZ21230/4-887  Active
+SFTPAPIBIN      CXC1325239/4    R1K       APZ21230/4-1224 Active
+AFPBIN          CXC1371083/5    R2F       APZ21230/4-1143 Active
+CDHBIN          CXC1371084/5    R5A                       Active
+DBOBIN          CXC1371087/5    R1D       APZ21230/4-1153 Active
+GCCBIN          CXC1371088/5    R1C       APZ21230/4-1174 Active
+OHIBIN          CXC1371089/5    R1C       APZ21230/4-1191 Active
+OSFBIN          CXC1371090/5    R1B       APZ21230/5-759  Active
+SSHCLNTBIN      CXC1371093/5    R1B       APZ21230/4-1014 Active
+SSHSERVBIN      CXC1371094/5    R1F       APZ21230/4-1202 Active
+FTPCLIBIN       CXC1371095/5    R2A                       Active
+NETCFGBIN       CXC1371125/5    R1C       APZ21230/4-1175 Active
+CPHWBIN         CXC1371010/4    R5A       APZ 212 40/2-86 Active
+BUFTPDBIN       CXC1371006/4    R1C       APZ21230/4-431  Active
+BUAPBIN         CXC1371007/4    R2F       APZ21230/4-1017 Active
+BUSRVBIN        CXC1371106/5    R2G       APZ21240/3-171  Active
+CPFADMBIN       CXC1371097/5    R1J       APZ21230/4-1151 Active
+CPFCMDBIN       CXC1371098/5    R1B       APZ21230/5-485  Active
+CPFAPIBIN       CXC1371099/5    R1E       APZ21230/4-1154 Active
+FCCAPIBIN       CXC1371100/5    R1C       APZ21230/5-485  Active
+CPTASPBIN       CXC1371057/4    R5C       APZ21230/4-1000 Active
+MODDBIN         CXC1371107/5    R2C       APZ21230/4-1087 Active
+MODTBIN         CXC1371149/5    R1A                       Active
+AIAPBIN         CXC1371001/4    R1B       APZ21230/4-1074 Active
+ALDABIN         CXC1371002/4    R1E       APZ21230/4-836  Active
+ALISADMBIN      CXC1371004/4    R2E       APZ21230/4-990  Active
+MLSMSSBIN       CXC1371077/4    R2C       APZ21230/6-912  Active
+MMLAPIBIN       CXC137418/4     R5B       APZ21230/6-897  Active
+AISAPIBIN       CXC137425/4     R3D       APZ21230/4-807  Active
+MCCBIN          CXC137429/4     R4M       APZ21230/4-1179 Active
+MLSMMLBIN       CXC137430/4     R4AL      APZ21230/4-1007 Active
+PDSPGMBIN       CXC137431/4     R4D       APZ21230/4-1101 Active
+ADHADMBIN       CXC137471/4     R3H       APZ21230/4-1178 Active
+CPDCMDBIN       CXC137472/4     R2A                       Active
+CUACMDBIN       CXC137473/4     R1F       APZ21230/4-381  Active
+MLSMTSBIN       CXC137474/4     R4F       APZ21230/4-1123 Active
+ALECADMBIN      CXC137479/4     R1L       APZ21230/4-1013 Active
+IPNAOSBIN       CXC1060053      R2H       APZ21230/4-376  Active
+FTPCBIN         CXC1060054      R1A                       Active
+LACPIPNBIN      CXC1060055      R1E       APZ21230/4-376  Active
+OCITSIBIN       CXC1060074      R1J       APZ21230/4-376  Active
+IPNA_INETBIN    CXC1060087      R1G       APZ 212 30/4-920 Active
+IPNAADMBIN      CXC1371259/5    R1A       APZ21230/6-927  Active
+TOCAPBIN        CXC137611/5     R1B       APZ21230/4-1096 Active
+CFETCMDBIN      CXC1371031/4    R4H       APZ21240/2-155  Active
+CLHADMBIN       CXC1371102/5    R2D       APZ21240/3-172  Active
+CLHCMDBIN       CXC1371105/5    R2B       APZ21240/3-152  Active
+VMFSIBIN        CXC137489/4     R2A                       Active
+SGSBIN          CXC1371140/5    R1D       APZ21230/4-1100 Active
+STSCOUNT01      CXC1371167/5    R1F       APZ21230/4-1158 Active
+STSCOUNT02      CXC1371168/5    R1E       APZ21230/4-1160 Active
+STSCOUNT03      CXC1371169/5    R1E       APZ21230/4-1161 Active
+STSCOUNTERS     CXC1371179/5    R1H       APZ21230/4-1184 Active
+STSCOUNT04      CXC1371206/5    R1G       APZ21230/4-1221 Active
+STSCBIN         CXC1371243/5    R1D       APZ21230/4-1128 Active
+
+Category:   Third party products
+
+Microsoft Windows Server 2003 Enterprise Edition with Service Pack 2
+Microsoft Corporation MSXML 4.0 SP2 Parser and SDK 4.20.9818.0
+Microsoft Corporation Microsoft Group Policy Management Console with SP1 1.0.1.0
+Microsoft Terminal Server 5.2
+Microsoft Internet Information Server 6
+
+Motorola Alarm Module Firmware 1.13
+Motorola System BIOS 2.0.5A
+
+LSI Logic MegaRAID Firmware 414#
+LSI Logic MegaRC 1.14
+LSI Logic MegaRAID SCSI 320-0X RAID Controller Driver 06.49.2.32
+LSI Logic Mylex Global Array Manager 6.02-22
+
+PKWARE Inc. PKZIP for Windows 6.00.0147
+PKWARE Inc. PKZIP Plug-In 1.03.0027
+PKWARE Inc. PKZIP Explorer 6.00.0108
+PKWARE Inc. PKZIP for Windows Command Line 6.00.01
+PKWARE Inc. PKZIP Shared Components 1.00.0007
+
+Pragma Systems, Inc Pragma TelnetServer 06.00.0014
+Pragma Systems Inc Pragma Toolkit 06.00.0003
+Pragma Systems Inc Pragma Remote Clients 01.00.0003
+
+Distinct Distinct ONC RPC/XDR Client Runtime for C/C++ 4.01 4.0.2
+Distinct Distinct IntraNet Servers 3.0.4
+
+Force Computers digitalinaip 1.0.0
+
+
+Intel Intel(R) PRO Network Connections 12.1.0.0
+Diskeeper Corporation Diskeeper 2008 12.0.768.0
+Hotfix SERVICEPACKUNINSTALL
+Hotfix Q147222
+Hotfix Q827429
+Hotfix KB883939 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB890046 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB893756 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB896358 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB896422 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB896424 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB896688 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB896727 fver=1 pver=6.1.22.4 type=Update
+Hotfix KB898458 fver=6.1.22.4 pver=6.1.22.4
+Hotfix KB899416 fver=1 pver=6.1.22.4 type=Hotfix
+Hotfix KB899587 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB899588 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB899591 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB900725 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB901214 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB902400 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB903235 fver=1 pver=6.1.22.4 type=Security_Update
+Hotfix KB908519 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB908531 fver=2 pver=6.2.29 type=Update
+Hotfix KB911562 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB911564 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB912354 fver=1 pver=6.2.29 type=Hotfix
+Hotfix KB912812 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB912919 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB913446 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB913953 fver=1 pver=6.2.29 type=Hotfix
+Hotfix KB914061 fver=1 pver=6.2.29 type=Hotfix
+Hotfix KB914388 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB914389 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB914961
+Hotfix KB916281 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB917159 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB917344 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB917422 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB917537 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB917953 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB918118 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB918439 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB918899 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB920213 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB920670 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB920683 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB920685 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB920739 fver=1 pver=6.2.29 type=Hotfix
+Hotfix KB921181 fver=3 pver=6.2.29 type=Hotfix
+Hotfix KB921398 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB921503 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB921883 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB922616 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB922760 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB922819 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB923191 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB923414 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB923689 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB924191 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB924496 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB924667 fver=1 pver=6.2.29 type=Hotfix
+Hotfix KB925398 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB925454 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB925672 fver=1 pver=6.2.29 type=hotfix
+Hotfix KB925902 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB926028 fver=2 pver=6.3.4.1 type=Hotfix
+Hotfix KB926122 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB926436 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB927978 fver=1 pver=6.2.29 type=hotfix
+Hotfix KB928090 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB928255 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB928388 fver=1 pver=6.2.29 type=Hotfix
+Hotfix KB928843 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB929969 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB930178 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB931768 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB931784 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB931836 fver=1 pver=6.3.4.1 type=Update
+Hotfix KB932168 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB933566 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB933729 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB933854 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB935839 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB935840 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB935966 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB936021 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB936782 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB937143 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB938127 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB938829 fver=1 pver=6.2.29 type=Security_Update
+Hotfix KB938977 fver=3 pver=6.3.4.1 type=Hotfix
+Hotfix KB939653 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB941644 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB941672 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB942615 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB942830 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB942831 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB943055 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB943460 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB943484 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB943485 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB944533 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB944653 fver=1 pver=6.3.4.1 type=Security_Update
+Hotfix KB946026 fver=1 pver=6.3.4.1 type=Security_Update
+
+C:\>CLUSTER RES
+Listing status for all available resources:
+
+Resource             Group                Node            Status
+-------------------- -------------------- --------------- ------
+Cluster IP Address   Cluster Group        AP0904271463B   Online
+Cluster Name         Cluster Group        AP0904271463B   Online
+Internal IP Address for SPOE Cluster Group        AP0904271463B   Online
+AP_1                 Cluster Group        AP0904271463B   Online
+Disks K: L: M:       Disk Group           AP0904271463B   Online
+Disks R: S: V: G:    Disk Group           AP0904271463B   Online
+Disks Q: Y: I:       Disk Group           AP0904271463B   Online
+Share K              Disk Group           AP0904271463B   Online
+Images               Disk Group           AP0904271463B   Online
+DHCP Service         Disk Group           AP0904271463B   Online
+Diskeeper            Disk Group           AP0904271463B   Online
+Share LOGS           Disk Group           AP0904271463B   Online
+Share FMS            Disk Group           AP0904271463B   Online
+Share CPS            Disk Group           AP0904271463B   Online
+Share MCS            Disk Group           AP0904271463B   Online
+Share R              Disk Group           AP0904271463B   Online
+Share S              Disk Group           AP0904271463B   Online
+stsprov              Disk Group           AP0904271463B   Online
+stsconv              Disk Group           AP0904271463B   Online
+stsopcf              Disk Group           AP0904271463B   Online
+stsmain              Disk Group           AP0904271463B   Online
+gatherer             Disk Group           AP0904271463B   Online
+PES_CLH_server       Disk Group           AP0904271463B   Online
+OCS_IPNAADM          Disk Group           AP0904271463B   Online
+MCS_ALEC_ADM         Disk Group           AP0904271463B   Online
+MCS_MTS_ADM          Disk Group           AP0904271463B   Online
+MCS_ADH_ADM          Disk Group           AP0904271463B   Online
+MCS_MSS_ADM          Disk Group           AP0904271463B   Online
+MCS_ALIS_ADM         Disk Group           AP0904271463B   Online
+MCS_ALDA_ADM         Disk Group           AP0904271463B   Online
+MCS_AIAP_ADM         Disk Group           AP0904271463B   Online
+MAS_MODT_Handler     Disk Group           AP0904271463B   Online
+MAS_MODD_Handler     Disk Group           AP0904271463B   Online
+MAS_CPTASP_cptheartbeat Disk Group           AP0904271463B   Online
+MAS_CPTASP_cptcentral_A Disk Group           AP0904271463B   Online
+MAS_CPTASP_cptcentral_B Disk Group           AP0904271463B   Online
+MAS_CPTASP_cptcentral Disk Group           AP0904271463B   Online
+FMS_CPF_server       Disk Group           AP0904271463B   Online
+CPS_BUSRV            Disk Group           AP0904271463B   Online
+CPS_BUAP_parmgr      Disk Group           AP0904271463B   Online
+CPS_BUAP_loader      Disk Group           AP0904271463B   Online
+CPS_BUAP_filemgr     Disk Group           AP0904271463B   Online
+CPS_BUFTPD           Disk Group           AP0904271463B   Online
+AES_DBO_server       Disk Group           AP0904271463B   Online
+AES_CDH_Server       Disk Group           AP0904271463B   Online
+AES_AFP_server       Disk Group           AP0904271463B   Online
+ACS_RTR_service_7    Disk Group           AP0904271463B   Online
+ACS_MSD_service_7    Disk Group           AP0904271463B   Online
+ACS_RTR_service_6    Disk Group           AP0904271463B   Online
+ACS_MSD_service_6    Disk Group           AP0904271463B   Online
+ACS_RTR_service_5    Disk Group           AP0904271463B   Online
+ACS_MSD_service_5    Disk Group           AP0904271463B   Online
+ACS_RTR_service_4    Disk Group           AP0904271463B   Online
+ACS_MSD_service_4    Disk Group           AP0904271463B   Online
+ACS_RTR_service_3    Disk Group           AP0904271463B   Online
+ACS_MSD_service_3    Disk Group           AP0904271463B   Online
+ACS_RTR_service_2    Disk Group           AP0904271463B   Online
+ACS_MSD_service_2    Disk Group           AP0904271463B   Online
+ACS_RTR_service_1    Disk Group           AP0904271463B   Online
+ACS_MSD_service_1    Disk Group           AP0904271463B   Online
+ACS_RTR_service      Disk Group           AP0904271463B   Online
+ACS_MSD_service      Disk Group           AP0904271463B   Online
+ACS_ALOG_Main        Disk Group           AP0904271463B   Online
+APIO_TFTP_Server     Disk Group           AP0904271463B   Online
+OCS_OCP_echo_0       RGAPM_0              AP0904271463A   Online
+ACS_DSD_service_0    RGAPM_0              AP0904271463A   Online
+ACS_SFC_Recovery_0   RGAPM_0              AP0904271463A   Online
+ACS_CHB_ClockSyncService_0 RGAPM_0              AP0904271463A   Online
+ACS_CHB_HeartBeatService_0 RGAPM_0              AP0904271463A   Online
+ACS_EMF_Server_0     RGAPM_0              AP0904271463A   Online
+ACS_SSU_Monitor_0    RGAPM_0              AP0904271463A   Online
+ACS_ALOG_SecLog_0    RGAPM_0              AP0904271463A   Online
+ACS_ALOG_SysMon_0    RGAPM_0              AP0904271463A   Online
+ACS_ALOG_BufMan_0    RGAPM_0              AP0904271463A   Online
+ACS_NSF_Server_0     RGAPM_0              AP0904271463A   Online
+ACS_USA_SyslogAnalyser_0 RGAPM_0              AP0904271463A   Online
+ACS_ACSC_Logmaint_0  RGAPM_0              AP0904271463A   Online
+ACS_PRC_EventAnalyser_0 RGAPM_0              AP0904271463A   Online
+ACS_ALH_Exec_0       RGAPM_0              AP0904271463A   Online
+OCS_OCP_echo_1       RGAPM_1              AP0904271463B   Online
+ACS_DSD_service_1    RGAPM_1              AP0904271463B   Online
+ACS_SFC_Recovery_1   RGAPM_1              AP0904271463B   Online
+ACS_CHB_ClockSyncService_1 RGAPM_1              AP0904271463B   Online
+ACS_CHB_HeartBeatService_1 RGAPM_1              AP0904271463B   Online
+ACS_EMF_Server_1     RGAPM_1              AP0904271463B   Online
+ACS_SSU_Monitor_1    RGAPM_1              AP0904271463B   Online
+ACS_ALOG_SecLog_1    RGAPM_1              AP0904271463B   Online
+ACS_ALOG_SysMon_1    RGAPM_1              AP0904271463B   Online
+ACS_ALOG_BufMan_1    RGAPM_1              AP0904271463B   Online
+ACS_NSF_Server_1     RGAPM_1              AP0904271463B   Online
+ACS_USA_SyslogAnalyser_1 RGAPM_1              AP0904271463B   Online
+ACS_ACSC_Logmaint_1  RGAPM_1              AP0904271463B   Online
+ACS_PRC_EventAnalyser_1 RGAPM_1              AP0904271463B   Online
+ACS_ALH_Exec_1       RGAPM_1              AP0904271463B   Online
+C:\>cluster res |findstr -ive online
+Listing status for all available resources:
+
+Resource             Group                Node            Status
+-------------------- -------------------- --------------- ------
+C:\>megarc -ldinfo -lall -a0
+        **********************************************************************
+              MEGARC MegaRAID Configuration Utility(NT)-1.14_Wrap1.0.3(2-17-2006)     
+              By LSI Logic Corp.,USA
+        **********************************************************************
+          [Note: For SATA-2, 4 and 6 channel controllers, please specify
+          Ch=0 Id=0..15 for specifying physical drive(Ch=channel, Id=Target)]
+
+        Type ? as command line arg for help
+
+
+        Finding Devices On Each MegaRAID Adapter...
+        Scanning Ha 0, Chnl 0 Target 00         Scanning Ha 0, Chnl 0 Target 01         Scanning Ha 0, Chnl 0 Target 02         Scanning Ha 0, Chnl 0 Target 03         Scanning Ha 0, Chnl 0 Target 04         Scanning Ha 0, Chnl 0 Target 05         Scanning Ha 0, Chnl 0 Target 06         Scanning Ha 0, Chnl 0 Target 07         Scanning Ha 0, Chnl 0 Target 08         Scanning Ha 0, Chnl 0 Target 09         Scanning Ha 0, Chnl 0 Target 10         Scanning Ha 0, Chnl 0 Target 11         Scanning Ha 0, Chnl 0 Target 12         Scanning Ha 0, Chnl 0 Target 13         Scanning Ha 0, Chnl 0 Target 14         Scanning Ha 0, Chnl 0 Target 15         Scanning Ha 0, Chnl 1 Target 00         Scanning Ha 0, Chnl 1 Target 01         Scanning Ha 0, Chnl 1 Target 02         Scanning Ha 0, Chnl 1 Target 03         Scanning Ha 0, Chnl 1 Target 04         Scanning Ha 0, Chnl 1 Target 05         Scanning Ha 0, Chnl 1 Target 06         Scanning Ha 0, Chnl 1 Target 07         Scanning Ha 0, Chnl 1 Target 08         Scanning Ha 0, Chnl 1 Target 09         Scanning Ha 0, Chnl 1 Target 10         Scanning Ha 0, Chnl 1 Target 11         Scanning Ha 0, Chnl 1 Target 12         Scanning Ha 0, Chnl 1 Target 13         Scanning Ha 0, Chnl 1 Target 14         Scanning Ha 0, Chnl 1 Target 15 
+
+                *******Information Of Logical Drive 0*******
+
+          Logical Drive : 0( Adapter: 0 ):  Status: OPTIMAL
+        ---------------------------------------------------
+        SpanDepth :01     RaidLevel: 1  RdAhead : Yes  Cache: DirectIo
+        StripSz   :064KB   Stripes  : 2  WrPolicy: WriteThru
+
+        Logical Drive 0 : SpanLevel_0 Disks
+        Chnl  Target  StartBlock   Blocks      Physical Target Status
+        ----  ------  ----------   ------      ----------------------
+        0      00    0x00000000   0x088fa000   ONLINE
+        1      00    0x00000000   0x088fa000   ONLINE
+
+                *******Information Of Logical Drive 1*******
+
+          Logical Drive : 1( Adapter: 0 ):  Status: OPTIMAL
+        ---------------------------------------------------
+        SpanDepth :01     RaidLevel: 1  RdAhead : Yes  Cache: DirectIo
+        StripSz   :064KB   Stripes  : 2  WrPolicy: WriteThru
+
+        Logical Drive 1 : SpanLevel_0 Disks
+        Chnl  Target  StartBlock   Blocks      Physical Target Status
+        ----  ------  ----------   ------      ----------------------
+        0      01    0x00000000   0x088fa000   ONLINE
+        1      01    0x00000000   0x088fa000   ONLINE
+
+                *******Information Of Logical Drive 2*******
+
+          Logical Drive : 2( Adapter: 0 ):  Status: OPTIMAL
+        ---------------------------------------------------
+        SpanDepth :01     RaidLevel: 1  RdAhead : Yes  Cache: DirectIo
+        StripSz   :064KB   Stripes  : 2  WrPolicy: WriteThru
+
+        Logical Drive 2 : SpanLevel_0 Disks
+        Chnl  Target  StartBlock   Blocks      Physical Target Status
+        ----  ------  ----------   ------      ----------------------
+        0      02    0x00000000   0x088fa000   ONLINE
+        1      02    0x00000000   0x088fa000   ONLINE
+Exiting with 0
+
+C:\>
+APG 40 C\4
+command
+C:\>diskpart
+
+Microsoft DiskPart version 5.2.3790.3959
+Copyright (C) 1999-2001 Microsoft Corporation.
+On computer: AP090826346B
+
+DISKPART> list vol
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     Q   Disk Q       NTFS   Partition   4001 MB  Healthy            
+  Volume 1     Y   Disk Y       NTFS   Partition     63 GB  Healthy            
+  Volume 2     I   Disk I       NTFS   Partition    204 MB  Healthy            
+  Volume 3     E   ntboot       NTFS   Partition     31 MB  Healthy    System  
+  Volume 4     C   ntserv       NTFS   Partition     14 GB  Healthy    Boot    
+  Volume 5     D   ntbackup     NTFS   Partition     14 GB  Healthy            
+  Volume 6     F   ntdump       NTFS   Partition      9 GB  Healthy            
+  Volume 7     K   Disk K       NTFS   Partition     10 GB  Healthy            
+  Volume 8     L   Disk L       NTFS   Partition     39 GB  Healthy            
+  Volume 9     M   Disk M       NTFS   Partition     19 GB  Healthy            
+  Volume 10    R   Disk R       NTFS   Partition     20 GB  Healthy            
+  Volume 11    S   Disk S       NTFS   Partition     10 GB  Healthy            
+  Volume 12    V   Disk V       NTFS   Partition     23 GB  Healthy            
+  Volume 13    G   Disk G       NTFS   Partition     15 GB  Healthy           
+
+
+C:\>pstat
+NOT ACCEPTED
+Not authorised to execute pstat
+C:\>exit;
+<aploc;
+Microsoft Windows [Version 5.2.3790]
+(C) Copyright 1985-2003 Microsoft Corp.
+
+C:\>pstat
+NOT ACCEPTED
+Not authorised to execute pstat
+C:\>exit;
+<exit;
+
+Disconnected from JALMSS3
+els@pumas1o> pwAdmin -l JALMSS3
+
+SYSTEM          TYPE            ACCOUNT         INFO           
+JALMSS3         NORMAL          ossuser                        
+JALMSS3         SECURE          ossuser                        
+els@pumas1o> pwAdmin -g JALMSS3         NORMAL          ossuser
+
+FAILED: User not authorized for the attempted operation.
+els@pumas1o> pwAdmin -get JALMSS3         NORMAL          ossuser
+
+FAILED: User not authorized for the attempted operation.
+els@pumas1o> pwAdmin -g JALMSS3         NORMAL          ossuser
+
+FAILED: User not authorized for the attempted operation.
+c:\winnt\profiles\ossuser>pstat
+HandleCount  Name                             PageFaults  Priority  ProcessId  QuotaNonPagedPoolUsage  QuotaPagedPoolUsage  ThreadCount  WorkingSetSize  
+
+0            System Idle Process              0           0         0          0                       0                    1            16384           
+
+9602         System                           864092      8         4          0                       0                    51           155648          
+
+21           smss.exe                         470         11        256        1                       6                    2            372736          
+
+1819         csrss.exe                        11340174    13        328        12                      91                   19           9068544         
+
+544          winlogon.exe                     12536867    13        352        65                      54                   22           10539008        
+
+657          services.exe                     11810263    9         400        21                      108                  21           56098816        
+
+1144         lsass.exe                        3498870     9         412        87                      98                   57           18825216        
+
+100          svchost.exe                      1931        8         584        3                       22                   6            2576384         
+
+276          svchost.exe                      182517      8         748        37                      26                   11           3084288         
+
+110          svchost.exe                      6160        8         812        5                       35                   6            2301952         
+
+147          svchost.exe                      1158        8         824        4                       22                   13           2260992         
+
+687          svchost.exe                      1505978     8         864        16                      69                   33           14307328        
+
+279          ACS_FCR_Server.exe               1408        8         1080       4                       31                   4            1601536         
+
+135          ACS_PRC_ClusterControl.exe       1105        8         1180       4                       20                   13           2015232         
+
+79           ACS_PRC_IspService.exe           824         8         1196       3                       18                   5            1851392         
+
+119          aes_telnet_server.exe            162477301   8         1220       38                      35                   5            3973120         
+
+254          AmService.exe                    1985        8         1264       29                      26                   20           1769472         
+
+280          burServer.exe                    403839      8         1280       12                      48                   10           12079104        
+
+71           ContLogColl.exe                  2597        8         1300       3                       47                   3            3022848         
+
+123          dfssvc.exe                       189474      8         1360       6                       33                   11           3682304         
+
+131          DisableInactiveUserAccounts.exe  744         8         1380       3                       26                   4            1150976         
+
+5192         dns.exe                          11415       8         1428       2972                    768                  13           8183808         
+
+1250         igateway.exe                     163100      8         1472       37                      53                   5            14299136        
+
+409          inetinfo.exe                     320207      8         1568       67                      79                   17           7450624         
+
+196          inorpc.exe                       18384       8         1592       42                      37                   10           2846720         
+
+158          inort.exe                        10886385    8         1696       5                       21                   19           11517952        
+
+144          inotask.exe                      145873      8         1724       6                       44                   7            6926336         
+
+65           lastloginsvc.exe                 704         8         1784       3                       27                   3            761856          
+
+106          lbbam_service.exe                1855        8         1816       6                       28                   10           1548288         
+
+332          ntfrs.exe                        36934993    8         1896       16                      33                   20           7995392         
+
+60           svchost.exe                      1066        8         180        2                       15                   2            1318912         
+
+56           locator.exe                      662         8         200        3                       27                   3            753664          
+
+75           swlistsvc.exe                    651         8         288        3                       26                   2            831488          
+
+65           SpySer.exe                       677         8         324        7                       18                   2            892928          
+
+214          ssh-server-g3.exe                975         8         468        24                      25                   12           2101248         
+
+184          svchost.exe                      3763        8         600        6                       34                   23           3309568         
+
+37           Gamscm.exe                       351         8         884        1                       10                   2            471040          
+
+81           Gamdrv.exe                       1029        8         1092       6                       20                   6            1335296         
+
+586          clussvc.exe                      60706       13        1100       10                      51                   29           5070848         
+
+35           Gamserv.exe                      515         8         1108       3                       16                   1            798720          
+
+39           Gamevlog.exe                     543         8         1628       3                       15                   1            778240          
+
+196          ssh-servant-g3.exe               190785      8         1684       5                       25                   19           5296128         
+
+198          ssh-servant-g3.exe               190946      8         2176       6                       26                   19           5541888         
+
+195          ssh-servant-g3.exe               191019      8         2268       6                       26                   19           5459968         
+
+223          ssh-servant-g3.exe               189569      8         2404       7                       27                   19           5513216         
+
+199          ssh-servant-g3.exe               190835      8         2540       6                       26                   19           5316608         
+
+283          resrcmon.exe                     16405       13        2680       8                       47                   16           4730880         
+
+94           acs_fch_server.exe               1252        8         2912       4                       24                   7            1581056         
+
+134          acs_dsdaemon.exe                 187705      8         3064       12                      23                   10           2277376         
+
+44           ACS_SFC_Recovery.exe             1020        8         3096       3                       29                   2            1544192         
+
+91           acs_emf_server.exe               1108        8         3176       4                       21                   8            897024          
+
+221          acs_ssu_monitor.exe              2048        8         3192       7                       41                   37           2998272         
+
+52           acs_alog_seclog.exe              163241      8         3264       3                       19                   3            1781760         
+
+74           acs_alog_sysmon.exe              5070        8         3344       3                       20                   6            1634304         
+
+110          acs_alog_bufman.exe              24262260    8         3396       7                       22                   24           2121728         
+
+76           acs_nsf_server.exe               1140        8         3448       3                       31                   3            1859584         
+
+64           ACS_USA_SyslogAnalyser.exe       357345699   8         3504       3                       19                   4            5369856         
+
+34           acs_acsc_logmaint.exe            871         8         3532       2                       25                   2            1437696         
+
+53           ACS_PRC_EventAnalyser.exe        817         8         3544       3                       17                   4            1388544         
+
+157          wmiprvse.exe                     10348       8         3564       4                       26                   4            2281472         
+
+108          OCS_OCP_Echo.exe                 1046        8         3636       7                       19                   10           1945600         
+
+89           ACS_CHB_ClockSyncService.exe     1185        8         3648       4                       18                   9            2433024         
+
+117          ACS_CHB_HeartBeat.exe            318960      8         3720       9                       23                   8            2609152         
+
+47           ACS_CHB_HeartBeatChild.exe       728         8         3864       5                       18                   1            1126400         
+
+109          ACS_ALH_Exec.exe                 30609       8         3892       6                       30                   10           12464128        
+
+310          tcpsvcs.exe                      963345      8         4528       17                      50                   14           8585216         
+
+281          DkService.exe                    1800934     6         4540       11                      52                   13           13234176        
+
+112          acs_alog_main.exe                1480974     8         3484       5                       23                   11           3432448         
+
+119          acs_lm_server.exe                3712        8         2500       9                       24                   8            2985984         
+
+150          ACS_MSD_service.exe              1257        13        5304       13                      24                   9            2314240         
+
+100          ACS_MSD_service.exe              1158        13        5280       9                       22                   5            1368064         
+
+100          ACS_MSD_service.exe              1158        13        2252       9                       22                   5            1368064         
+
+99           ACS_MSD_service.exe              1158        13        5948       9                       22                   5            1368064         
+
+99           ACS_MSD_service.exe              1157        13        5992       9                       22                   5            1339392         
+
+99           ACS_MSD_service.exe              1158        13        6028       9                       22                   5            1368064         
+
+99           ACS_MSD_service.exe              1158        13        4696       9                       22                   5            1368064         
+
+99           ACS_MSD_service.exe              1166        13        6000       9                       22                   5            1343488         
+
+1163         aes_cdh_server.exe               162788      8         5516       35                      61                   87           6840320         
+
+47           GHOST32.EXE                      685         8         2428       3                       17                   3            872448          
+
+34           tftpsvc.exe                      396         8         1740       2                       14                   2            647168          
+
+50           TFTP32.exe                       4794828     8         2628       4                       26                   2            2031616         
+
+37           MAS_CPTASP_cptcentral.exe        645         8         3424       2                       12                   3            811008          
+
+60           MAS_CPTASP_cptcentral_A.exe      933         8         2520       11                      18                   3            1499136         
+
+75           MAS_CPTASP_cptcentral_B.exe      963         8         4744       5                       18                   5            1630208         
+
+89           MAS_MODD_Handler.exe             1005        8         5752       12                      18                   6            1642496         
+
+37           MAS_MODT_Handler.exe             664         8         5748       2                       12                   3            749568          
+
+540          mcs_adh_adm.exe                  3957203     8         4264       78                      38                   42           7241728         
+
+168          mcs_aiap_adm.exe                 1349        8         4816       10                      24                   8            3084288         
+
+108          mcs_alda_adm.exe                 1282        8         5364       8                       23                   5            1445888         
+
+146          mcs_alec_adm.exe                 1353        8         3232       5                       22                   5            2347008         
+
+134          mcs_alis_adm.exe                 1407        8         5632       13                      24                   6            2437120         
+
+73           mcs_mss_adm.exe                  955         8         4468       275                     20                   3            1638400         
+
+147          mcs_mts_adm.exe                  1901        8         4396       89                      27                   3            3063808         
+
+150          ipnaadm_server.exe               939         8         4424       10                      19                   6            1253376         
+
+257          pes_clh_server.exe               3147        8         5476       25                      32                   21           3743744         
+
+135          gatherer.exe                     15432       8         6024       64                      21                   4            2342912         
+
+118          stsmain.exe                      26655937    13        6020       6                       25                   10           8507392         
+
+36           MAS_CPTASP_cptheartbeat.exe      649         8         5444       2                       12                   3            729088          
+
+110          aes_dbo_server.exe               1367        8         5660       8                       22                   5            1556480         
+
+845          aes_afp_server.exe               47317867    8         4916       29                      41                   71           30265344        
+
+72           acs_rtr_service.exe              1143        8         760        3                       20                   3            1232896         
+
+72           acs_rtr_service.exe              1143        8         4988       3                       20                   3            1232896         
+
+72           acs_rtr_service.exe              1143        8         1032       3                       20                   3            1232896         
+
+72           acs_rtr_service.exe              1143        8         5724       3                       20                   3            1232896         
+
+72           acs_rtr_service.exe              1143        8         4692       3                       20                   3            1232896         
+
+72           acs_rtr_service.exe              1143        8         3996       3                       20                   3            1232896         
+
+72           acs_rtr_service.exe              1143        8         5340       3                       20                   3            1232896         
+
+125          acs_rtr_service.exe              7308        8         5056       6                       22                   6            3629056         
+
+73           stsopcf.exe                      6015        8         5224       3                       23                   2            6811648         
+
+128          stsconv.exe                      79663750    8         5132       9                       26                   6            39907328        
+
+95           stsprov.exe                      1477178     8         4788       4                       26                   2            12275712        
+
+41           cmd.exe                          379         8         1024       2                       14                   1            1564672         
+
+300          fms_cpf_server.exe               64476       8         7920       23                      28                   23           10637312        
+
+119          cps_busrv.exe                    1811        8         5472       65                      39                   4            6422528         
+
+95           cps_buap_parmgr.exe              1206        8         5336       8                       22                   6            4874240         
+
+77           cps_buap_loader.exe              948         8         6556       8                       19                   6            3821568         
+
+91           cps_buap_filemgr.exe             1172        8         1772       8                       22                   6            4734976         
+
+67           CPS_BUFTPD.exe                   1119        8         6692       4                       22                   3            4517888         
+
+81           telnets.exe                      1044        8         1312       3                       27                   5            4055040         
+
+42           cmd.exe                          412         8         6792       2                       14                   1            1699840         
+
+131          mml.exe                          451609      8         7300       5                       22                   5            4804608         
+
+57           ssh-shell.exe                    513         8         8172       3                       17                   1            2113536         
+
+39           cmd.exe                          413         8         8120       2                       14                   1            1703936         
+
+127          mml.exe                          174180      8         7028       5                       22                   5            4784128         
+
+81           telnets.exe                      1044        8         4024       3                       27                   5            4055040         
+
+42           cmd.exe                          412         8         8008       2                       14                   1            1699840         
+
+130          mml.exe                          52374       8         2916       5                       22                   5            4808704         
+
+81           telnets.exe                      1035        8         6340       3                       27                   5            4018176         
+
+42           cmd.exe                          412         8         6572       2                       14                   1            1699840         
+
+130          mml.exe                          36863       8         6784       5                       22                   5            4792320         
+
+80           telnets.exe                      1035        8         7556       3                       27                   5            4018176         
+
+42           cmd.exe                          412         8         7612       2                       14                   1            1699840         
+
+129          mml.exe                          25391       8         7148       5                       22                   5            4788224         
+
+141          mml.exe                          3094        8         4260       7                       23                   6            4923392         
+
+89           aploc.exe                        1064        8         7776       3                       21                   2            4296704         
+
+50           cmd.exe                          455         8         6388       2                       14                   1            1744896         
+
+142          mml.exe                          3152        8         4436       7                       23                   6            4923392         
+
+90           aploc.exe                        1064        8         6604       3                       21                   2            4296704         
+
+51           cmd.exe                          455         8         5356       2                       14                   1            1744896         
+
+141          mml.exe                          3228        8         7728       7                       23                   6            4923392         
+
+89           aploc.exe                        1062        8         6004       3                       21                   2            4288512         
+
+50           cmd.exe                          421         8         7412       2                       14                   1            1699840         
+
+125          mml.exe                          7028        8         3756       5                       22                   5            4915200         
+
+57           telnets.exe                      872         8         3412       3                       27                   3            3354624         
+
+78           telnets.exe                      1036        8         7164       3                       27                   5            4022272         
+
+42           cmd.exe                          424         8         6596       2                       14                   1            1748992         
+
+139          wmic.exe                         1895        8         7996       4                       36                   4            5787648         
+
+129          wmiprvse.exe                     1412        8         4516       4                       27                   7            5525504         
+
+
+
+Name                         PrivateBytes  VirtualBytes  VirtualBytesPeak  WorkingSet  WorkingSetPeak  
+
+Idle                         0             0             0                 16384       0               
+
+System                       32768         1994752       7368704           155648      2138112         
+
+smss                         143360        3645440       12271616          372736      536576          
+
+csrss                        8142848       55566336      64770048          9068544     16711680        
+
+winlogon                     8216576       53231616      55156736          10539008    11984896        
+
+services                     5550080       90288128      116727808         55709696    59740160        
+
+lsass                        20066304      109101056     114520064         18821120    22921216        
+
+svchost                      991232        21123072      21491712          2576384     3469312         
+
+svchost                      1699840       23126016      24440832          3084288     4435968         
+
+svchost                      3833856       39235584      39907328          2301952     4665344         
+
+svchost                      1355776       22269952      22581248          2260992     3428352         
+
+svchost                      12910592      93265920      106033152         14340096    24326144        
+
+ACS_FCR_Server               1810432       33165312      37896192          1605632     5357568         
+
+ACS_PRC_ClusterControl       1556480       30945280      34086912          2015232     4333568         
+
+ACS_PRC_IspService           905216        20000768      21045248          1851392     3072000         
+
+aes_telnet_server            3887104       72327168      76701696          3973120     8880128         
+
+AmService                    958464        32923648      33972224          1769472     2867200         
+
+burServer                    8830976       111460352     130646016         12079104    22151168        
+
+ContLogColl                  13504512      52883456      53932032          3022848     5959680         
+
+dfssvc                       1945600       35831808      36212736          3682304     5042176         
+
+DisableInactiveUserAccounts  753664        27172864      28512256          1150976     2560000         
+
+dns                          23572480      69615616      71622656          8183808     22437888        
+
+igateway                     15142912      56832000      75141120          14299136    21622784        
+
+inetinfo                     5840896       59629568      61464576          7450624     11468800        
+
+inorpc                       5394432       43474944      46141440          2850816     10817536        
+
+inort                        11522048      60407808      79589376          11517952    31105024        
+
+inotask                      11300864      64876544      70422528          6926336     18550784        
+
+lastloginsvc                 757760        27242496      33038336          765952      2621440         
+
+lbbam_service                11583488      35524608      35524608          1548288     3170304         
+
+ntfrs                        25886720      99475456      100786176         7995392     15421440        
+
+svchost                      593920        11722752      12922880          1323008     2371584         
+
+locator                      729088        24854528      30502912          757760      2424832         
+
+swlistsvc                    741376        25030656      28430336          835584      2416640         
+
+SpySer                       589824        15159296      16207872          897024      2359296         
+
+ssh-server-g3                5398528       32116736      32116736          2101248     3612672         
+
+svchost                      2523136       59789312      60854272          3309568     4820992         
+
+Gamscm                       270336        8478720       8478720           475136      1306624         
+
+Gamdrv                       3088384       22724608      23851008          1339392     3461120         
+
+clussvc                      7630848       54534144      62275584          5070848     7802880         
+
+Gamserv                      499712        12480512      12480512          802816      2064384         
+
+Gamevlog                     565248        12177408      12177408          782336      2183168         
+
+ssh-servant-g3               5558272       43163648      44216320          5296128     8204288         
+
+ssh-servant-g3               5545984       43163648      44216320          5541888     8208384         
+
+ssh-servant-g3               5566464       43163648      43192320          5459968     8241152         
+
+ssh-servant-g3               5640192       43171840      43200512          5513216     8228864         
+
+ssh-servant-g3               5550080       43163648      43200512          5316608     8196096         
+
+resrcmon                     6434816       56950784      81850368          4730880     9887744         
+
+acs_fch_server               1449984       29634560      30683136          1581056     4775936         
+
+acs_dsdaemon                 1552384       29380608      29384704          2277376     4329472         
+
+ACS_SFC_Recovery             1208320       28557312      35786752          1548288     3928064         
+
+acs_emf_server               1396736       26021888      27070464          901120      4329472         
+
+acs_ssu_monitor              14487552      84758528      84758528          2998272     7065600         
+
+acs_alog_seclog              1196032       20037632      22130688          1781760     5009408         
+
+acs_alog_sysmon              1482752       22392832      22392832          1634304     3915776         
+
+acs_alog_bufman              1941504       58507264      67944448          2121728     15982592        
+
+acs_nsf_server               1511424       31408128      38694912          1859584     4448256         
+
+ACS_USA_SyslogAnalyser       4636672       28176384      65703936          5369856     9564160         
+
+acs_acsc_logmaint            901120        23433216      29614080          1437696     2871296         
+
+ACS_PRC_EventAnalyser        1024000       18931712      19980288          1392640     3338240         
+
+wmiprvse                     1933312       27660288      29003776          2285568     5578752         
+
+OCS_OCP_Echo                 1228800       25776128      25776128          1945600     3690496         
+
+ACS_CHB_ClockSyncService     1404928       25915392      26963968          2433024     3870720         
+
+ACS_CHB_HeartBeat            1732608       28635136      29687808          2609152     4755456         
+
+ACS_CHB_HeartBeatChild       839680        14401536      14401536          1130496     2945024         
+
+ACS_ALH_Exec                 1708032       39518208      40566784          12464128    13942784        
+
+tcpsvcs                      9510912       105279488     107376640         8585216     11997184        
+
+DkService                    11403264      96907264      122429440         13234176    30044160        
+
+acs_alog_main                2662400       34541568      35987456          3432448     6029312         
+
+acs_lm_server                2080768       30773248      38014976          2985984     5500928         
+
+ACS_MSD_service              1941504       28655616      28655616          2314240     4714496         
+
+ACS_MSD_service              1847296       24461312      25509888          1372160     4587520         
+
+ACS_MSD_service              1847296       24461312      25509888          1372160     4587520         
+
+ACS_MSD_service              1843200       24461312      25509888          1372160     4587520         
+
+ACS_MSD_service              1847296       24461312      25509888          1343488     4587520         
+
+ACS_MSD_service              1843200       24461312      25509888          1372160     4587520         
+
+ACS_MSD_service              1843200       24461312      25509888          1372160     4587520         
+
+ACS_MSD_service              1847296       24461312      25509888          1347584     4620288         
+
+aes_cdh_server               5685248       126484480     135090176         6840320     10502144        
+
+GHOST32                      487424        12673024      28352512          876544      2519040         
+
+tftpsvc                      319488        12083200      12083200          651264      1527808         
+
+TFTP32                       933888        24997888      30646272          2031616     3608576         
+
+MAS_CPTASP_cptcentral        847872        11591680      11591680          815104      2568192         
+
+MAS_CPTASP_cptcentral_A      1413120       17432576      17432576          1503232     3592192         
+
+MAS_CPTASP_cptcentral_B      1122304       18546688      19595264          1630208     3371008         
+
+MAS_MODD_Handler             1454080       20574208      20574208          1646592     3854336         
+
+MAS_MODT_Handler             860160        11530240      11530240          753664      2641920         
+
+mcs_adh_adm                  5181440       89571328      108445696         7241728     9768960         
+
+mcs_aiap_adm                 1863680       29945856      32043008          3084288     5111808         
+
+mcs_alda_adm                 1601536       27770880      28819456          1449984     5017600         
+
+mcs_alec_adm                 1470464       26501120      27549696          2347008     4702208         
+
+mcs_alis_adm                 1933312       27471872      28516352          2437120     5021696         
+
+mcs_mss_adm                  1441792       18018304      18542592          1642496     3706880         
+
+mcs_mts_adm                  1568768       23642112      29933568          3063808     4628480         
+
+ipnaadm_server               1437696       22781952      22781952          1257472     3665920         
+
+pes_clh_server               3235840       51957760      52936704          3743744     6791168         
+
+gatherer                     1990656       27598848      27598848          2342912     5021696         
+
+stsmain                      11157504      50757632      51806208          8507392     19636224        
+
+MAS_CPTASP_cptheartbeat      839680        11587584      11587584          733184      2572288         
+
+aes_dbo_server               1683456       24702976      26243072          1560576     5386240         
+
+aes_afp_server               29700096      160149504     167481344         30265344    37457920        
+
+acs_rtr_service              2220032       20795392      21843968          1236992     4587520         
+
+acs_rtr_service              2220032       20795392      21843968          1236992     4587520         
+
+acs_rtr_service              2220032       20795392      21843968          1236992     4587520         
+
+acs_rtr_service              2220032       20795392      21843968          1236992     4587520         
+
+acs_rtr_service              2220032       20795392      21843968          1236992     4587520         
+
+acs_rtr_service              2220032       20795392      21843968          1236992     4587520         
+
+acs_rtr_service              2220032       20795392      21843968          1236992     4587520         
+
+acs_rtr_service              3969024       28606464      31031296          3629056     7012352         
+
+stsopcf                      8028160       30994432      48918528          6811648     17248256        
+
+stsconv                      45445120      164249600     164249600         39907328    64212992        
+
+stsprov                      15470592      43462656      50667520          12275712    21786624        
+
+cmd                          1486848       11481088      11481088          1564672     1564672         
+
+fms_cpf_server               7553024       51916800      77082624          10637312    11145216        
+
+cps_busrv                    4489216       44072960      47636480          6422528     6504448         
+
+cps_buap_parmgr              1847296       26886144      27934720          4874240     4882432         
+
+cps_buap_loader              1372160       22872064      22872064          3821568     3821568         
+
+cps_buap_filemgr             1773568       26845184      27893760          4734976     4743168         
+
+CPS_BUFTPD                   2727936       23629824      24678400          4517888     4526080         
+
+telnets                      1146880       28622848      30920704          4055040     4055040         
+
+cmd                          1531904       11485184      11485184          1699840     1699840         
+
+mml                          1462272       25595904      26836992          4804608     5017600         
+
+ssh-shell                    2551808       15179776      15179776          2113536     2113536         
+
+cmd                          1531904       11485184      11485184          1703936     1703936         
+
+mml                          1441792       25595904      26836992          4784128     4997120         
+
+telnets                      1146880       28622848      30920704          4055040     4055040         
+
+cmd                          1531904       11485184      11485184          1699840     1699840         
+
+mml                          1466368       25595904      26832896          4808704     5021696         
+
+telnets                      1150976       28622848      30920704          4018176     4018176         
+
+cmd                          1531904       11485184      11485184          1699840     1699840         
+
+mml                          1445888       25595904      26836992          4792320     5005312         
+
+telnets                      1150976       28622848      30920704          4018176     4018176         
+
+cmd                          1531904       11485184      11485184          1699840     1699840         
+
+mml                          1445888       25595904      26836992          4788224     5001216         
+
+mml                          1523712       26648576      27697152          4923392     5132288         
+
+aploc                        1277952       20381696      22446080          4296704     4304896         
+
+cmd                          1540096       11485184      11485184          1744896     1744896         
+
+mml                          1523712       26648576      27697152          4923392     5132288         
+
+aploc                        1277952       20381696      22446080          4296704     4304896         
+
+cmd                          1540096       11485184      11485184          1744896     1744896         
+
+mml                          1523712       26648576      27697152          4923392     5132288         
+
+aploc                        1277952       20381696      22446080          4288512     4296704         
+
+cmd                          1503232       11485184      11485184          1699840     1732608         
+
+mml                          1503232       25600000      27697152          4915200     5132288         
+
+telnets                      1044480       26390528      30920704          3354624     3354624         
+
+telnets                      1150976       28622848      30920704          4022272     4022272         
+
+cmd                          1548288       11485184      11485184          1765376     1765376         
+
+wmiprvse                     2486272       30961664      30961664          6135808     6135808         
+
+wmic                         2703360       41775104      47177728          5771264     5771264         
+
+_Total                       580603904     5153431552    5666811904        653193216   1076109312      
+
+
+
+AvailableBytes  CacheBytes  CacheBytesPeak  CommitLimit  CommittedBytes  PoolNonpagedBytes  PoolPagedBytes  SystemCacheResidentBytes  
+
+241160192       282042368   408899584       2053533696   726474752       50999296           88178688        195137536                 
+
+
+
+c:\winnt\profiles\ossuser>pstat |findstr -i mml	
+131          mml.exe                          451609      8         7300       5                       22                   5            4804608         
+
+127          mml.exe                          174180      8         7028       5                       22                   5            4784128         
+
+130          mml.exe                          52374       8         2916       5                       22                   5            4808704         
+
+130          mml.exe                          36863       8         6784       5                       22                   5            4792320         
+
+129          mml.exe                          25391       8         7148       5                       22                   5            4788224         
+
+141          mml.exe                          3094        8         4260       7                       23                   6            4923392         
+
+142          mml.exe                          3152        8         4436       7                       23                   6            4923392         
+
+141          mml.exe                          3228        8         7728       7                       23                   6            4923392         
+
+126          mml.exe                          7028        8         3756       5                       22                   5            4915200         
+
+mml                          1462272       25595904      26836992          4804608     5017600         
+
+mml                          1441792       25595904      26836992          4784128     4997120         
+
+mml                          1466368       25595904      26832896          4808704     5021696         
+
+mml                          1445888       25595904      26836992          4792320     5005312         
+
+mml                          1445888       25595904      26836992          4788224     5001216         
+
+mml                          1523712       26648576      27697152          4923392     5132288         
+
+mml                          1523712       26648576      27697152          4923392     5132288         
+
+mml                          1523712       26648576      27697152          4923392     5132288         
+
+mml                          1503232       25600000      27697152          4915200     5132288         
+
+
+c:\winnt\profiles\ossuser>cpdlist -a
+DEVICE  SEP TYPE          STATE   QPRT REMOTEHOST      USERID
+AD-30   No  SubFile       Idle       0 -               -
+AD-50   No  SubFile       Idle       0 -               -
+AD-85   No  mml           Idle       0 -               SWITCHIND
+AD-183  No  IpClient      Idle       0 -               -
+AD-288  No  mml           Idle       0 -               DARSHAN
+AD-433  No  mml           Idle       0 -               SWITCHIND
+AD-608  No  mml           Idle       0 -               OSSUSER
+AD-609  No  mml           Idle       0 -               OSSUSER
+AD-613  No  mml           Idle       0 -               OSSUSER
+AD-786  No  mml           Idle       0 -               VINAY
+AD-898  No  mml           Idle       0 -               OSSUSER
+AD-1000 No  SubFile       Idle       0 -               -
+
+c:\winnt\profiles\ossuser>wmic VOLUME GET Capacity, DriveLetter, FreeSpace, Label
+Capacity     DriveLetter  FreeSpace    Label     
+
+32868352     E:           20213760     ntboot    
+
+15002906624  C:           9391677440   ntbackup  
+
+15002906624  D:           10468769792  ntserv    
+
+9500196864   F:           9436061696   ntdump    
+
+5247692800   K:           4748414976   Disk K    
+
+20974460928  L:           3877228544   Disk L    
+
+10487230464  M:           3490193408   Disk M    
+
+8389783552   G:           8287068160   Disk G    
+
+12584677376  V:           10062938112  Disk V    
+
+3150278656   S:           3130613760   Disk S    
+
+9442586624   R:           9337827328   Disk R    
+
+4194856960   Q:           4161871872   Disk Q    
+
+29364248576  Y:           26833567744  Disk Y    
+
+213856768    I:           205867520    Disk I    
+
+
+
+
+c:\winnt\profiles\ossuser>
+c:\winnt\profiles\ossuser>systeminfo
+
+Host Name:                 MSSIND1A
+OS Name:                   Microsoft(R) Windows(R) Server 2003, Enterprise Edition
+OS Version:                5.2.3790 Service Pack 2 Build 3790
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Primary Domain Controller
+OS Build Type:             Uniprocessor Free
+Registered Owner:          LBB
+Registered Organization:   Ericsson
+Product ID:                69713-OEM-4211904-04079
+Original Install Date:     4/23/2007, 6:51:20 PM
+System Up Time:            55 Days, 15 Hours, 2 Minutes, 37 Seconds
+System Manufacturer:       Intel Corporation
+System Model:              Montara Family of Chipsets
+System Type:               X86-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: x86 Family 6 Model 13 Stepping 6 GenuineIntel ~1395 Mhz
+BIOS Version:              PTLTD  - 6040000
+Windows Directory:         C:\WINNT
+System Directory:          C:\WINNT\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna
+Total Physical Memory:     1,014 MB
+Available Physical Memory: 251 MB
+Page File: Max Size:       1,958 MB
+Page File: Available:      1,276 MB
+Page File: In Use:         682 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    mssind1d.int
+Logon Server:              N/A
+Hotfix(s):                 345 Hotfix(s) Installed.
+                           [01]: File 1
+                           [02]: File 1
+                           [03]: File 1
+                           [04]: File 1
+                           [05]: File 1
+                           [06]: File 1
+                           [07]: File 1
+                           [08]: File 1
+                           [09]: File 1
+                           [10]: File 1
+                           [11]: File 1
+                           [12]: File 1
+                           [13]: File 1
+                           [14]: File 1
+                           [15]: File 1
+                           [16]: File 1
+                           [17]: File 1
+                           [18]: File 1
+                           [19]: File 1
+                           [20]: File 1
+                           [21]: File 1
+                           [22]: File 1
+                           [23]: File 1
+                           [24]: File 1
+                           [25]: File 1
+                           [26]: File 1
+                           [27]: File 1
+                           [28]: File 1
+                           [29]: File 1
+                           [30]: File 1
+                           [31]: File 1
+                           [32]: File 1
+                           [33]: File 1
+                           [34]: File 1
+                           [35]: File 1
+                           [36]: File 1
+                           [37]: File 1
+                           [38]: File 1
+                           [39]: File 1
+                           [40]: File 1
+                           [41]: File 1
+                           [42]: File 1
+                           [43]: File 1
+                           [44]: File 1
+                           [45]: File 1
+                           [46]: File 1
+                           [47]: File 1
+                           [48]: File 1
+                           [49]: File 1
+                           [50]: File 1
+                           [51]: File 1
+                           [52]: File 1
+                           [53]: File 1
+                           [54]: File 1
+                           [55]: File 1
+                           [56]: File 1
+                           [57]: File 1
+                           [58]: File 1
+                           [59]: File 1
+                           [60]: File 1
+                           [61]: File 1
+                           [62]: File 1
+                           [63]: File 1
+                           [64]: File 1
+                           [65]: File 1
+                           [66]: File 1
+                           [67]: File 1
+                           [68]: File 1
+                           [69]: File 1
+                           [70]: File 1
+                           [71]: File 1
+                           [72]: File 1
+                           [73]: File 1
+                           [74]: File 1
+                           [75]: File 1
+                           [76]: File 1
+                           [77]: File 1
+                           [78]: File 1
+                           [79]: File 1
+                           [80]: File 1
+                           [81]: File 1
+                           [82]: File 1
+                           [83]: File 1
+                           [84]: File 1
+                           [85]: File 1
+                           [86]: File 1
+                           [87]: File 1
+                           [88]: File 1
+                           [89]: File 1
+                           [90]: File 1
+                           [91]: File 1
+                           [92]: File 1
+                           [93]: File 1
+                           [94]: File 1
+                           [95]: File 1
+                           [96]: File 1
+                           [97]: File 1
+                           [98]: File 1
+                           [99]: File 1
+                           [100]: File 1
+                           [101]: File 1
+                           [102]: File 1
+                           [103]: File 1
+                           [104]: File 1
+                           [105]: File 1
+                           [106]: File 1
+                           [107]: File 1
+                           [108]: File 1
+                           [109]: File 1
+                           [110]: File 1
+                           [111]: File 1
+                           [112]: File 1
+                           [113]: File 1
+                           [114]: File 1
+                           [115]: File 1
+                           [116]: File 1
+                           [117]: File 1
+                           [118]: File 1
+                           [119]: File 1
+                           [120]: File 1
+                           [121]: File 1
+                           [122]: File 1
+                           [123]: File 1
+                           [124]: File 1
+                           [125]: File 1
+                           [126]: File 1
+                           [127]: File 1
+                           [128]: File 1
+                           [129]: File 1
+                           [130]: File 1
+                           [131]: File 1
+                           [132]: File 1
+                           [133]: File 1
+                           [134]: File 1
+                           [135]: File 1
+                           [136]: File 1
+                           [137]: File 1
+                           [138]: File 1
+                           [139]: File 1
+                           [140]: File 1
+                           [141]: File 1
+                           [142]: File 1
+                           [143]: File 1
+                           [144]: File 1
+                           [145]: File 1
+                           [146]: File 1
+                           [147]: File 1
+                           [148]: File 1
+                           [149]: File 1
+                           [150]: File 1
+                           [151]: File 1
+                           [152]: File 1
+                           [153]: File 1
+                           [154]: File 1
+                           [155]: File 1
+                           [156]: File 1
+                           [157]: File 1
+                           [158]: File 1
+                           [159]: File 1
+                           [160]: File 1
+                           [161]: File 1
+                           [162]: File 1
+                           [163]: File 1
+                           [164]: File 1
+                           [165]: File 1
+                           [166]: File 1
+                           [167]: File 1
+                           [168]: Q147222
+                           [169]: KB933854 - QFE
+                           [170]: KB953298 - QFE
+                           [171]: KB979907 - QFE
+                           [172]: SP1 - SP
+                           [173]: Q827429
+                           [174]: Q927978
+                           [175]: Q954430
+                           [176]: KB898458 - Update
+                           [177]: KB925398_WMP64
+                           [178]: KB914961 - Service Pack
+                           [179]: KB2079403 - Update
+                           [180]: KB2115168 - Update
+                           [181]: KB2160329 - Update
+                           [182]: KB2183461 - Update
+                           [183]: KB2229593 - Update
+                           [184]: KB2286198 - Update
+                           [185]: KB921503 - Update
+                           [186]: KB923561 - Update
+                           [187]: KB925336 - Update
+                           [188]: KB925902 - Update
+                           [189]: KB925919 - Update
+                           [190]: KB926028 - Update
+                           [191]: KB926122 - Update
+                           [192]: KB927342-v2 - Update
+                           [193]: KB928006 - Update
+                           [194]: KB928942 - Update
+                           [195]: KB930178 - Update
+                           [196]: KB931768 - Update
+                           [197]: KB931784 - Update
+                           [198]: KB931836 - Update
+                           [199]: KB932168 - Update
+                           [200]: KB933566 - Update
+                           [201]: KB933653 - Update
+                           [202]: KB933729 - Update
+                           [203]: KB933854 - Update
+                           [204]: KB935839 - Update
+                           [205]: KB935840 - Update
+                           [206]: KB935966 - Update
+                           [207]: KB936021 - Update
+                           [208]: KB936782 - Update
+                           [209]: KB937143 - Update
+                           [210]: KB938127 - Update
+                           [211]: KB938464 - Update
+                           [212]: KB938977-v3 - Update
+                           [213]: KB939268-v2 - Update
+                           [214]: KB939653 - Update
+                           [215]: KB940252 - Update
+                           [216]: KB941569 - Update
+                           [217]: KB941644 - Update
+                           [218]: KB941672 - Update
+                           [219]: KB941693 - Update
+                           [220]: KB942615 - Update
+                           [221]: KB942763 - Update
+                           [222]: KB942830 - Update
+                           [223]: KB942831 - Update
+                           [224]: KB943055 - Update
+                           [225]: KB943460 - Update
+                           [226]: KB943484 - Update
+                           [227]: KB943485 - Update
+                           [228]: KB944338 - Update
+                           [229]: KB944533 - Update
+                           [230]: KB944653 - Update
+                           [231]: KB945553 - Update
+                           [232]: KB946026 - Update
+                           [233]: KB946118 - Update
+                           [234]: KB947864 - Update
+                           [235]: KB948590 - Update
+                           [236]: KB948881 - Update
+                           [237]: KB949014 - Update
+                           [238]: KB950759 - Update
+                           [239]: KB950760 - Update
+                           [240]: KB950762 - Update
+                           [241]: KB950974 - Update
+                           [242]: KB951066 - Upd
+Network Card(s):           6 NIC(s) Installed.
+                           [01]: Intel(R) PRO/1000 MT Dual Port Network Connection
+                                 Connection Name: IPN100-2
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 192.168.170.1
+                           [02]: Intel(R) PRO/1000 MT Dual Port Network Connection
+                                 Connection Name: IPN100-1
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 192.168.169.1
+                                 [02]: 192.168.169.33
+                           [03]: Intel(R) PRO/100 M Network Connection
+                                 Connection Name: Local Maintenance
+                                 Status:          Media disconnected
+                           [04]: Intel(R) PRO/100 M Network Connection
+                                 Connection Name: Public
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 10.228.128.4
+                                 [02]: 10.228.128.6
+                           [05]: Intel(R) PRO/100 M Network Connection
+                                 Connection Name: Heartbeat 1
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 192.168.202.1
+                           [06]: Intel(R) PRO/100 M Network Connection
+                                 Connection Name: Heartbeat 2
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 192.168.201.1
+
+c:\winnt\profiles\ossuser>stmotls
+RECORDING  AREA
+ON         OPER
+
+OBJTYPE           INCL  BRP  NCNT  AVAILABLE
+AAL2PATH          NO     15     9  
+ABISIP            NO     15    24  
+ABISTG            NO     15    19  
+ACCESSROUT        NO     15    14  
+ALLSERV           NO     15    27  
+ALTSERVICE        NO     15     4  
+ANSIGSMNM         NO     15    12  
+APDISKS           NO     15     4  
+APPLATFORM        NO     15    12  
+ASASPSM           NO     15     4  
+ASASPTM           NO     15     4  
+ASMGMT            NO     15     7  
+ASSSERV           NO     15     9  
+ASUDEST           NO     15     2  
+ATERTRANS         NO     15     9  
+ATIPROP           NO     15     4  
+AUCFEDA           NO     15     2  
+AUCFEN            NO     15     1  
+AUCMAP            NO     15     3  
+AUCSUBS           NO     15     3  
+AUS               NO     15     3  
+AUSINTCAL         NO     15     3  
+AUTH              NO     15    16  
+AUTHCC            NO     15     4  
+AUTHEN            YES    15    28  
+AUTHSUBS          NO     15     2  
+BASTRAFTY1        NO     15    26  
+BGCFCINT          NO     15     8  
+BGCFCPUB          NO     15    30  
+BSC               NO     15    12  
+BSCGEN            NO     15    10  
+BSCGPRS           NO     15    25  
+BSCGPRS2          NO     15    15  
+BSCMSLOT          NO     15    11  
+BSCPOS            NO     15     5  
+BSCQOS            NO     15     3  
+BSCSTAT           YES    15    30  
+BSCSTAT2          NO     15     9  
+C7ADJSLP          NO     15     3  
+C7DPC             NO     15     2  
+C7DPCSIO          NO     15     2  
+C7LSSI            NO     15     2  
+C7MESS            NO     15     3  
+C7OD              NO     15     2  
+C7ODS             NO     15     4  
+C7ODS24           NO     15     5  
+C7OPC             NO     15     2  
+C7OPCDS           NO     15     4  
+C7OPCDS24         NO     15     5  
+C7OPCSIO          NO     15     2  
+C7RTSET           NO     15     3  
+C7RTTOTAL         NO     15     1  
+C7SCCPUSE         NO     15    11  
+C7SCPERF          NO     15    10  
+C7SCQOS           NO     15    18  
+C7SCSIGP          NO     15     2  
+C7SCSUBSYS        NO     15    13  
+C7SI              NO     15     2  
+C7SIO             NO     15     2  
+C7SL1             YES    15    19  
+C7SL2             NO     15    16  
+C7SLSET           NO     15     6  
+CALLFAIL          NO     15    10  
+CALLFSERV         NO     15     4  
+CAMABT            NO     15     3  
+CAMEL3            NO     15     1  
+CAPAGE            NO     15     3  
+CAWSERV           NO     15     8  
+CB                NO     15    10  
+CCCHLOAD          NO     15     5  
+CELEVENTD         NO     15     6  
+CELEVENTH         NO     15     7  
+CELEVENTI         NO     15    14  
+CELEVENTS         NO     15    11  
+CELEVENTSC        NO     15    10  
+CELLAFFER         NO     15    20  
+CELLAHFER         NO     15    20  
+CELLAWFER         NO     15    20  
+CELLCCHDR         NO     15    10  
+CELLCCHHO         NO     15     4  
+CELLCONF          NO     15     3  
+CELLDUALT         NO     15     5  
+CELLEFFER         NO     15    20  
+CELLEIT           NO     15    21  
+CELLEIT2          NO     15     8  
+CELLFERF          NO     15    18  
+CELLFERH          NO     15    10  
+CELLFFER          NO     15    20  
+CELLFLXAB         NO     15     7  
+CELLGEN           NO     15    10  
+CELLGPRS          NO     15    28  
+CELLGPRS2         NO     15    30  
+CELLGPRS3         NO     15    26  
+CELLGPRS4         NO     15    12  
+CELLGPRSO         NO     15    23  
+CELLHCS           NO     15     3  
+CELLHFER          NO     15    20  
+CELLHSCSD         NO     15     6  
+CELLMSCAP         NO     15     3  
+CELLMSQ           NO     15     7  
+CELLPAG           NO     15     2  
+CELLPOS           NO     15     2  
+CELLQOSEG         NO     15    24  
+CELLQOSG          NO     15    24  
+CELLQOSS          NO     15    17  
+CELLSQI           NO     15    24  
+CELLSQIDL         NO     15    24  
+CELLSTAT          NO     15     8  
+CELTCHF           NO     15    23  
+CELTCHFP          NO     15     9  
+CELTCHH           NO     15    23  
+CHASSIGNT         YES    15    16  
+CHGRP0F           NO     15    26  
+CHGRP0H           NO     15    19  
+CHGRP0SQI         NO     15    12  
+CI                NO     15    20  
+CKWSERV           NO     15     2  
+CLDTMEST          NO     15     8  
+CLDTMPER          NO     15    20  
+CLDTMQOS          NO     15    10  
+CLIPSERV          NO     15     5  
+CLIRSERV          NO     15     6  
+CLQOSSCON         NO     15    17  
+CLQOSSCON2        NO     15     9  
+CLRATECHG         NO     15    17  
+CLRXQUAL          NO     15    16  
+CLSDCCH           NO     15    15  
+CLSDCCHO          NO     15    10  
+CLSMS             NO     15     4  
+CLTCH             NO     15    13  
+CLTCHDRAF         NO     15    21  
+CLTCHDRAH         NO     15    21  
+CLTCHDRAW         NO     15    21  
+CLTCHDRF          NO     15    27  
+CLTCHDRH          NO     15    27  
+CLTCHEAS          NO     15     4  
+CLTCHFV1          NO     15    14  
+CLTCHFV2          NO     15    14  
+CLTCHFV3          NO     15    11  
+CLTCHFV3C         NO     15     8  
+CLTCHFV5          NO     15    11  
+CLTCHFV5C         NO     15     6  
+CLTCHHV1          NO     15    14  
+CLTCHHV2          NO     15    11  
+CLTCHHV3          NO     15    11  
+CLTCHHV3C         NO     15     8  
+CLVGCSEST         NO     15     5  
+CNIPSERV          NO     15     4  
+CODERASGN         NO     15    21  
+COLPSERV          NO     15     5  
+COLRSERV          NO     15     4  
+COMPSERV          NO     15     2  
+COPRVLRST         NO     15     4  
+CP                NO     15    23  
+CSRROUTE          NO     15    18  
+CTMDECT           NO     15     2  
+CTMMAP            NO     15     5  
+CUGBSG            NO     15     1  
+CUGSERV           NO     15     2  
+CVTR01            NO     15     1  
+CVTR02            NO     15     2  
+DASAD             NO     15     9  
+DATA              NO     15     1  
+DEFMGW            NO     15     1  
+DEFMGW1           NO     15    22  
+DELSTRTBF         NO     15     4  
+DIGPATH           NO     15    17  
+DIGS              NO     15     9  
+DIP               NO     15    16  
+DIPPRM            NO     15    20  
+DIPSEC            NO     15    12  
+DISCCALL          NO     15     9  
+DOWNTIME          NO     15     3  
+DTAPLCS           NO     15     6  
+DTISTAT           YES    15    14  
+DUADPTM           NO     15     8  
+DYNTRUNKH         NO     15     8  
+DYNTRUNKV         NO     15     7  
+ECNP              NO     15    17  
+ECNPASLR          NO     15    17  
+ECNPASLS          NO     15    17  
+ECNPERL           NO     15    17  
+ECNPPD            NO     15    17  
+ECPOOL            NO     15    10  
+ELOCSUB           NO     15     3  
+EM                NO     15     2  
+EMG               NO     15     2  
+EMGINTCAL         NO     15     5  
+EMGPRS            NO     15     1  
+EMGSTAT           NO     15     7  
+EMRP              NO     15     2  
+EMWIDELIV         NO     15     9  
+EOS               YES    15     2  
+EQIDCON           YES    15     7  
+EQLACC            NO     15     5  
+EXCHFAULT         NO     15     1  
+EXMACTSUB         NO     15     2  
+EXMPAGRES         NO     15    18  
+EXMSTAT           NO     15     3  
+EXMSUB            NO     15     4  
+FACALL            NO     15     3  
+FHC               NO     15     9  
+FHCHANNEL         NO     15     6  
+FHL               NO     15     3  
+FHLPRA            NO     15     4  
+FHLV5             NO     15     4  
+FNRINAP           NO     15     3  
+FNRINTRNO         NO     15     5  
+FNRMAP            NO     15     3  
+FSUBDATAC         NO     15     2  
+GANDIREPA         NO     15    17  
+GANRESALL         NO     15    15  
+GANRPLOAD         NO     15    15  
+GANTRAF           NO     15    25  
+GANTRAFEV         NO     15    17  
+GCPHQ             NO     15     5  
+GCPHRP            NO     15     6  
+GIWUSTAT          NO     15    13  
+GLPAGERES         NO     15     6  
+GPHLOADREG        NO     15     7  
+GPRSGEN           NO     15    20  
+GPRSGS            YES    15     7  
+GRPSWITCH         NO     15    25  
+GSCF              NO     15     2  
+GSINTMSC          NO     15    25  
+GUHNDOVER         NO     15    14  
+HLRFEDATAC        NO     15     2  
+HLRFENOTIF        NO     15     1  
+HLRMAP            YES    15     3  
+HLRPERF           NO     15     1  
+HLRSTAT           YES    15     6  
+HLRSUBS           NO     15     4  
+HNDOVER           NO     15    23  
+HOLDSERV          NO     15     4  
+HS7SL1            YES    15    16  
+IDLEOTCHF         NO     15     6  
+IDLEOTCHH         NO     15     6  
+IDLEUTCHF         NO     15     6  
+IDLEUTCHH         NO     15     6  
+IGWRPLOAD         NO     15     2  
+IRNEG             NO     15     4  
+IS41GMSC          NO     15    22  
+IS41GMSCT         NO     15    25  
+IS41GMSCT2        NO     15     2  
+IS41HLR           NO     15    24  
+IS41HLR2          NO     15     8  
+IS41HLR2T         NO     15     8  
+IS41HLRT          NO     15    24  
+IS41HOF1T         NO     15    24  
+IS41HOF2T         NO     15    10  
+IS41HOF3T         NO     15    16  
+IS41HOFF1         NO     15    24  
+IS41HOFF2         NO     15    10  
+IS41HOFF3         NO     15    16  
+IS41VMSC          NO     15    24  
+IS41VMSC2         NO     15    19  
+IS41VMSCT         NO     15    24  
+IS41VMSCT2        NO     15    20  
+ISDNEBA           YES    15    11  NO         
+ISDNEBS           YES    15    23  NO         
+ISDNEPRA          YES    15    11  NO         
+ISDNESG           YES    15    14  
+ISDNTSI           YES    15    15  NO         
+ISP               NO     15    10  
+IUAQPTM           NO     15    10  
+JUNCTROUTE        NO     15    23  
+KRQUALITY         NO     15     3  
+KRROUTE           NO     15    18  
+L2STATBA          NO     15    20  
+L2STATPRA         NO     15    17  
+L2V5CPATH         NO     15     5  
+L2V5PRA           NO     15    17  
+L3CCMSG           NO     15     2  
+L3STATBA          NO     15    13  
+L3STATPRA         NO     15    10  
+L3V5PRA           NO     15    11  
+LAPAGE            NO     15     1  
+LAPAGERES         NO     15     1  
+LAPD              NO     15     7  
+LATAMISTAT        NO     15     1  
+LATASTAT          NO     15     6  
+LBSPOSREQ         NO     15     7  
+LCSSTAT           NO     15     8  
+LDAP              NO     15    19  
+LIBAL1ST          NO     15    15  
+LNPGTT1           NO     15     3  
+LNPMAINT          NO     15     3  
+LOADREG           NO     15     7  
+LOAS              YES    15    18  
+LOASINCO          NO     15    24  
+LOASMISC          NO     15    30  
+LOCAREAST         YES    15    21  
+LOSSROUTE         YES    15    16  
+LSCC              NO     15     2  
+M2PAPG            NO     15    10  
+M2PASLMT1         NO     15    18  
+M2PASLMT2         NO     15    22  
+M3ASDATA          NO     15     4  
+M3ASPSM           YES    15     8  
+M3ASPSM1          NO     15     8  
+M3ASPTM           YES    15     8  
+M3ASPTM1          NO     15     8  
+M3ASSOC           YES    15     2  
+M3ASST            NO     15     4  
+M3C7DEST          NO     15     4  
+M3DATA            YES    15     3  
+M3DEST1           YES    15     2  
+M3DEST2           NO     15     2  
+M3MGMT            YES    15     3  
+M3MGMT1           NO     15     4  
+M3PERF            YES    15     1  
+M3S7DEST          NO     15     4  
+M3SPDATA          NO     15     6  
+M3SSNM            NO     15    10  
+M3SSNM1           NO     15    10  
+M3SYSPERF         NO     15     8  
+MAPJAPAN          NO     15    12  
+MAPSIGIWRK        YES    15    10  
+MBASTRAFTY        NO     15    21  
+MELOCSUB          NO     15     3  
+MESSFLNO          NO     15    13  
+MEXMSUB           NO     15     4  
+MIBDNSRC          NO     15     5  
+MIBDNSRCBO        NO     15     3  
+MIBDNSRCBR        NO     15     2  
+MIBDNSRCC         NO     15     3  
+MIBDNSRCFG        NO     15     1  
+MIBDNSRNC         NO     15     1  
+MIBDNSROC         NO     15     4  
+MIBICMPMST        NO     15     4  
+MIBICMPST         NO     15     5  
+MIBIFT            NO     15    18  
+MIBIFXT           NO     15     8  
+MIBIPSST          NO     15    15  
+MIBIPV4G          NO     15     3  
+MIBTCPB           NO     15    14  
+MIBUDPB           NO     15     4  
+MNPMAINT          NO     15     2  
+MOBPOS            NO     15     5  
+MOTG              NO     15     4  
+MOTS              NO     15     4  
+MRSCELPAG         NO     15     8  
+MRSCELTLM         NO     15     9  
+MRSMSC            NO     15    21  
+MRVFAIL           NO     15     4  
+MRVTOT            NO     15    11  
+MSC               NO     15     2  
+MSCREG            NO     15     2  
+MTRAFTYPE         YES    15    21  
+MTSFB             NO     15     1  
+MTSFB3            NO     15     2  
+MTUPGLOBL         NO     15     1  
+MTUPGMSC          NO     15     9  
+MTUPHLR1          NO     15    23  
+MTUPHLR2          NO     15    19  
+MTUPHLR3          NO     15    21  
+MTUPHOFF1         NO     15    20  
+MTUPHOFF2         NO     15    10  
+MTUPHOFF3         NO     15    22  
+MTUPLOC           NO     15    12  
+MTUPVMSC1         NO     15    23  
+MTUPVMSC2         NO     15    22  
+MTUPVMSC3         NO     15    21  
+NAMSUBS           NO     15     3  
+NBRCELLST         NO     15     4  
+NBRMSCGUH         NO     15    21  
+NBRMSCLST         YES    15    30  
+NBRMSCLST2        NO     15     3  
+NBRMSCLST3        NO     15     2  
+NBRMSCSRNS        NO     15    25  
+NBRMSCUGHO        NO     15    19  
+NCELLREL          NO     15     4  
+NCRELGPRS         NO     15     4  
+NCRELGPRSR        NO     15     4  
+NECELASS          NO     15     4  
+NECELHO           NO     15     7  
+NECELHOEX         NO     15     4  
+NECELLREL         NO     15     4  
+NECRELGPRS        NO     15     4  
+NENUMSRV          NO     15     6  
+NETWRK            NO     15     3  
+NETWSYNC          NO     15     9  
+NICELASS          NO     15     4  
+NICELHO           NO     15     7  
+NICELHOEX         NO     15     4  
+NMROUTE           NO     15    16  
+NONRES64K         NO     15     3  
+NRCSTATS          NO     15     3  
+NRM               NO     15     1  
+NRTCAP            NO     15     2  
+NRTCFASERV        NO     15     4  
+NSEPCALL          NO     15    22  
+NUCELLREL         NO     15     7  
+NUCRELGPRS        NO     15     4  
+ODB               NO     15     6  
+ODBINV            NO     15     3  
+OOBTCSTAT         NO     15     6  
+OPTFEAT           NO     15     7  
+OTAPACOUN         NO     15     2  
+PAGING            YES    15    28  
+PAPAGE            NO     15     3  
+PAPAGERES         NO     15     1  
+PBXSROUTE         NO     15    19  
+PCHLRMA           NO     15     1  
+PCKTDATA          NO     15     7  
+PCURPLOAD         NO     15     2  
+PDCUMTSFLN        NO     15    16  
+PDPDEF            NO     15     1  
+PGW               NO     15     5  
+PGWLDIST          NO     15     5  
+PLMNSUB           NO     15     2  
+PMROUTE           NO     15     6  
+PRBTCALL          NO     15     2  
+PREEMP            NO     15     4  
+PTNTCFC           NO     15    11  
+PVTROUTING        NO     15     4  
+QUESERV           NO     15     1  
+RANDOMACC         NO     15    11  
+RCSSSERV          NO     15     1  
+RDTISDN           NO     15     9  
+RDTPSTN           NO     15     9  
+REGSATPAG         NO     15     4  
+REGSERVICE        NO     15     8  
+RELOC             NO     15    12  
+RES64K            NO     15     4  
+RESTART           NO     15     2  
+RLINKBITR         NO     15    16  
+RLM               NO     15     5  
+RNCSTAT           NO     15    26  
+RNDACCEXT         NO     15     7  
+ROAMING           NO     15     3  
+RP                NO     15     9  
+RSASUBS           NO     15     1  
+RTN               NO     15     6  
+SAE               YES    15     8  
+SCCPJAPAN         NO     15    14  
+SCP800            NO     15    14  
+SCRNSERV          NO     15     1  
+SCTPAM            YES    15    10  
+SCTPLM            YES    15     4  
+SCTPTM            YES    15     4  
+SDFINAP           NO     15     3  
+SDIPHP            NO     15    14  
+SDIPLP            NO     15    14  
+SDIPMS            NO     15    14  
+SECHAND           YES    15    20  
+SERVFEAT          YES    15     2  
+SERVICES          NO     15     7  
+SESIWU            NO     15    13  
+SESSCF            NO     15    14  
+SESSSF            NO     15    12  
+SGSN              NO     15     7  
+SGSNSTAT          NO     15     4  
+SH2AM             NO     15    28  
+SH2IST            NO     15    12  
+SH2SCF            NO     15     3  
+SHAM              YES    15    30  
+SHAM1             NO     15     2  
+SHBOTNGT          NO     15     8  
+SHBOTSGT          NO     15     8  
+SHIST             YES    15    12  
+SHMSGSERV         YES    15    15  
+SHSCF             NO     15     3  
+SILENTRET         NO     15     1  
+SIPCODSTAT        NO     15     8  
+SIPNODE           NO     15    15  
+SIPROUT           NO     15    28  
+SLOCSUB           NO     15     2  
+SMSGMSC           NO     15     3  
+SMSIWMSC          NO     15     2  
+SNT               NO     15     5  
+SPAPAGE           NO     15     2  
+SPAPAGRES         NO     15     3  
+SS7GWLS           NO     15    20  
+SS7GWLSDN         NO     15     6  
+SS7GWLSON         NO     15    15  
+SS7GWON           NO     15     5  
+SS7GWONTT         NO     15     6  
+SS7HSLMT1         NO     15    28  
+SS7HSLMT2         NO     15    20  
+SS7HSLMT3         NO     15    17  
+SS7HSLPG1         NO     15    23  
+SS7HSLPG2         NO     15     9  
+SS7HSLS           NO     15    25  
+SS7HSLTRAF        NO     15    22  
+SS7LS             NO     15    13  
+SS7PRGRP          NO     15    28  
+SS7SCCPUSE        NO     15     2  
+SS7SCQOS          NO     15    14  
+SS7SCSUBSY        NO     15     6  
+SS7SLMT1          NO     15    30  
+SS7SLMT2          NO     15    24  
+SS7SLTRAFF        NO     15    14  
+SS7TIMERS         NO     15    28  
+SS7TOTAL          NO     15    21  
+SS7TOTAL2         NO     15     8  
+SS7TT             NO     15     4  
+SSACT             NO     15     7  
+SSD               NO     15    10  
+SSFCGT            NO     15    16  
+SSFCHMT           NO     15     9  
+SSFDPCI           NO     15     1  
+SSFECT            NO     15     3  
+SSFGLTI           NO     15     1  
+SSFICCI           NO     15     2  
+SSFICCRII         NO     15     3  
+SSFICCT           NO     15     9  
+SSFMCSOHT         NO     15     6  
+SSFMCST           NO     15     2  
+SSFOHDCI          NO     15    10  
+SSFOHDCT          NO     15    24  
+SSFSCFT           NO     15     3  
+SSFSFT            NO     15    20  
+SSFSRFT           NO     15     4  
+SSPSTAT2          NO     15    13  
+SSSPROC           NO     15    13  
+STHLRMA           NO     15     1  
+STIPRPLOAD        NO     15     2  
+SUBDATA           NO     15     6  
+SUBDATACC         NO     15     5  
+SUBLINES          NO     15    12  
+SUCORCL           NO     15     2  
+SUPERCH           NO     15    21  
+SUPERCH2          NO     15    14  
+SUPPLSERV         NO     15    12  
+SYSSUB            NO     15    10  
+SYSTSUB           NO     15     2  
+TCABO             NO     15     3  
+TCAP01            NO     15    25  
+TCAPBAS           NO     15    18  
+TCCMP             NO     15     2  
+TCDIA             NO     15     2  
+TCMSG             NO     15     2  
+TCREJ             NO     15     3  
+TCUSE             NO     15     3  
+TMSWITCH          NO     15     3  
+TPLAT             NO     15     2  
+TPYSERV           NO     15     4  
+TQROUTE           NO     15     7  
+TRAFDLGPRS        NO     15    24  
+TRAFFDEST         NO     15     5  
+TRAFFDEST1        YES    15     9  
+TRAFFMEAS         NO     15     8  
+TRAFFSAE          NO     15     8  
+TRAFFSRF          NO     15    11  
+TRAFFTYPE1        NO     15    26  
+TRAFGPRS2         NO     15    25  
+TRAFGPRS3         NO     15    20  
+TRAFULGPRS        NO     15    18  
+TRALOST           NO     15     3  
+TRANSFLNO         NO     15    11  
+TRAPCOM           NO     15     7  
+TRAPEVENT         NO     15    13  
+TRASEVENT         NO     15     1  
+TRASUBPOOL        NO     15     6  
+TRH               NO     15     5  
+TRUNKROUT2        NO     15    21  
+TRUNKROUTE        YES    15    30  
+TRUNKSUP          NO     15     6  
+TSB               NO     15     5  
+TSLMSTAT          NO     15     4  
+TTRMSN            NO     15     3  
+UGHNDOVER         NO     15    14  
+UMTSPOS           NO     15     4  
+UMTSSEC           NO     15     2  
+UPDALOCAT         NO     15    20  
+UPDLOCAT          YES    15    30  
+UPDLOCAT2         NO     15     1  
+USRACCESS         NO     15     2  
+UUSSERV           NO     15     4  
+V5JUNCTR          NO     15    23  
+VCISERV           NO     15     1  
+VLR               NO     15    21  
+VLRSUBS           NO     15     4  
+VOIPROUT          NO     15    22  
+VPNSERV           NO     15     2  
+WIDEBAND          NO     15    28  
+WIDEBAND1         NO     15    30  
+WIDEBAND2         NO     15    28  
+WINFPH            NO     15     9  
+WINMAC            NO     15     9  
+WINPPC            NO     15     9  
+WINVPN            NO     15     9  
+END
+
+c:\winnt\profiles\ossuser>stmmp -lL
+MPID UTC BEGINTIME           ENDTIME             REPEATS  INTERVAL REPORTID 
+1000 no  03/10/2011 18:00:00                     infinite 60       2004     
+OUTPUTFORMAT STATUS     MP-NAME         PERIOD 
+ASN.1        running    MP1001          60     
+GOH DESTINATION 
+NWS1            
+
+MPID UTC BEGINTIME           ENDTIME             REPEATS  INTERVAL REPORTID 
+1002 no  04/10/2009 20:00:00                     infinite 60       2005     
+OUTPUTFORMAT STATUS     MP-NAME         PERIOD 
+ASN.1        running    MP1002          60     
+GOH DESTINATION 
+NWS1            
+
+MPID UTC BEGINTIME           ENDTIME             REPEATS  INTERVAL REPORTID 
+1003 no  05/27/2009 00:00:00                     infinite 60       2000     
+OUTPUTFORMAT STATUS     MP-NAME         PERIOD 
+ASN.1        running    MP1003          60     
+GOH DESTINATION 
+sigtran1        
+
+MPID UTC BEGINTIME           ENDTIME             REPEATS  INTERVAL REPORTID 
+1004 no  06/27/2011 14:00:00                     infinite 60       2003     
+OUTPUTFORMAT STATUS     MP-NAME         PERIOD 
+ASN.1        running    MP1004          60     
+GOH DESTINATION 
+HSL             
+
+MPID UTC BEGINTIME           ENDTIME             REPEATS  INTERVAL REPORTID 
+1005 no  04/10/2009 20:00:00                     infinite 60       2002     
+OUTPUTFORMAT STATUS     MP-NAME         PERIOD 
+ASN.1        running    MP1005          60     
+GOH DESTINATION 
+CORESTS         
+
+MPID UTC BEGINTIME           ENDTIME             REPEATS  INTERVAL REPORTID 
+1006 no  04/10/2009 20:00:00                     infinite 60       2001     
+OUTPUTFORMAT STATUS     MP-NAME         PERIOD 
+ASN.1        running    MP1006          60     
+GOH DESTINATION 
+PRI1            
+
+
+c:\winnt\profiles\ossuser>stmrp -lL
+REPORTID IN-USE NAME            OBJECT TYPES
+2000     yes    sigtran1        M3ASPSM M3ASPTM M3ASSOC M3DATA M3DEST1 
+                                M3MGMT M3PERF SCTPAM SCTPLM SECHAND SCTPTM 
+2001     yes    PRI1            ISDNEBA ISDNEBS ISDNEPRA ISDNESG ISDNTSI 
+2002     yes    CORESTS         BSCSTAT CHASSIGNT EQIDCON LOAS LOCAREAST 
+                                MTRAFTYPE NBRMSCLST PAGING SAE SHAM SHIST 
+                                SHMSGSERV UPDLOCAT 
+2003     yes    HSL             C7SL1 DTISTAT EOS HS7SL1 SERVFEAT HLRMAP 
+                                AUTHEN 
+2004     yes    NWS1            HLRSTAT 
+2005     yes    NWS1            LOSSROUTE MAPSIGIWRK TRUNKROUTE 
+2007     no     EMERGENCY       NBRMSCUGHO OOBTCSTAT DEFMGW1 GUHNDOVER 
+                                NBRMSCGUH UGHNDOVER 
+
+c:\winnt\profiles\ossuser>C:\Program files\force\frconfig\domainrename\repadmin" /syncall
+'C:\Program' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\winnt\profiles\ossuser>"C:\Program files\force\frconfig\domainrename\repadmin" /replsummary
+Replication Summary Start Time: 2012-02-08 16:42:58
+
+
+
+Beginning data collection for replication summary, this may take awhile:
+
+  .....
+
+
+
+
+
+Source DC           largest delta  fails/total  %%  error
+
+ MSSIND1A                  43m:25s    0 /   5    0  
+
+ MSSIND1B                  52m:01s    0 /   5    0  
+
+
+
+
+
+Destination DC    largest delta    fails/total  %%  error
+
+ MSSIND1A                  52m:01s    0 /   5    0  
+
+ MSSIND1B                  43m:25s    0 /   5    0  
+
+
+
+
+
+
+c:\winnt\profiles\ossuser>"C:\Program files\force\frconfig\domainrename\repadmin" /syncall
+CALLBACK MESSAGE: The following replication is in progress:
+
+    From: 7886c324-0aa4-4a73-b4b6-5c2de9f9f59c._msdcs.mssind1d.int
+
+    To  : dc4b54f7-3c1f-4eb2-9c96-cf791f95d02f._msdcs.mssind1d.int
+
+CALLBACK MESSAGE: The following replication completed successfully:
+
+    From: 7886c324-0aa4-4a73-b4b6-5c2de9f9f59c._msdcs.mssind1d.int
+
+    To  : dc4b54f7-3c1f-4eb2-9c96-cf791f95d02f._msdcs.mssind1d.int
+
+CALLBACK MESSAGE: SyncAll Finished.
+
+SyncAll terminated with no errors.
+
+
+
+
+c:\winnt\profiles\ossuser>k:
+
+K:\>cd images
+The system cannot find the path specified.
+
+K:\>m:
+
+M:\>cd images
+
+M:\Images>dircp;
+'dircp' is not recognized as an internal or external command,
+operable program or batch file.
+
+M:\Images>dir
+ Volume in drive M is Disk M
+ Volume Serial Number is F8B3-0676
+
+ Directory of M:\Images
+
+04/23/2007  07:11 PM    <DIR>          .
+04/23/2007  07:11 PM    <DIR>          ..
+01/17/2009  02:38 AM    <DIR>          clientsw
+01/29/2012  04:47 PM    <DIR>          nodeA
+01/29/2012  04:59 PM    <DIR>          nodeB
+               0 File(s)              0 bytes
+               5 Dir(s)   3,490,193,408 bytes free
+
+M:\Images>cd nodea
+
+M:\Images\nodeA>dir
+ Volume in drive M is Disk M
+ Volume Serial Number is F8B3-0676
+
+ Directory of M:\Images\nodeA
+
+01/29/2012  04:47 PM    <DIR>          .
+01/29/2012  04:47 PM    <DIR>          ..
+01/14/2012  03:22 AM        90,123,159 Auto_MSSIND1A_20120114_030141.zip
+01/15/2012  05:34 PM        90,405,667 MSSIND1A_20120115_171235.zip
+01/27/2012  06:28 PM        90,640,185 MSSIND1A_20120127_180532.zip
+01/29/2012  04:47 PM        90,660,752 MSSIND1A_20120129_162513.zip
+               4 File(s)    361,829,763 bytes
+               2 Dir(s)   3,490,193,408 bytes free
+
+M:\Images\nodeA>cd ..
+
+M:\Images>cd nodeb
+
+M:\Images\nodeB>dir
+ Volume in drive M is Disk M
+ Volume Serial Number is F8B3-0676
+
+ Directory of M:\Images\nodeB
+
+01/29/2012  04:59 PM    <DIR>          .
+01/29/2012  04:59 PM    <DIR>          ..
+01/14/2012  03:34 AM     1,641,077,385 Auto_MSSIND1B_20120114_030141.zip
+01/15/2012  05:47 PM     1,641,144,097 MSSIND1B_20120115_171235.zip
+01/27/2012  06:41 PM     1,641,507,272 MSSIND1B_20120127_180532.zip
+12/10/2011  04:59 PM     1,641,595,669 MSSIND1B_20120129_162513.zip
+               4 File(s)  6,565,324,423 bytes
+               2 Dir(s)   3,490,193,408 bytes free
+
+M:\Images\nodeB>burverify -d
+
+Backup image on backup partition is OK.
+
+
+Imagename: MSSIND1A_20120207_030718
+Date:      2/7/2012 3:13:02 AM
+Node:      MSSIND1A
+Status:    OK (22221 files and 4272 directories copied, 0 locked files)
+
+
